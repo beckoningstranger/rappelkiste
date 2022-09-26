@@ -7,13 +7,76 @@
 }
 
 body {
-    font-family: Lusitana, sans-serif;
+    font-family: 'Lusitana', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+section {
+    height: 850px;
+}
+
+#header {
+    height: 75px;
+    background: url('../images/header_no_cables_no_clouds.png') no-repeat center center;
 }
 
 h1 {
-    font-family: Meow Script, serif;
+    font-family: 'Meow Script', serif;
+    font-weight: 400;
+    font-size: 300%;
+    letter-spacing: 2.5px;
+    color: white;
+    float: left;
+    line-height: 75px;
+    margin-left: 20px;
+
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 2.5px;
+    float: right;
+    line-height: 75px;
+    font-size: 200%;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
 }
 
 #hero {
-    background: url('../images/hero.png') no-repeat;
+    background: url('../images/hero_with_fixed_clouds.png') no-repeat center center;
+}
+
+#safe-haven {
+    background: url('../images/safe_haven.png') no-repeat center center;
+}
+
+#place-to-play {
+    background: url('../images/a_place_to_play.png') no-repeat center center;
+}
+
+#playground {
+    background: url('../images/playground.png') no-repeat center center;
+}
+
+#out-and-about {
+    background: url('../images/out_and_about.png') no-repeat center center;
 }
