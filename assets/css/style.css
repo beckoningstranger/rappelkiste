@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&family=Meow+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Lusitana, sans-serif;
+}
+
+h1 {
+    font-family: Meow Script, serif;
 }
 
 #hero {
