@@ -23,9 +23,9 @@ section {
 
 h1 {
     font-family: 'Meow Script', serif;
-    font-weight: 400;
+    font-weight: 530px;
     font-size: 300%;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
     color: white;
     float: left;
     line-height: 75px;
@@ -62,7 +62,7 @@ h1 {
 }
 
 #hero {
-    background: url('../images/hero_with_fixed_clouds.png') no-repeat center center;
+    background: url('../images/hero_no_clouds_no_cables.png') no-repeat center center;
 }
 
 #safe-haven {
