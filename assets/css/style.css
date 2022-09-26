@@ -1,0 +1,7 @@
+body {
+    font-family: Lusitana, sans-serif;
+}
+
+#hero {
+    background: url('../images/hero.png') no-repeat;
+}
