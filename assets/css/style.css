@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lusitana', sans-serif;
+    font-weight: 400px;
     background-color: black;
     color: white;
 }
@@ -15,6 +16,8 @@ body {
 section {
     height: 850px;
 }
+
+/* Header and Navigation*/
 
 #header {
     height: 75px;
@@ -61,6 +64,8 @@ h1 {
     margin-right: 20px;
 }
 
+/* Main content */
+
 #hero {
     background: url('../images/hero_no_clouds_no_cables.png') no-repeat center center;
 }
@@ -79,4 +84,34 @@ h1 {
 
 #out-and-about {
     background: url('../images/out_and_about.png') no-repeat center center;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 350%;
+}
+
+p {
+    text-align: center;
+    font-size:200%;
+    padding: 0 30px;
+}
+
+.overlay {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    top: 33%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 55px;
+}
+
+.overlay-left {
+    left: 80px;
+}
+
+.overlay-right {
+    float: right;
+    right: 80px;
 }
