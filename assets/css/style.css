@@ -10,19 +10,18 @@
 body {
     font-family: 'Lusitana', sans-serif;
     font-weight: 400;
-    background-color: black;
     color: white;
 }
 
 section {
-    height: 850px;
+    height: 1000px;
 }
 
 /* Header and Navigation*/
 
 #header {
     height: 75px;
-    background: url('../images/header_no_cables_no_clouds.png') no-repeat center center;
+    background: url('../images/header-2160.png') no-repeat center center;
 }
 
 h1 {
@@ -72,23 +71,23 @@ h1 {
 }
 
 #hero {
-    background: url('../images/hero_no_clouds_no_cables.png') no-repeat center center;
+    background: url('../images/hero-2160.png') no-repeat center center;
 }
 
 #safe-haven {
-    background: url('../images/safe_haven.png') no-repeat center center;
+    background: url('../images/safe-haven-2160.jpg') no-repeat center center;
 }
 
 #place-to-play {
-    background: url('../images/a_place_to_play.png') no-repeat center center;
+    background: url('../images/place-to-play-2160.jpg') no-repeat center center;
 }
 
 #playground {
-    background: url('../images/playground.png') no-repeat center center;
+    background: url('../images/playground-2160.jpg') no-repeat center center;
 }
 
 #out-and-about {
-    background: url('../images/out_and_about.png') no-repeat center center;
+    background: url('../images/out-and-about-2160.jpg') no-repeat center center;
 }
 
 .overlay {
@@ -110,13 +109,13 @@ h1 {
     right: 80px;
 }
 
-.overlay > h2 {
+.overlay>h2 {
     text-align: center;
     padding: 20px;
     font-size: 350%;
 }
 
-.overlay > p {
+.overlay>p {
     text-align: center;
     font-size: 200%;
     padding: 0 30px;
@@ -133,27 +132,28 @@ h1 {
 .auto-scroll-button a {
     text-decoration: none;
     color: inherit;
-    animation-name: scroll-button-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
 }
 
-@keyframes scroll-button-zoom {
-    from{
-        font-size: 90%;
-    }
-    to{
-        font-size: 100%;
-    }
-}
 
 /* Get in Touch page */
-#get-in-touch-left {
-    background: url('../images/contact-1080.png') no-repeat top left;
-    width: 50%;
-    position: absolute;
-    left: 0px;
-    height: 1620px;
+#get-in-touch {
+    position: relative;
     background-color: white;
+    background: url('../images/contact-2160.png') no-repeat top left;
+    height: 1620px;
+}
+
+.get-in-touch-overlay {
+    position: relative;
+    /* background: rgba(0, 0, 0, 0.2); */
     color: black;
+    float: right;
+    height: 1620px;
+    width: 750px;
+}
+
+#get-in-touch > div > p {
+    /* text-align: center; */
+    padding: 40px;
+    font-size: 150%;
 }

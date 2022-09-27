@@ -22,6 +22,33 @@
             </nav>
         </div>
     </header>
-    <section id="get-in-touch-left">
+    <div id="get-in-touch">
+        <div class="get-in-touch-overlay to-the-right">
+            <p>If you are pregnant or looking for a day care for your newly born child, we would love to hear from you! Potential interns, please call first.</p>
+        </div>
+    </div>
+    <section class="contact-form">
+        <form method="post" action="https://formdump.codeinstitute.net/">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail">
+
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both">
+
+            <input type="submit" id="email_address" value="Let's run!" class="join-button">
+        </form>
     </section>
 </html>
