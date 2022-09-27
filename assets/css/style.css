@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Lusitana', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     background-color: black;
     color: white;
 }
@@ -66,6 +66,10 @@ h1 {
 
 /* Main content */
 
+.background-image {
+    position: relative;
+}
+
 #hero {
     background: url('../images/hero_no_clouds_no_cables.png') no-repeat center center;
 }
@@ -86,18 +90,6 @@ h1 {
     background: url('../images/out_and_about.png') no-repeat center center;
 }
 
-h2 {
-    text-align: center;
-    padding: 20px;
-    font-size: 350%;
-}
-
-p {
-    text-align: center;
-    font-size:200%;
-    padding: 0 30px;
-}
-
 .overlay {
     position: relative;
     width: 750px;
@@ -114,4 +106,59 @@ p {
 .overlay-right {
     float: right;
     right: 80px;
+}
+
+.overlay > h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 350%;
+}
+
+.overlay > p {
+    text-align: center;
+    font-size: 200%;
+    padding: 0 30px;
+}
+
+.auto-scroll-button {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.auto-scroll-button > a {
+    text-decoration: none;
+    color: inherit;
+    animation-name: scroll-button-zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scroll-button-zoom {
+    from{
+        font-size: 150%;
+    }
+    to{
+        font-size: 100%;
+    }
+}
+
+.top-button {
+    top: 20px;
+}
+
+.bottom-button {
+    bottom: 20px;
+}
+
+
+/* Get in Touch page */
+#get-in-touch-left {
+    background: url('../images/contact-1080.png') no-repeat top left;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 1620px;
+    background-color: white;
+    color: black;
 }
