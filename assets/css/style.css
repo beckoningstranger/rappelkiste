@@ -21,18 +21,18 @@ section {
 
 #header {
     height: 75px;
-    background: url('../images/header-2160.png') no-repeat center center;
+    background: url('../images/header-2160-150.png') no-repeat center center;
 }
 
 h1 {
     font-family: 'Meow Script', serif;
     font-weight: 530px;
-    font-size: 300%;
+    font-size: 380%;
     letter-spacing: 3px;
     color: white;
     float: left;
     line-height: 75px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 
@@ -43,6 +43,7 @@ h1 {
     line-height: 75px;
     font-size: 200%;
     margin-right: 20px;
+    margin-left: 10px;
 }
 
 #menu a {
@@ -87,7 +88,7 @@ h1 {
 }
 
 #out-and-about {
-    background: url('../images/out-and-about-2160.jpg') no-repeat center center;
+    background: url('../images/out-and-about-2160.jpg') no-repeat left center;
 }
 
 .overlay {
@@ -156,4 +157,84 @@ h1 {
     /* text-align: center; */
     padding: 40px;
     font-size: 150%;
+}
+
+/* Media Queries */
+
+/* For larger to medium screens size from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+
+    #header {
+        height: 150px;
+    }
+
+    #menu {
+        float: left;
+        margin-left: 30px;
+        line-height: 40px;
+    }
+
+    .overlay-right {
+        float: left;
+        left: 80px;
+    }
+
+    .overlay {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    h1 {
+        font-size: 380%;    
+    }
+    
+    #menu {
+        font-size: 100%;
+        letter-spacing: 1px;
+        float: left;
+        margin-left: 30px;
+        line-height: 40px;
+        font-size: 200%;
+    }
+
+    #header {
+        height: 150px;
+    }
+
+    #menu {
+        float: left;
+        margin-left: 30px;
+        line-height: 40px;
+    }
+
+    .overlay-right {
+        float: left;
+        left: 80px;
+    }
+
+    .overlay {
+        top: 60%;
+    }
+
+    .overlay {
+        width: 550px;
+        height: 350px;
+        top: 60%;
+    }
+    
+    .overlay-left {
+        float: left;
+        left: 80px;
+    }
+    
+    .overlay>h2 {
+        font-size: 300%;
+    }
+    
+    .overlay>p {
+        font-size: 180%;
+    }
 }
