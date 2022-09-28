@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Lusitana&family=Meow+Script&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lusitana&family=Meow+Script&display=swap);
+
+/* General Styling */
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
+
+/* Font and Font color */
 
 body {
     font-family: 'Lusitana', sans-serif;
     font-weight: 400;
-    color: white;
+    color: #fff
 }
 
-section {
-    height: 720px;
-}
-
-/* Header and Navigation*/
+/* Header, Navigation & Logo */
 
 #header {
     height: 20vw;
-    background: url('../images/header-2160-150.png') no-repeat center center;
+    background: url(../images/header-2160-150.png) no-repeat center center
 }
 
 h1 {
     font-family: 'Meow Script', serif;
     font-size: 10vw;
     letter-spacing: 1px;
-    color: white;
+    color: #fff;
     float: left;
     line-height: 15vw;
-    margin-left: 5px;
-
+    margin-left: 5px
 }
 
 #menu {
@@ -41,7 +40,7 @@ h1 {
     line-height: 2vw;
     font-size: 5vw;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 #menu a {
@@ -50,94 +49,97 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff
 }
 
 #menu a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff
 }
 
 #menu li {
     list-style-type: none;
     display: inline;
-    margin-right: 5px;
+    margin-right: 5px
 }
 
-/* Main content */
+/* Home page content */
+
+section.background-image {
+    height: 720px
+}
 
 .background-image {
-    position: relative;
+    position: relative
 }
 
 #hero {
-    background: url('../images/hero-mobile.jpg') no-repeat center center;
+    background: url(../images/hero-mobile.jpg) no-repeat center center
 }
 
 #safe-haven {
-    background: url('../images/safe-haven-mobile.jpg') no-repeat center center;
+    background: url(../images/safe-haven-mobile.jpg) no-repeat center center
 }
 
 #place-to-play {
-    background: url('../images/puppenecke-mobile.jpg') no-repeat center center;
+    background: url(../images/puppenecke-mobile.jpg) no-repeat center center
 }
 
 #playground {
-    background: url('../images/playground-mobile.jpg') no-repeat center center;
+    background: url(../images/playground-mobile.jpg) no-repeat center center
 }
 
 #out-and-about {
-    background: url('../images/out-and-about-mobile.jpg') no-repeat left center;
+    background: url(../images/out-and-about-mobile.jpg) no-repeat center center
 }
 
 .overlay {
     position: relative;
     width: 80%;
     height: 55vw;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, .5);
     border-radius: 55px;
-    padding: 5vw 0 5vw 0;
+    padding: 5vw 0 5vw 0
 }
 
-.overlay > h2 {
+.overlay>h2 {
     text-align: center;
     padding: 0 2vw 1vw 2vw;
-    font-size: 7.5vw;
+    font-size: 7.5vw
 }
 
-.overlay > p {
+.overlay>p {
     text-align: center;
     font-size: 5vw;
-    padding: 0 5vw;
+    padding: 0 5vw
 }
 
 .overlay-position-hero {
     top: 380px;
-    left: 15vw;
+    left: 15vw
 }
 
 .overlay-position-safe-haven {
     top: 380px;
-    left: 15vw;
+    left: 15vw
 }
 
 .overlay-position-place-to-play {
     top: 380px;
-    left: 15vw;
+    left: 15vw
 }
 
 .overlay-position-playground {
     top: 380px;
-    left: 15vw;
+    left: 15vw
 }
 
 .overlay-position-out-and-about {
     top: 380px;
-    left: 15vw;
+    left: 15vw
 }
 
 .auto-scroll-button {
     position: absolute;
-    /* transform: translateX(-50%); */
     left: 20px;
     line-height: 40px;
     top: 33%
@@ -145,214 +147,299 @@ h1 {
 
 .auto-scroll-button a {
     text-decoration: none;
-    color: inherit;
+    color: inherit
 }
 
+/* Team Page*/
 
-/* Get in Touch page */
+hr {
+    background-color: #fff;
+    height: 2px;
+    width: 96%
+}
+
+#team-overview {
+    height: auto;
+    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%)
+}
+
+.team-member-image {
+    width: 60vw;
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.team-member-name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 7vw;
+    font-weight: 700;
+    padding: 5vw 0 0 5vw
+}
+
+.team-member-description {
+    padding: 0 5vw 5vw;
+    font-size: 5vw
+}
+
+/* Get in Touch Page */
+
 #get-in-touch {
     position: relative;
-    background-color: white;
-    background: url('../images/contact-1080.png') no-repeat top left;
-    height: 1620px;
+    background-color: #fff;
+    background: url(../images/contact-1080.png) no-repeat top left;
+    height: 1620px
 }
 
 .get-in-touch-overlay {
     position: relative;
-    /* background: rgba(0, 0, 0, 0.2); */
-    color: black;
+    color: #000;
     float: right;
     height: 1620px;
-    width: 750px;
+    width: 750px
 }
 
-#get-in-touch > div > p {
-    /* text-align: center; */
+#get-in-touch>div>p {
     padding: 40px;
-    font-size: 150%;
+    font-size: 150%
 }
 
 /* Media Queries */
 
 /* Small Devices (portrait phones, 540px and up */
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width:540px) {
 
-    section {
-        height: 720px;
-    }
+    /* Header, Navigation & Logo */
 
     #header {
-        background: url('../images/header-2160-150.png') no-repeat center center;
+        background: url(../images/header-2160-150.png) no-repeat center center;
     }
 
     h1 {
         font-family: 'Meow Script', serif;
         font-size: 10vw;
         letter-spacing: 1px;
-        color: white;
+        color: #fff;
         float: left;
         line-height: 15vw;
-        margin-left: 5px;
-    
+        margin-left: 5px
     }
-    
+
     #menu {
         letter-spacing: 1px;
         float: left;
         line-height: 2vw;
         font-size: 5vw;
-        margin-right: 5px;
-        margin-left: 10px;
+        margin-right: 20px;
+        margin-left: 20px
     }
 
     #menu a:hover {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #fff
     }
-    
+
     #menu li {
         list-style-type: none;
         display: inline;
-        margin-right: 5px;
+        margin-right: 24px
+    }
+
+    /* Home page content */
+
+    section.background-image {
+        height: 720px
     }
 
     #hero {
-        background: url('../images/hero-1200.jpg') no-repeat center center;
+        background: url(../images/hero-1200.jpg) no-repeat center center
     }
-    
+
     #safe-haven {
-        background: url('../images/safe-haven-1200.jpg') no-repeat center center;
+        background: url(../images/safe-haven-1200.jpg) no-repeat center center
     }
-    
+
     #place-to-play {
-        background: url('../images/place-to-play-1200.jpg') no-repeat center center;
+        background: url(../images/place-to-play-1200.jpg) no-repeat center center
     }
-    
+
     #playground {
-        background: url('../images/playground-1200.jpg') no-repeat center center;
+        background: url(../images/playground-1200.jpg) no-repeat center center
     }
-    
+
     #out-and-about {
-        background: url('../images/out-and-about-1200.jpg') no-repeat left center;
+        background: url(../images/out-and-about-1200.jpg) no-repeat center center
     }
 
     .overlay {
         position: relative;
         width: 80%;
         height: 250px;
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 55px;
+        background: rgba(0, 0, 0, .5);
+        border-radius: 55px
     }
 
     .overlay > h2 {
         text-align: center;
         padding: 0 2vw;
-        font-size: 250%;
+        font-size: 250%
     }
-    
+
     .overlay > p {
         text-align: center;
         font-size: 150%;
-        padding: 0 2vw;
+        padding: 0 2vw
+    }
+    
+    /* Team Page*/
+
+    .team-member-image {
+        width: 40vw;
+        float: left;
+        padding: 20px 10px
+    }
+
+    .team-member-name {
+        font-size: 5vw;
+        padding: 5vw 0 0 5vw
+    }
+
+    .team-member-description {
+        padding: 0 5vw 5vw 5vw;
+        font-size: 4vw
     }
 }
 
 /* Medium Devices (tablets, 768px and up */
 
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width:768px) {
     #header {
         height: 150px;
-        background: url('../images/header-2160-150.png') no-repeat center center;
+        background: url(../images/header-2160-150.png) no-repeat center center
     }
 
     h1 {
         font-family: 'Meow Script', serif;
         font-size: 380%;
         letter-spacing: 3px;
-        color: white;
+        color: #fff;
         float: left;
         line-height: 75px;
-        margin-left: 5px;
-    
+        margin-left: 5px
     }
-    
+
     #menu {
         letter-spacing: 2.5px;
         float: left;
         line-height: 75px;
         font-size: 200%;
         margin-right: 5px;
-        margin-left: 10px;
-        m
+        margin-left: 10px
+    }
+
+    #menu li {
+        margin-right: 3rem;
     }
 
     .overlay {
         position: relative;
         width: 80%;
         height: 200px;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, .5);
         border-radius: 55px;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 0
     }
 
     .overlay > h2 {
         text-align: center;
         padding: 0 2vw;
-        font-size: 250%;
+        font-size: 250%
     }
-    
+
     .overlay > p {
         text-align: center;
         font-size: 150%;
-        padding: 0 2vw;
+        padding: 0 2vw
     }
-    
+
     .overlay-position-hero {
         top: 450px;
-        left: 15vw;
+        left: 15vw
     }
-    
+
     .overlay-position-safe-haven {
         top: 450px;
-        left: 15vw;
+        left: 15vw
     }
 
     .overlay-position-place-to-play {
         top: 450px;
-        left: 15vw;
+        left: 15vw
     }
 
     .overlay-position-playground {
         top: 450px;
-        left: 15vw;
+        left: 15vw
     }
 
     .overlay-position-out-and-about {
         top: 450px;
-        left: 15vw;
+        left: 15vw
+    }
+
+    /* Team Page*/
+
+    .team-member-image {
+        width: 300px;
+        float: left;
+        padding: 5vw 9vw
+    }
+
+    .team-member-image-right {
+        float: right;
+    }
+
+    .team-member-name {
+        font-size: 260%;
+        padding: 180px 0 4vw 50vw;
+        float: left;
+        padding: 180px 0 4vw 8vw
+    }
+
+    .team-member-description {
+        padding: 0 5vw 5vw 5vw;
+        font-size: 150%;
+    }
+
+    .team-member-description-left {
+        float: left;
+        padding: 0 4vw 4vw 5vw
+    }
+
+    .team-member-description-right {
+        float: right;
     }
 }
 
 /* X-Large Devices (large desktops, 1200px and up */
 
-@media screen and (min-width: 1200px) {
-
-    /* Header and Navigation*/
-
+@media screen and (min-width:1200px) {
     #header {
         height: 75px;
-        background: url('../images/header-2160-150.png') no-repeat center center;
+        background: url(../images/header-2160-150.png) no-repeat center center
     }
 
     h1 {
         font-family: 'Meow Script', serif;
         font-size: 380%;
         letter-spacing: 3px;
-        color: white;
+        color: #fff;
         float: left;
         line-height: 75px;
-        margin-left: 40px;
+        margin-left: 40px
     }
 
     #menu {
@@ -361,7 +448,7 @@ h1 {
         line-height: 75px;
         font-size: 180%;
         margin-right: 20px;
-        margin-left: 20px;
+        margin-left: 20px
     }
 
     #menu a {
@@ -370,92 +457,91 @@ h1 {
     }
 
     .active {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #fff
     }
 
     #menu a:hover {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #fff
     }
 
     #menu li {
         list-style-type: none;
         display: inline;
-        margin-right: 20px;
+        margin-right: 20px
     }
 
-    /* Main content */
-
-    section {
+    section.background-image {
         height: 1000px
     }
 
     .background-image {
-        position: relative;
+        position: relative
     }
 
     #hero {
-        background: url('../images/hero-2160.png') no-repeat center center;
+        background: url(../images/hero-2160.png) no-repeat center center
     }
 
     #safe-haven {
-        background: url('../images/safe-haven-2160.jpg') no-repeat center center;
+        background: url(../images/safe-haven-2160.jpg) no-repeat center center
     }
 
     #place-to-play {
-        background: url('../images/place-to-play-2160.jpg') no-repeat center center;
+        background: url(../images/place-to-play-2160.jpg) no-repeat center center
     }
 
     #playground {
-        background: url('../images/playground-2160.jpg') no-repeat center center;
+        background: url(../images/playground-2160.jpg) no-repeat center center
     }
 
     #out-and-about {
-        background: url('../images/out-and-about-2160.jpg') no-repeat left center;
+        background: url(../images/out-and-about-2160.jpg) no-repeat center center
     }
 
     .overlay {
         position: relative;
         width: 42%;
         height: 250px;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, .5);
         border-radius: 55px;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 0
     }
-    .overlay > h2 {
+
+    .overlay>h2 {
         text-align: center;
         padding: 0 2vw;
-        font-size: 250%;
+        font-size: 250%
     }
-    
-    .overlay > p {
+
+    .overlay>p {
         text-align: center;
         font-size: 150%;
-        padding: 0 2vw;
+        padding: 0 2vw
     }
 
     .overlay-position-hero {
-        top: 600px;
-        left: 10vw;
+        top: 300px;
+        left: 10vw
     }
-    
+
     .overlay-position-safe-haven {
-        top: 650px;
-        left: 45vw;
+        top: 350px;
+        left: 50vw
     }
 
     .overlay-position-place-to-play {
-        top: 650px;
-        left: 15vw;
+        top: 150px;
+        left: 10vw
     }
 
     .overlay-position-playground {
-        top: 700px;
-        left: 55vw;
+        top: 500px;
+        left: 55vw
     }
 
     .overlay-position-out-and-about {
-        top: 700px;
-        left: 55vw;
+        top: 500px;
+        left: 55vw
     }
 
     .auto-scroll-button {
@@ -467,30 +553,32 @@ h1 {
 
     .auto-scroll-button a {
         text-decoration: none;
-        color: inherit;
+        color: inherit
     }
+
+    /* Team Page*/
+
 
 
     /* Get in Touch page */
+
     #get-in-touch {
         position: relative;
-        background-color: white;
-        background: url('../images/contact-1080.png') no-repeat top left;
-        height: 1620px;
+        background-color: #fff;
+        background: url(../images/contact-1080.png) no-repeat top left;
+        height: 1620px
     }
 
     .get-in-touch-overlay {
         position: relative;
-        /* background: rgba(0, 0, 0, 0.2); */
-        color: black;
+        color: #000;
         float: right;
         height: 1620px;
-        width: 750px;
+        width: 750px
     }
 
-    #get-in-touch > div > p {
-        /* text-align: center; */
+    #get-in-touch>div>p {
         padding: 40px;
-        font-size: 150%;
+        font-size: 150%
     }
 }
