@@ -14,35 +14,33 @@ body {
 }
 
 section {
-    height: 1000px;
+    height: 720px;
 }
 
 /* Header and Navigation*/
 
 #header {
-    height: 75px;
+    height: 20vw;
     background: url('../images/header-2160-150.png') no-repeat center center;
 }
 
 h1 {
     font-family: 'Meow Script', serif;
-    font-weight: 530px;
-    font-size: 380%;
-    letter-spacing: 3px;
+    font-size: 10vw;
+    letter-spacing: 1px;
     color: white;
     float: left;
-    line-height: 75px;
-    margin-left: 30px;
+    line-height: 15vw;
+    margin-left: 5px;
 
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 2.5px;
-    float: right;
-    line-height: 75px;
-    font-size: 200%;
-    margin-right: 20px;
+    letter-spacing: 1px;
+    float: left;
+    line-height: 2vw;
+    font-size: 5vw;
+    margin-right: 5px;
     margin-left: 10px;
 }
 
@@ -62,7 +60,7 @@ h1 {
 #menu li {
     list-style-type: none;
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 /* Main content */
@@ -72,54 +70,69 @@ h1 {
 }
 
 #hero {
-    background: url('../images/hero-2160.png') no-repeat center center;
+    background: url('../images/hero-mobile.jpg') no-repeat center center;
 }
 
 #safe-haven {
-    background: url('../images/safe-haven-2160.jpg') no-repeat center center;
+    background: url('../images/safe-haven-mobile.jpg') no-repeat center center;
 }
 
 #place-to-play {
-    background: url('../images/place-to-play-2160.jpg') no-repeat center center;
+    background: url('../images/puppenecke-mobile.jpg') no-repeat center center;
 }
 
 #playground {
-    background: url('../images/playground-2160.jpg') no-repeat center center;
+    background: url('../images/playground-mobile.jpg') no-repeat center center;
 }
 
 #out-and-about {
-    background: url('../images/out-and-about-2160.jpg') no-repeat left center;
+    background: url('../images/out-and-about-mobile.jpg') no-repeat left center;
 }
 
 .overlay {
     position: relative;
-    width: 750px;
-    height: 300px;
-    top: 30%;
+    width: 80%;
+    height: 55vw;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 55px;
+    padding: 5vw 0 5vw 0;
 }
 
-.overlay-left {
-    float: left;
-    left: 80px;
-}
-
-.overlay-right {
-    float: right;
-    right: 80px;
-}
-
-.overlay>h2 {
+.overlay > h2 {
     text-align: center;
-    padding: 20px;
-    font-size: 350%;
+    padding: 0 2vw 1vw 2vw;
+    font-size: 7.5vw;
 }
 
-.overlay>p {
+.overlay > p {
     text-align: center;
-    font-size: 200%;
-    padding: 0 30px;
+    font-size: 5vw;
+    padding: 0 5vw;
+}
+
+.overlay-position-hero {
+    top: 380px;
+    left: 15vw;
+}
+
+.overlay-position-safe-haven {
+    top: 380px;
+    left: 15vw;
+}
+
+.overlay-position-place-to-play {
+    top: 380px;
+    left: 15vw;
+}
+
+.overlay-position-playground {
+    top: 380px;
+    left: 15vw;
+}
+
+.overlay-position-out-and-about {
+    top: 380px;
+    left: 15vw;
 }
 
 .auto-scroll-button {
@@ -161,80 +174,323 @@ h1 {
 
 /* Media Queries */
 
-/* For larger to medium screens size from 1200px wide and down*/
+/* Small Devices (portrait phones, 540px and up */
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 540px) {
+
+    section {
+        height: 720px;
+    }
 
     #header {
-        height: 150px;
+        background: url('../images/header-2160-150.png') no-repeat center center;
     }
 
+    h1 {
+        font-family: 'Meow Script', serif;
+        font-size: 10vw;
+        letter-spacing: 1px;
+        color: white;
+        float: left;
+        line-height: 15vw;
+        margin-left: 5px;
+    
+    }
+    
     #menu {
+        letter-spacing: 1px;
         float: left;
-        margin-left: 30px;
-        line-height: 40px;
+        line-height: 2vw;
+        font-size: 5vw;
+        margin-right: 5px;
+        margin-left: 10px;
     }
 
-    .overlay-right {
-        float: left;
-        left: 80px;
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
+    
+    #menu li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    #hero {
+        background: url('../images/hero-1200.jpg') no-repeat center center;
+    }
+    
+    #safe-haven {
+        background: url('../images/safe-haven-1200.jpg') no-repeat center center;
+    }
+    
+    #place-to-play {
+        background: url('../images/place-to-play-1200.jpg') no-repeat center center;
+    }
+    
+    #playground {
+        background: url('../images/playground-1200.jpg') no-repeat center center;
+    }
+    
+    #out-and-about {
+        background: url('../images/out-and-about-1200.jpg') no-repeat left center;
     }
 
     .overlay {
-        top: 60%;
+        position: relative;
+        width: 80%;
+        height: 250px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+    }
+
+    .overlay > h2 {
+        text-align: center;
+        padding: 0 2vw;
+        font-size: 250%;
+    }
+    
+    .overlay > p {
+        text-align: center;
+        font-size: 150%;
+        padding: 0 2vw;
     }
 }
 
-@media screen and (max-width: 900px) {
+/* Medium Devices (tablets, 768px and up */
 
-    h1 {
-        font-size: 380%;    
-    }
+@media screen and (min-width: 768px) {
     
-    #menu {
-        font-size: 100%;
-        letter-spacing: 1px;
-        float: left;
-        margin-left: 30px;
-        line-height: 40px;
-        font-size: 200%;
-    }
-
     #header {
         height: 150px;
+        background: url('../images/header-2160-150.png') no-repeat center center;
+    }
+
+    h1 {
+        font-family: 'Meow Script', serif;
+        font-size: 380%;
+        letter-spacing: 3px;
+        color: white;
+        float: left;
+        line-height: 75px;
+        margin-left: 5px;
+    
+    }
+    
+    #menu {
+        letter-spacing: 2.5px;
+        float: left;
+        line-height: 75px;
+        font-size: 200%;
+        margin-right: 5px;
+        margin-left: 10px;
+        m
+    }
+
+    .overlay {
+        position: relative;
+        width: 80%;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        padding: 10px 0 10px 0;
+    }
+
+    .overlay > h2 {
+        text-align: center;
+        padding: 0 2vw;
+        font-size: 250%;
+    }
+    
+    .overlay > p {
+        text-align: center;
+        font-size: 150%;
+        padding: 0 2vw;
+    }
+    
+    .overlay-position-hero {
+        top: 450px;
+        left: 15vw;
+    }
+    
+    .overlay-position-safe-haven {
+        top: 450px;
+        left: 15vw;
+    }
+
+    .overlay-position-place-to-play {
+        top: 450px;
+        left: 15vw;
+    }
+
+    .overlay-position-playground {
+        top: 450px;
+        left: 15vw;
+    }
+
+    .overlay-position-out-and-about {
+        top: 450px;
+        left: 15vw;
+    }
+}
+
+/* X-Large Devices (large desktops, 1200px and up */
+
+@media screen and (min-width: 1200px) {
+
+    /* Header and Navigation*/
+
+    #header {
+        height: 75px;
+        background: url('../images/header-2160-150.png') no-repeat center center;
+    }
+
+    h1 {
+        font-family: 'Meow Script', serif;
+        font-size: 380%;
+        letter-spacing: 3px;
+        color: white;
+        float: left;
+        line-height: 75px;
+        margin-left: 40px;
     }
 
     #menu {
-        float: left;
-        margin-left: 30px;
-        line-height: 40px;
-    }
-
-    .overlay-right {
-        float: left;
-        left: 80px;
-    }
-
-    .overlay {
-        top: 60%;
-    }
-
-    .overlay {
-        width: 550px;
-        height: 350px;
-        top: 60%;
-    }
-    
-    .overlay-left {
-        float: left;
-        left: 80px;
-    }
-    
-    .overlay>h2 {
-        font-size: 300%;
-    }
-    
-    .overlay>p {
+        letter-spacing: 2.5px;
+        float: right;
+        line-height: 75px;
         font-size: 180%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: inherit
+    }
+
+    .active {
+        border-bottom: 2px solid white;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid white;
+    }
+
+    #menu li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    /* Main content */
+
+    section {
+        height: 1000px
+    }
+
+    .background-image {
+        position: relative;
+    }
+
+    #hero {
+        background: url('../images/hero-2160.png') no-repeat center center;
+    }
+
+    #safe-haven {
+        background: url('../images/safe-haven-2160.jpg') no-repeat center center;
+    }
+
+    #place-to-play {
+        background: url('../images/place-to-play-2160.jpg') no-repeat center center;
+    }
+
+    #playground {
+        background: url('../images/playground-2160.jpg') no-repeat center center;
+    }
+
+    #out-and-about {
+        background: url('../images/out-and-about-2160.jpg') no-repeat left center;
+    }
+
+    .overlay {
+        position: relative;
+        width: 42%;
+        height: 250px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        padding: 10px 0 10px 0;
+    }
+    .overlay > h2 {
+        text-align: center;
+        padding: 0 2vw;
+        font-size: 250%;
+    }
+    
+    .overlay > p {
+        text-align: center;
+        font-size: 150%;
+        padding: 0 2vw;
+    }
+
+    .overlay-position-hero {
+        top: 600px;
+        left: 10vw;
+    }
+    
+    .overlay-position-safe-haven {
+        top: 650px;
+        left: 45vw;
+    }
+
+    .overlay-position-place-to-play {
+        top: 650px;
+        left: 15vw;
+    }
+
+    .overlay-position-playground {
+        top: 700px;
+        left: 55vw;
+    }
+
+    .overlay-position-out-and-about {
+        top: 700px;
+        left: 55vw;
+    }
+
+    .auto-scroll-button {
+        position: absolute;
+        left: 20px;
+        line-height: 40px;
+        top: 33%
+    }
+
+    .auto-scroll-button a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    /* Get in Touch page */
+    #get-in-touch {
+        position: relative;
+        background-color: white;
+        background: url('../images/contact-1080.png') no-repeat top left;
+        height: 1620px;
+    }
+
+    .get-in-touch-overlay {
+        position: relative;
+        /* background: rgba(0, 0, 0, 0.2); */
+        color: black;
+        float: right;
+        height: 1620px;
+        width: 750px;
+    }
+
+    #get-in-touch > div > p {
+        /* text-align: center; */
+        padding: 40px;
+        font-size: 150%;
     }
 }
