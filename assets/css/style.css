@@ -151,6 +151,10 @@ section.background-image {
     color: inherit
 }
 
+/* .auto-scroll-button > p > a:hover  {
+    content: "<i class="fa-solid fa-circle"></i>"
+} */
+
 /* Team Page*/
 
 .team-member-container {
@@ -170,7 +174,7 @@ section.background-image {
     height: 0;
     padding: 0;
     margin: 0;
-    visibility: hidden;
+    display: none;
 }
 
 .team-member-image-outer {
@@ -202,24 +206,29 @@ section.background-image {
 
 /* Get in Touch Page */
 
-#get-in-touch {
-    position: relative;
-    background-color: #fff;
-    background: url(../images/contact-1080.png) no-repeat top left;
-    height: 1620px
+table {
+    border-collapse: collapse;
 }
 
-.get-in-touch-overlay {
-    position: relative;
-    color: #000;
-    float: right;
-    height: 1620px;
-    width: 750px
+#contact-page-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#get-in-touch>div>p {
-    padding: 40px;
-    font-size: 150%
+#photo-column {
+    height: auto;
+    background-color: brown;
+    display: none;
+}
+
+#photo-column > img {
+    width: auto;
+}
+
+#form-column {
+    height: 300px;
+    width: auto;
+    background-color: grey;
 }
 
 /* Media Queries */
@@ -578,7 +587,7 @@ section.background-image {
     /* Team Page*/
 
     #team-overview-below-1200px-width {
-        visibility: hidden;
+        display: none;
         height: 0;
         padding: 0;
         margin: 0;
@@ -586,15 +595,15 @@ section.background-image {
 
     #team-overview-1200px-and-above {
         height: 90vh;
-        visibility: visible;
+        display: flex;
         background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
     }
 
     #image-shelf-top {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         text-align: center;
-        width: auto;
+        width: 100vw;
         overflow: hidden;
         padding: 15vh 0 5vh;
     }
@@ -614,9 +623,9 @@ section.background-image {
         visibility: hidden;
         position: absolute;
         font-size: 200%;
-        font-weight: 600;
+        font-weight: 500;
         left: 1vw;
-        top: 660px;
+        top: 590px;
         padding: 0 100px;
     }
 
@@ -625,11 +634,15 @@ section.background-image {
     }
 
     #team-member-description-empty {
+        position: absolute;
+        left: 1vw;
+        top: 560px;
         margin: 0 auto;
-        width: 90%;
-        height: 300px;
+        width: 98vw;
+        height: 220px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 55px;
+        border: 2px solid white;
     }
 
     .team-member-image {
@@ -644,24 +657,13 @@ section.background-image {
     }
 
     /* Get in Touch page */
-
-    #get-in-touch {
-        position: relative;
-        background-color: #fff;
-        background: url(../images/contact-1080.png) no-repeat top left;
-        height: 1620px
+    #photo-column {
+        display: flex;
+        height: auto;
+        width: 50vw;
     }
 
-    .get-in-touch-overlay {
-        position: relative;
-        color: #000;
-        float: right;
-        height: 1620px;
-        width: 750px
-    }
-
-    #get-in-touch>div>p {
-        padding: 40px;
-        font-size: 150%
+    #photo-column > img {
+        width: 50vw;
     }
 }
