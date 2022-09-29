@@ -153,16 +153,22 @@ section.background-image {
 
 /* Team Page*/
 
-hr {
-    background-color: #fff;
-    height: 2px;
-    width: 96%
+.team-member-container {
+    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
 }
 
-#team-overview {
+.background-gradient-dark-to-light {
+    background: linear-gradient(180deg, #19366d 0%, #3567BB 100%);
+}
+
+#team-overview-below-1200px-width {
     height: auto;
-    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
     padding-bottom: 5vw;
+}
+
+#team-overview-1200px-and-above {
+    height: 0;
+    visibility: hidden;
 }
 
 .team-member-image-outer {
@@ -303,7 +309,7 @@ hr {
     /* Team Page*/
 
     .team-member-container {
-        display: inline-flex
+        display: inline-flex;
     }
 
     .team-member-image-outer {
@@ -569,7 +575,74 @@ hr {
 
     /* Team Page*/
 
-    /* Team Page*/
+    #team-overview-below-1200px-width {
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #team-overview-1200px-and-above {
+        height: 90vh;
+        visibility: visible;
+        background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
+    }
+
+    #top-shelf > div > img {
+        width: 17%;
+        margin: 40px 12px;
+        padding: 0;
+        border-radius: 50%;
+    }
+
+    #top-shelf > img:hover {
+        outline: 10px solid white;
+        border-radius: 50%;
+    }
+
+    .team-member-photo {
+        display: inline;
+        width: 200px;
+    }
+
+    #team-member-description-empty {
+        position: absolute;
+        width: 80%;
+        height: 15vw;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 55px;
+        left: 10vw;
+        top: 35vw;
+        color: rgba(0, 0, 0, 0)
+    }
+
+    .team-member-photo > span {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .team-member-photo:hover img {
+        outline: 10px solid white;
+        border-radius: 50%;
+    }
+
+    .team-member-photo:hover span {
+        visibility: visible;
+    }
+
+    .team-member-photo > span {
+        width: 80%;
+        height: 15vw;
+        background: rgba(0, 0, 0, .5);
+        border-radius: 55px;
+        padding: 3vw 5vw;
+        left: 10vw;
+        top: 35vw;
+        position: absolute;
+        margin-bottom: 20px;
+        padding-top: 5vw;
+        font-size: 150%;
+    }
 
     .team-member-image {
         margin: 0 5vw 0 5vw;
@@ -582,10 +655,10 @@ hr {
         font-size: 260%;
     }
 
-    .team-member-description {
+    /* .team-member-description {
         padding-top: 5vw;
         font-size: 150%;
-    }
+    } */
 
     /* Get in Touch page */
 
