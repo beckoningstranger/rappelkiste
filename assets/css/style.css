@@ -168,6 +168,8 @@ section.background-image {
 
 #team-overview-1200px-and-above {
     height: 0;
+    padding: 0;
+    margin: 0;
     visibility: hidden;
 }
 
@@ -588,77 +590,58 @@ section.background-image {
         background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
     }
 
-    #top-shelf > div > img {
-        width: 17%;
-        margin: 40px 12px;
-        padding: 0;
-        border-radius: 50%;
+    #image-shelf-top {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: auto;
+        overflow: hidden;
+        padding: 15vh 0 5vh;
     }
 
-    #top-shelf > img:hover {
-        outline: 10px solid white;
-        border-radius: 50%;
-    }
-
-    .team-member-photo {
-        display: inline;
+    .team-member {
+        display: inline-block;
         width: 200px;
     }
 
-    #team-member-description-empty {
-        position: absolute;
-        width: 80%;
-        height: 15vw;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 55px;
-        left: 10vw;
-        top: 35vw;
-        color: rgba(0, 0, 0, 0)
-    }
-
-    .team-member-photo > span {
-        visibility: hidden;
-        position: absolute;
-    }
-
-    .team-member-photo:hover img {
+    .team-member:hover img {
         outline: 10px solid white;
         border-radius: 50%;
     }
 
-    .team-member-photo:hover span {
+    .team-member-description-reveal-on-hover {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        font-size: 200%;
+        font-weight: 600;
+        left: 1vw;
+        top: 660px;
+        padding: 0 100px;
+    }
+
+    .team-member:hover .team-member-description-reveal-on-hover {
         visibility: visible;
     }
 
-    .team-member-photo > span {
-        width: 80%;
-        height: 15vw;
-        background: rgba(0, 0, 0, .5);
+    #team-member-description-empty {
+        margin: 0 auto;
+        width: 90%;
+        height: 300px;
+        background: rgba(255, 255, 255, 0.1);
         border-radius: 55px;
-        padding: 3vw 5vw;
-        left: 10vw;
-        top: 35vw;
-        position: absolute;
-        margin-bottom: 20px;
-        padding-top: 5vw;
-        font-size: 150%;
     }
 
     .team-member-image {
-        margin: 0 5vw 0 5vw;
-        padding: 5vw 0vw 0vw 0vw;
-        width: 400px;
+        padding: 0;
+        width: 285px;
     }
 
     .team-member-name {
-        padding-top: 10vw;
-        font-size: 260%;
+        padding: 0;
+        font-size: 27px;
+        text-align: center;
     }
-
-    /* .team-member-description {
-        padding-top: 5vw;
-        font-size: 150%;
-    } */
 
     /* Get in Touch page */
 
