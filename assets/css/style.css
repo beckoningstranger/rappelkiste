@@ -602,10 +602,9 @@ table {
     #image-shelf-top {
         display: flex;
         justify-content: space-evenly;
-        text-align: center;
         width: 100vw;
         overflow: hidden;
-        padding: 15vh 0 5vh;
+        padding: 5vh 0 5vh;
     }
 
     .team-member {
@@ -625,9 +624,10 @@ table {
         font-size: 200%;
         font-weight: 500;
         left: 1vw;
-        top: 590px;
+        top: 560px;
         padding: 0 100px;
     }
+
 
     .team-member:hover .team-member-description-reveal-on-hover {
         visibility: visible;
@@ -665,5 +665,17 @@ table {
 
     #photo-column > img {
         width: 50vw;
+    }
+}
+
+ /* XX-Large Devices (large desktops, 1400px and up */
+
+ @media screen and (min-width:1400px) {
+    #image-shelf-top {
+        padding: 15vh 0 5vh;
+    }
+
+    .team-member-description-reveal-on-hover {
+        top: 660px;
     }
 }
