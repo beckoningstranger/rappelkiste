@@ -28,10 +28,35 @@
             <img src="assets/images/contact-1080.png" alt="A front view of the day care center building. In the distance, you see a woman waving from the entrance.">
         </td>
         <td id="form-column">
-            <div class="get-in-touch-overlay to-the-right">
-                <p> If you are pregnant or looking for a day care for your newly born child, we would love to hear from you! Potential interns, please call first. If you are pregnant or looking for a day care for your newly born child, we would love to hear from you! Potential interns, please call first.</p>
+            <div>
+                <p id="info"> 
+                    If you are pregnant or looking for a day care for your newly born child, we would love to hear from you! Potential interns, please call first. If you are pregnant or looking for a day care for your newly born child, we would love to hear from you! Potential interns, please call first.
+                </p>
+                <form action="">
+                    <div id="name">
+                        <div id="first-name">
+                            <p><label for="fname">First name:</label></p>
+                            <p><input type="text" id="fname" name="first_name" placeholder="Jane" required></p>
+                        </div>
+                        <div id="last-name">
+                            <p><label for="lname">Last name:</label></p>
+                            <p><input type="text" id="lname" name="last_name" placeholder="Doe" required></p>
+                        </div>
+                    </div>
+                    <p id="email">
+                        <p><label for="email">Email:</label></p>
+                        <p><input type="email" id="email" name="email_address" placeholder="jane.doe@gmail.com" required></p>
+                    </p>
+                    <p id="message">
+                        <p><label for="message">Message:</label></p>
+                        <p><input type="text" id="message" name="user_message" placeholder="Your message" required></p>
+                        
+                    </p>
+                    <p>
+                        <input type="submit">
+                    </p>
+                </form>
             </div>
         </td>
-        </tr>
     </table>
 </html>

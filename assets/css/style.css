@@ -96,10 +96,10 @@ section.background-image {
 .overlay {
     position: relative;
     width: 80%;
-    height: 55vw;
+    height: 60vw;
     background: rgba(0, 0, 0, .5);
     border-radius: 55px;
-    padding: 5vw 0 5vw 0
+    padding: 3vw 0 3vw 0
 }
 
 .overlay>h2 {
@@ -151,9 +151,9 @@ section.background-image {
     color: inherit
 }
 
-/* .auto-scroll-button > p > a:hover  {
-    content: "<i class="fa-solid fa-circle"></i>"
-} */
+.auto-scroll-button > p:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
 
 /* Team Page*/
 
@@ -221,14 +221,20 @@ table {
     display: none;
 }
 
-#photo-column > img {
-    width: auto;
+#form-column {
+    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
 }
 
-#form-column {
-    height: 300px;
-    width: auto;
-    background-color: grey;
+#form-column input {
+    width: 96vw;
+}
+
+#form-column p {
+    margin-left: 1vw;
+}
+
+input#message {
+    height: 20vh;
 }
 
 /* Media Queries */
@@ -450,6 +456,32 @@ table {
         padding-top: 3vw;
         font-size: 150%;
     }
+
+    /* Get in Touch page*/
+
+    #photo-column {
+        display: flex;
+        height: auto;
+        width: 50vw;
+    }
+
+    #photo-column > img {
+        width: 50vw;
+    }
+
+    #form-column input {
+        width: 47vw;
+        border-radius: 10px;
+        text-indent: 5px;
+    }
+
+    #name {
+        display: flex;
+    }
+
+    #name input {
+        width: 23vw;
+    }
 }
 
 /* X-Large Devices (large desktops, 1200px and up */
@@ -657,15 +689,7 @@ table {
     }
 
     /* Get in Touch page */
-    #photo-column {
-        display: flex;
-        height: auto;
-        width: 50vw;
-    }
 
-    #photo-column > img {
-        width: 50vw;
-    }
 }
 
  /* XX-Large Devices (large desktops, 1400px and up */
