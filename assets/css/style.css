@@ -624,7 +624,7 @@ table {
         font-size: 200%;
         font-weight: 500;
         left: 1vw;
-        top: 560px;
+        top: 480px;
         padding: 0 100px;
     }
 
@@ -636,7 +636,7 @@ table {
     #team-member-description-empty {
         position: absolute;
         left: 1vw;
-        top: 560px;
+        top: 460px;
         margin: 0 auto;
         width: 98vw;
         height: 220px;
@@ -676,6 +676,10 @@ table {
     }
 
     .team-member-description-reveal-on-hover {
-        top: 660px;
+        top: 580px;
+    }
+
+    #team-member-description-empty {
+        top: 560px;
     }
 }
