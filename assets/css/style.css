@@ -216,21 +216,42 @@ table {
 }
 
 #photo-column {
-    height: auto;
     background-color: brown;
     display: none;
 }
 
 #form-column {
     background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
+    padding: 1vw
 }
+
+#form-column * {
+    font-size: 4vw;
+}
+
 
 #form-column input {
     width: 96vw;
+    border-radius: 10px;
+    text-indent: 5px;
+    height: 5vw;
+}
+
+#form-column textarea {
+    width: 96vw;
+    border-radius: 10px;
+    text-indent: 5px;
+    height: 20vw;
 }
 
 #form-column p {
     margin-left: 1vw;
+    padding: 1px;
+}
+
+p#info {
+    padding: 2vw 0;
+    font-size: 4.5vw
 }
 
 input#message {
@@ -361,6 +382,20 @@ input#message {
     .team-member-description {
         font-size: 3vw
     }
+
+    /* Get in Touch page*/
+
+    #form-column * {
+        font-size: 3vw;
+    }
+
+    p#info {
+        font-size: 3.5vw
+    }
+
+    #form-column input {
+        height: 4vw;
+    }
 }
 
 /* Medium Devices (tablets, 768px and up */
@@ -462,17 +497,32 @@ input#message {
     #photo-column {
         display: flex;
         height: auto;
-        width: 50vw;
+        width: 48vw;
     }
 
     #photo-column > img {
-        width: 50vw;
+        width: 48vw;
+    }
+
+    #form-column {
+        vertical-align: top;
+    }
+
+    #form-column * {
+        font-size: 2vw;
+    }
+
+    p#info {
+        font-size: 2.5vw
     }
 
     #form-column input {
         width: 47vw;
-        border-radius: 10px;
-        text-indent: 5px;
+        height: 3vw;
+    }
+
+    #form-column textarea {
+        width: 47vw;
     }
 
     #name {
@@ -660,7 +710,6 @@ input#message {
         padding: 0 100px;
     }
 
-
     .team-member:hover .team-member-description-reveal-on-hover {
         visibility: visible;
     }
@@ -689,6 +738,18 @@ input#message {
     }
 
     /* Get in Touch page */
+
+    #form-column * {
+        font-size: 20px;
+    }
+
+    p#info {
+        font-size: 25px
+    }
+
+    #form-column input {
+        height: 28px;
+    }
 
 }
 
