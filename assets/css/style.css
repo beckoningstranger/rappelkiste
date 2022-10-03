@@ -1,3 +1,8 @@
+/*
+sky-blue: #3567BB
+darker blue: #19366d
+*/
+
 @import url(https://fonts.googleapis.com/css2?family=Lusitana&family=Meow+Script&display=swap);
 
 /* General Styling */
@@ -22,7 +27,7 @@ body {
 
 #header {
     height: 20vw;
-    background: url(../images/header-2160-150.png) no-repeat center center
+    background: #3567BB
 }
 
 h1 {
@@ -155,6 +160,13 @@ section.background-image {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* Footer */
+
+#footer {
+    background: #19366d;
+    height: 75px;
+}
+
 /* Team Page*/
 
 .team-member-container {
@@ -167,7 +179,6 @@ section.background-image {
 
 #team-overview-below-1200px-width {
     height: auto;
-    padding-bottom: 5vw;
 }
 
 #team-overview-1200px-and-above {
@@ -242,6 +253,7 @@ table {
     border-radius: 10px;
     text-indent: 5px;
     height: 20vw;
+    padding: 10px 5px;
 }
 
 #form-column p {
@@ -265,10 +277,6 @@ input#message {
 @media screen and (min-width:540px) {
 
     /* Header, Navigation & Logo */
-
-    #header {
-        background: url(../images/header-2160-150.png) no-repeat center center;
-    }
 
     h1 {
         font-family: 'Meow Script', serif;
@@ -402,7 +410,6 @@ input#message {
 @media screen and (min-width:768px) {
     #header {
         height: 150px;
-        background: url(../images/header-2160-150.png) no-repeat center center
     }
 
     h1 {
@@ -537,7 +544,6 @@ input#message {
 @media screen and (min-width:1200px) {
     #header {
         height: 75px;
-        background: url(../images/header-2160-150.png) no-repeat center center
     }
 
     h1 {
