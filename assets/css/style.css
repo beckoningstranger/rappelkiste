@@ -96,8 +96,8 @@ section.background-image {
 .overlay {
     position: relative;
     width: 80%;
-    height: 60vw;
-    background: rgba(0, 0, 0, .5);
+    height: 65vw;
+    background: rgba(0, 0, 0, .65);
     border-radius: 55px;
     padding: 3vw 0 3vw 0
 }
@@ -115,27 +115,27 @@ section.background-image {
 }
 
 .overlay-position-hero {
-    top: 380px;
+    top: 370px;
     left: 15vw
 }
 
 .overlay-position-safe-haven {
-    top: 380px;
+    top: 370px;
     left: 15vw
 }
 
 .overlay-position-place-to-play {
-    top: 380px;
+    top: 370px;
     left: 15vw
 }
 
 .overlay-position-playground {
-    top: 380px;
+    top: 370px;
     left: 15vw
 }
 
 .overlay-position-out-and-about {
-    top: 380px;
+    top: 370px;
     left: 15vw
 }
 
@@ -328,7 +328,6 @@ input#message {
         position: relative;
         width: 80%;
         height: 250px;
-        background: rgba(0, 0, 0, .5);
         border-radius: 55px
     }
 
@@ -433,7 +432,6 @@ input#message {
         position: relative;
         width: 80%;
         height: 200px;
-        background: rgba(0, 0, 0, .5);
         border-radius: 55px;
         padding: 10px 0 10px 0
     }
@@ -612,7 +610,6 @@ input#message {
         position: relative;
         width: 42%;
         height: 250px;
-        background: rgba(0, 0, 0, .5);
         border-radius: 55px;
         padding: 10px 0 10px 0
     }
