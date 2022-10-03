@@ -343,7 +343,7 @@ input#message {
     .overlay {
         position: relative;
         width: 80%;
-        height: 250px;
+        height: 280px;
         border-radius: 55px
     }
 
@@ -439,7 +439,7 @@ input#message {
     #menu {
         letter-spacing: 2.5px;
         float: left;
-        line-height: 75px;
+        line-height: 35px;
         font-size: 200%;
         margin-right: 5px;
         margin-left: 10px
@@ -452,7 +452,7 @@ input#message {
     .overlay {
         position: relative;
         width: 80%;
-        height: 200px;
+        height: 230px;
         border-radius: 55px;
         padding: 10px 0 10px 0
     }
