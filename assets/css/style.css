@@ -693,7 +693,7 @@ input#message {
     }
 
     #team-overview-1200px-and-above {
-        height: 90vh;
+        height: 85vh;
         display: flex;
         background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
     }
