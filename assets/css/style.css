@@ -163,10 +163,19 @@ section.background-image {
 /* Footer */
 
 #footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background: #19366d;
     height: 75px;
+    color: white;
+    font-size: 1.5rem;
 }
 
+#footer a {
+    text-decoration: none;
+    color: inherit
+}
 /* Team Page*/
 
 .team-member-container {
@@ -239,7 +248,6 @@ table {
 #form-column * {
     font-size: 4vw;
 }
-
 
 #form-column input {
     width: 96vw;
@@ -349,6 +357,12 @@ input#message {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
+    }
+
+    /* Footer */
+
+    #footer {
+        font-size: 30px
     }
 
     /* Team Page*/
