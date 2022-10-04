@@ -167,7 +167,7 @@ section.background-image {
     justify-content: space-evenly;
     align-items: center;
     background: #19366d;
-    height: 75px;
+    height: 50px;
     color: white;
     font-size: 1.5rem;
 }
@@ -222,6 +222,35 @@ section.background-image {
 
 .team-member-description {
     font-size: 5vw
+}
+
+/* Stories Page */
+
+#blog {
+    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
+}
+
+.blog-header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.blog-header>p {
+    padding-left: 10px
+}
+
+.blog-entry {
+    border: 1px solid white;
+    margin: 0 2px;
+    padding: 1vw;
+}
+
+.blog-photos {
+    overflow: hidden;
 }
 
 /* Get in Touch Page */
@@ -514,6 +543,12 @@ input#message {
     .team-member-description {
         padding-top: 3vw;
         font-size: 150%;
+    }
+
+    /* Stories page*/
+
+    .blog-entry {
+        display: flex;
     }
 
     /* Get in Touch page*/
