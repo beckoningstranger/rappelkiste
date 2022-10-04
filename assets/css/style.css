@@ -221,7 +221,8 @@ section.background-image {
 }
 
 .team-member-description {
-    font-size: 5vw
+    font-size: 5vw;
+    padding-bottom: 10px
 }
 
 /* Stories Page */
