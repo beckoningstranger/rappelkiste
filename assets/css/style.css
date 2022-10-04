@@ -233,10 +233,9 @@ section.background-image {
 
 .blog-header {
     display: flex;
-    align-items: flex-start;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start;
     justify-content: center;
 }
 
@@ -244,10 +243,31 @@ section.background-image {
     padding-left: 10px
 }
 
+.author-and-date {
+    display: flex;
+    text-align: center;
+}
+
+.author-and-date * {
+    font-size: 12px;
+}
+
+.blog-heading {
+    font-size: 5vw;
+    text-align: center
+}
+
+.blog-date {
+    margin-left: 5px
+}
 .blog-entry {
     border: 1px solid white;
     margin: 0 2px;
     padding: 1vw;
+}
+
+.blog-body {
+    padding: 10px
 }
 
 .blog-photos {
@@ -441,10 +461,17 @@ input#message {
 
     /* Stories page */
 
-    .blog-entry {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .blog-heading {
+        font-size: 30px
+    }
+
+    .author-and-date * {
+        font-size: 20px
+    }
+
+    .blog-photos img {
+        display: block;
+        margin: 0 auto;
     }
 
     /* Get in Touch page*/
@@ -557,10 +584,15 @@ input#message {
     /* Stories page*/
 
     .blog-entry {
+        display: flex;
         flex-direction: row;
     }
 
     .blog-text {
+        width: 50vw;
+    }
+
+    .blog-photos {
         width: 50vw;
     }
 
@@ -827,7 +859,7 @@ input#message {
     /* Stories page*/
 
     .blog-entry {
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     /* Get in Touch page */
