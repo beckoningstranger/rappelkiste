@@ -628,6 +628,7 @@ input#message {
 
     #form-column {
         vertical-align: top;
+        width: 50vw;
     }
 
     #form-column * {
