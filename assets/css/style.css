@@ -776,15 +776,15 @@ input#message {
         font-size: 200%;
         font-weight: 500;
         left: 1vw;
-        top: 480px;
+        top: 410px;
         padding: 0 100px;
     }
 
-    /* .team-member:hover .team-member-description-reveal-on-hover {
+    .team-member:hover .team-member-description-reveal-on-hover {
         visibility: visible;
-    } */
+    }
 
-    #team-member-description-empty {
+    #team-member-description-box {
         position: absolute;
         left: 1vw;
         top: 460px;
@@ -802,7 +802,7 @@ input#message {
     }
 
     .team-member-name {
-        padding: 0;
+        padding-top: 5px;
         font-size: 26px;
         text-align: center;
         width: 285px;
@@ -838,10 +838,10 @@ input#message {
     }
 
     .team-member-description-reveal-on-hover {
-        top: 580px;
+        top: 540px;
     }
 
-    #team-member-description-empty {
+    #team-member-description-box {
         top: 560px;
     }
 }
