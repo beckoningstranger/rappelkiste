@@ -236,13 +236,13 @@ table {
 }
 
 #photo-column {
-    background-color: brown;
     display: none;
 }
 
 #form-column {
     background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
-    padding: 1vw
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 #form-column * {
@@ -266,12 +266,17 @@ table {
 
 #form-column p {
     margin-left: 1vw;
-    padding: 1px;
+    padding-left: 1px;
 }
 
-p#info {
+div#info {
+    margin-left: 1vw;
     padding: 2vw 0;
     font-size: 4.5vw
+}
+
+div#info > ul {
+    list-style-type: none;
 }
 
 input#message {
@@ -410,7 +415,7 @@ input#message {
         font-size: 3vw;
     }
 
-    p#info {
+    div#info {
         font-size: 3.5vw
     }
 
@@ -516,11 +521,11 @@ input#message {
     #photo-column {
         display: flex;
         height: auto;
-        width: 48vw;
+        width: 50vw;
     }
 
     #photo-column > img {
-        width: 48vw;
+        width: 50vw;
     }
 
     #form-column {
@@ -531,17 +536,17 @@ input#message {
         font-size: 2vw;
     }
 
-    p#info {
+    div#info {
         font-size: 2.5vw
     }
 
     #form-column input {
-        width: 47vw;
+        width: 46vw;
         height: 3vw;
     }
 
     #form-column textarea {
-        width: 47vw;
+        width: 46vw;
     }
 
     #name {
@@ -549,7 +554,7 @@ input#message {
     }
 
     #name input {
-        width: 23vw;
+        width: 20vw;
     }
 }
 
@@ -760,7 +765,7 @@ input#message {
         font-size: 20px;
     }
 
-    p#info {
+    div#info {
         font-size: 25px
     }
 

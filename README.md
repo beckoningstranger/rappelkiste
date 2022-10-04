@@ -97,7 +97,7 @@ The website consists of four pages
 
 ![Compressor.io](https://compressor.io) - To compress images
 
-![GIMP](https://gimp.org) - To resize and convert images and to make the skies on the images I used one coherent color so that they merge with the header
+![GIMP](https://gimp.org) - To resize and convert images and to make the skies on the images I used one coherent color so that there is no visible transition to the header
 
 ![Favicon.io](https://favicon.io/) - To create a favicon
 
