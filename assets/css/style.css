@@ -438,6 +438,14 @@ input#message {
         font-size: 3vw
     }
 
+    /* Stories page */
+
+    .blog-entry {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Get in Touch page*/
 
     #form-column * {
@@ -548,7 +556,11 @@ input#message {
     /* Stories page*/
 
     .blog-entry {
-        display: flex;
+        flex-direction: row;
+    }
+
+    .blog-text {
+        width: 50vw;
     }
 
     /* Get in Touch page*/
@@ -792,6 +804,12 @@ input#message {
         padding: 0;
         font-size: 26px;
         text-align: center;
+    }
+
+    /* Stories page*/
+
+    .blog-entry {
+        justify-content: center;
     }
 
     /* Get in Touch page */
