@@ -808,6 +808,22 @@ input#message {
         width: 285px;
     }
 
+    #user_instructions {
+        display: block;
+        text-align: center;
+        left: 767px;
+        padding-top: 93px;
+        font-size: 2vw;
+        animation-name: fade-away;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fade-away {
+        from {color: white;}
+        to {color:rgba(0, 0, 0, 0)}
+    }
+
     /* Stories page*/
 
     .blog-entry {
