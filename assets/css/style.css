@@ -20,7 +20,8 @@ darker blue: #19366d
 body {
     font-family: 'Lusitana', sans-serif;
     font-weight: 400;
-    color: #fff
+    color: #fff;
+    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
 }
 
 /* Header, Navigation & Logo */
@@ -245,7 +246,7 @@ section.background-image {
 
 .blog-entry {
     border: 1px solid white;
-    margin: 0 2px 10px 2px;
+    margin: 10px;
     padding: 1vw;
 }
 
@@ -692,8 +693,8 @@ input#message {
 
     .overlay {
         position: relative;
-        width: 42%;
-        height: 270px;
+        width: 50%;
+        height: 200px;
         border-radius: 55px;
         padding: 10px 0 10px 0
     }
@@ -727,12 +728,12 @@ input#message {
 
     .overlay-position-playground {
         top: 500px;
-        left: 55vw
+        left: 48vw
     }
 
     .overlay-position-out-and-about {
         top: 500px;
-        left: 55vw
+        left: 48vw
     }
 
     .auto-scroll-button {
