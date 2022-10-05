@@ -104,44 +104,21 @@ section.background-image {
     height: 65vw;
     background: rgba(0, 0, 0, .65);
     border-radius: 55px;
-    padding: 3vw 0 3vw 0
+    padding: 3vw 0 3vw 0;
+    top: 370px;
+    left: 12vw
 }
 
 .overlay>h2 {
     text-align: center;
     padding: 0 2vw 1vw 2vw;
-    font-size: 7.5vw
+    font-size: 7vw
 }
 
 .overlay>p {
     text-align: center;
     font-size: 4.7vw;
     padding: 0 5vw
-}
-
-.overlay-position-hero {
-    top: 370px;
-    left: 15vw
-}
-
-.overlay-position-safe-haven {
-    top: 370px;
-    left: 15vw
-}
-
-.overlay-position-place-to-play {
-    top: 370px;
-    left: 15vw
-}
-
-.overlay-position-playground {
-    top: 370px;
-    left: 15vw
-}
-
-.overlay-position-out-and-about {
-    top: 370px;
-    left: 15vw
 }
 
 .auto-scroll-button {
@@ -339,7 +316,8 @@ table {
 div#info {
     margin-left: 1vw;
     padding: 2vw 0;
-    font-size: 4.5vw
+    font-size: 4.5vw;
+    font-weight: 600;
 }
 
 div#info > ul {
@@ -414,7 +392,7 @@ input#message {
 
     .overlay {
         position: relative;
-        width: 80%;
+        width: 90%;
         height: 280px;
         border-radius: 55px
     }
@@ -429,6 +407,11 @@ input#message {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
+    }
+
+    .overlay-position-hero {
+        top: 370px;
+        left: 8vw;
     }
 
     /* Footer */
@@ -538,9 +521,11 @@ input#message {
     .overlay {
         position: relative;
         width: 80%;
-        height: 230px;
+        height: 210px;
         border-radius: 55px;
-        padding: 10px 0 10px 0
+        padding: 10px 0 10px 0;
+        top: 420px;
+        left: 15vw
     }
 
     .overlay>h2 {
@@ -553,31 +538,6 @@ input#message {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
-    }
-
-    .overlay-position-hero {
-        top: 450px;
-        left: 15vw
-    }
-
-    .overlay-position-safe-haven {
-        top: 450px;
-        left: 15vw
-    }
-
-    .overlay-position-place-to-play {
-        top: 450px;
-        left: 15vw
-    }
-
-    .overlay-position-playground {
-        top: 450px;
-        left: 15vw
-    }
-
-    .overlay-position-out-and-about {
-        top: 450px;
-        left: 15vw
     }
 
     /* Team Page*/
@@ -733,7 +693,7 @@ input#message {
     .overlay {
         position: relative;
         width: 42%;
-        height: 250px;
+        height: 270px;
         border-radius: 55px;
         padding: 10px 0 10px 0
     }
@@ -751,7 +711,7 @@ input#message {
     }
 
     .overlay-position-hero {
-        top: 300px;
+        top: 410px;
         left: 10vw
     }
 
