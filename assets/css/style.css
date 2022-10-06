@@ -331,6 +331,7 @@ div#info {
     padding: 2vw 0;
     font-size: 4.5vw;
     font-weight: 600;
+    text-align: center;
 }
 
 div#info > ul {
@@ -595,7 +596,8 @@ input#message {
     }
 
     div#info {
-        font-size: 2.5vw
+        font-size: 2.5vw;
+        text-align: left;
     }
 
     #form-column input {
@@ -620,6 +622,10 @@ input#message {
 
 @media screen and (min-width:1200px) {
 
+    #header {
+        height: 10vh
+    }
+
     h1 {
         font-family: 'Meow Script', serif;
         font-size: 50px;
@@ -642,6 +648,10 @@ input#message {
 
     #menu a:hover {
         border-bottom: 2px solid #fff
+    }
+
+    #menu li {
+        margin-right: 20px;
     }
 
     .background-image {
