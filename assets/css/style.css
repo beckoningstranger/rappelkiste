@@ -247,7 +247,7 @@ section.background-image-top-bottom {
 }
 
 .blog-heading {
-    font-size: 5vw;
+    font-size: 7vw;
     text-align: center
 }
 
@@ -299,6 +299,7 @@ table {
     background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
     padding-left: 1vw;
     padding-right: 1vw;
+    height: 80vh
 }
 
 #form-column * {
@@ -586,6 +587,7 @@ input#message {
     #form-column {
         vertical-align: top;
         width: 50vw;
+        height: auto;
     }
 
     #form-column * {
