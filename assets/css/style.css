@@ -27,27 +27,18 @@ body {
 /* Header, Navigation & Logo */
 
 #header {
-    height: 20vw;
-    background: url(../images/header-2160-150.png) no-repeat center center
+    background: url(../images/header-2160-150.png) no-repeat center center;
+    padding: 10px 5px 0 5px;
 }
 
 h1 {
     font-family: 'Meow Script', serif;
-    font-size: 10vw;
-    letter-spacing: 1px;
     color: #fff;
-    float: left;
-    line-height: 15vw;
-    margin-left: 5px
+    font-size: 12vw;    
 }
 
-#menu {
-    letter-spacing: 1px;
-    float: left;
-    line-height: 2vw;
-    font-size: 5vw;
-    margin-right: 5px;
-    margin-left: 10px
+#menu * {
+    font-size: 6.4vw
 }
 
 #menu a {
@@ -72,7 +63,11 @@ h1 {
 /* Home page content */
 
 section.background-image {
-    height: 720px
+    height: 100vh
+}
+
+section.background-image-top-bottom {
+    height: 90vh
 }
 
 .background-image {
@@ -101,13 +96,29 @@ section.background-image {
 
 .overlay {
     position: relative;
-    width: 80%;
+    width: 84%;
     height: 65vw;
     background: rgba(0, 0, 0, .65);
     border-radius: 55px;
-    padding: 3vw 0 3vw 0;
-    top: 370px;
+    padding: 3vw 0;
+    top: 63vh;
     left: 12vw
+}
+
+.overlay-position-hero {
+    top: 53vh;
+}
+
+.overlay-position-safe-haven {
+    top: 2vh;
+}
+
+.overlay-position-playground {
+    top: 2vh
+}
+
+.overlay-position-out-and-about {
+    top: 53vh;
 }
 
 .overlay>h2 {
@@ -142,12 +153,12 @@ section.background-image {
 
 #footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background: #19366d;
-    height: 50px;
+    height: 10vh;
     color: white;
-    font-size: 1.5rem;
+    font-size: 4vh
 }
 
 #footer a {
@@ -339,37 +350,14 @@ input#message {
 
     h1 {
         font-family: 'Meow Script', serif;
-        font-size: 10vw;
-        letter-spacing: 1px;
         color: #fff;
-        float: left;
-        line-height: 15vw;
-        margin-left: 5px
-    }
-
-    #menu {
-        letter-spacing: 1px;
-        float: left;
-        line-height: 2vw;
-        font-size: 5vw;
-        margin-right: 20px;
     }
 
     #menu a:hover {
         border-bottom: 1px solid #fff
     }
 
-    #menu li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 24px
-    }
-
     /* Home page content */
-
-    section.background-image {
-        height: 720px
-    }
 
     #hero {
         background: url(../images/hero-1200.jpg) no-repeat center center
@@ -392,33 +380,34 @@ input#message {
     }
 
     .overlay {
-        position: relative;
         width: 90%;
-        height: 280px;
-        border-radius: 55px
+        top: 68vh;
+        left: 8vw;
+        height: 25vh;
     }
 
     .overlay>h2 {
         text-align: center;
         padding: 0 2vw;
-        font-size: 250%
+        font-size: 6.2vw
     }
 
     .overlay>p {
         text-align: center;
-        font-size: 150%;
+        font-size: 3.5vw;
         padding: 0 2vw
     }
 
     .overlay-position-hero {
-        top: 370px;
-        left: 8vw;
+        top: 48vh
     }
 
-    /* Footer */
+    .overlay-position-safe-haven {
+        top: 5vh
+    }
 
-    #footer {
-        font-size: 30px
+    .overlay-position-out-and-about {
+        top: 60vh;
     }
 
     /* Team Page*/
@@ -457,7 +446,7 @@ input#message {
     }
 
     .team-member-description {
-        font-size: 3vw
+        font-size: 3.5vw
     }
 
     /* Stories page */
@@ -471,13 +460,13 @@ input#message {
     }
 
     .blog-body {
-        font-size: 20px
+        font-size: 3.5vw
     }
 
     /* Get in Touch page*/
 
     #form-column * {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     div#info {
@@ -492,37 +481,28 @@ input#message {
 /* Medium Devices (tablets, 768px and up */
 
 @media screen and (min-width:768px) {
+
     #header {
-        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     h1 {
+        font-size: 5.6vw;
         font-family: 'Meow Script', serif;
-        font-size: 380%;
-        letter-spacing: 3px;
         color: #fff;
-        float: left;
-        line-height: 75px;
-        margin-left: 5px
+        letter-spacing: 3px;
     }
 
-    #menu {
-        letter-spacing: 2.5px;
-        float: left;
-        line-height: 35px;
-        font-size: 200%;
-        margin-right: 5px;
-        margin-left: 10px
-    }
-
-    #menu li {
-        margin-right: 3rem;
+    #menu * {
+        font-size: 3.2vw;
     }
 
     .overlay {
         position: relative;
         width: 80%;
-        height: 210px;
+        height: 175px;
         border-radius: 55px;
         padding: 10px 0 10px 0;
         top: 420px;
@@ -539,6 +519,14 @@ input#message {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
+    }
+
+    .overlay-position-hero {
+        top: 325px
+    }
+
+    .overlay-position-out-and-about {
+        top: 325px
     }
 
     /* Team Page*/
@@ -558,6 +546,10 @@ input#message {
         font-size: 150%;
     }
 
+    #user_instructions {
+        display: none;
+    }
+
     /* Stories page*/
 
     .blog-entry {
@@ -573,6 +565,10 @@ input#message {
 
     .blog-photos {
         width: 50vw;
+    }
+
+    .blog-body {
+        font-size: 150%
     }
 
     /* Get in Touch page*/
@@ -621,27 +617,16 @@ input#message {
 /* X-Large Devices (large desktops, 1200px and up */
 
 @media screen and (min-width:1200px) {
-    #header {
-        height: 75px;
-    }
 
     h1 {
         font-family: 'Meow Script', serif;
-        font-size: 380%;
+        font-size: 50px;
         letter-spacing: 3px;
         color: #fff;
-        float: left;
-        line-height: 75px;
-        margin-left: 40px
     }
 
-    #menu {
-        letter-spacing: 2.5px;
-        float: right;
-        line-height: 75px;
-        font-size: 180%;
-        margin-right: 20px;
-        margin-left: 20px
+    #menu * {
+        font-size: 30px
     }
 
     #menu a {
@@ -655,16 +640,6 @@ input#message {
 
     #menu a:hover {
         border-bottom: 2px solid #fff
-    }
-
-    #menu li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 20px
-    }
-
-    section.background-image {
-        height: 1000px
     }
 
     .background-image {
@@ -718,7 +693,7 @@ input#message {
 
     .overlay-position-safe-haven {
         top: 350px;
-        left: 50vw
+        left: 48vw
     }
 
     .overlay-position-place-to-play {
@@ -746,6 +721,10 @@ input#message {
     .auto-scroll-button a {
         text-decoration: none;
         color: inherit
+    }
+
+    #footer {
+        font-size: 3vh;
     }
 
     /* Team Page*/
