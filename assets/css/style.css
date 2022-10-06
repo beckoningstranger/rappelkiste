@@ -78,24 +78,24 @@ section.background-image-top-bottom {
 }
 
 #hero {
-    background: url(../images/hero-1200.jpg) no-repeat center center
+    background: url(../images/hero-1024px-squared.webp) no-repeat top center;
 }
 
 #safe-haven {
-    background: url(../images/safe-haven-1200.jpg) no-repeat center center;
-    align-items: flex-start;
+    background: url(../images/safe-haven-1024px-squared.webp) no-repeat center center;
 }
 
 #place-to-play {
-    background: url(../images/place-to-play-1200.jpg) no-repeat center center
+    background: url(../images/place-to-play-1024px-squared.webp) no-repeat center center;
+    align-items: flex-start;
 }
 
 #playground {
-    background: url(../images/playground-1200.jpg) no-repeat center center
+    background: url(../images/playground-1024px-squared.webp) no-repeat center center
 }
 
 #out-and-about {
-    background: url(../images/out-and-about-1200.jpg) no-repeat center center
+    background: url(../images/out-and-about-1024px-squared.webp) no-repeat center center
 }
 
 .overlay {
@@ -109,7 +109,7 @@ section.background-image-top-bottom {
     left: 10px;
 }
 
-.overlay-position-safe-haven {
+.overlay-position-place-to-play {
     top: 10px
 }
 
@@ -208,6 +208,10 @@ section.background-image-top-bottom {
 .team-member-description {
     font-size: 5vw;
     padding-bottom: 10px
+}
+
+#user_instructions {
+    display: none;
 }
 
 /* Stories Page */
@@ -462,7 +466,7 @@ input#message {
     .overlay {
         position: relative;
         width: 80%;
-        height: 190px;
+        height: 320px;
         border-radius: 55px;
         padding: 10px 0 10px 0;
     }
@@ -470,13 +474,37 @@ input#message {
     .overlay>h2 {
         text-align: center;
         padding: 0 2vw;
-        font-size: 250%
+        font-size: 5.7vw;
     }
 
     .overlay>p {
         text-align: center;
-        font-size: 150%;
         padding: 0 2vw
+    }
+
+    #hero {
+        background: url(../images/hero-1368px-squared.webp) no-repeat top center;
+    }
+    
+    #safe-haven {
+        background: url(../images/safe-haven-1368px-squared.webp) no-repeat center center;
+        align-items: flex-start;
+    }
+    
+    #place-to-play {
+        background: url(../images/place-to-play-1368px-squared.webp) no-repeat center center
+    }
+    
+    #playground {
+        background: url(../images/playground-1368px-squared.webp) no-repeat center center
+    }
+    
+    #out-and-about {
+        background: url(../images/out-and-about-1368px-squared.webp) no-repeat center center
+    }
+    
+    .overlay-position-safe-haven {
+        top:10px
     }
 
     /* Team Page*/
@@ -494,10 +522,6 @@ input#message {
     .team-member-description {
         padding-top: 3vw;
         font-size: 150%;
-    }
-
-    #user_instructions {
-        display: none;
     }
 
     /* Stories page*/
@@ -607,11 +631,16 @@ input#message {
     }
 
     #hero {
-        background: url(../images/hero-2160.png) no-repeat center center
+        background: url(../images/hero-final.webp) no-repeat top center
     }
 
     #safe-haven {
-        background: url(../images/safe-haven-2160.jpg) no-repeat center center
+        background: url(../images/safe-haven-2160.jpg) no-repeat center center;
+        align-items: flex-end;
+    }
+
+    .overlay-position-safe-haven {
+        top: -20px
     }
 
     #place-to-play {
@@ -645,31 +674,6 @@ input#message {
         font-size: 150%;
         padding: 0 2vw
     }
-
-    /* .overlay-position-hero {
-        top: 410px;
-        left: 10vw
-    }
-
-    .overlay-position-safe-haven {
-        top: 350px;
-        left: 48vw
-    }
-
-    .overlay-position-place-to-play {
-        top: 150px;
-        left: 10vw
-    }
-
-    .overlay-position-playground {
-        top: 500px;
-        left: 48vw
-    }
-
-    .overlay-position-out-and-about {
-        top: 500px;
-        left: 48vw
-    } */
 
     .auto-scroll-button {
         position: absolute;
