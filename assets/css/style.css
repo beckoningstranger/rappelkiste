@@ -75,23 +75,23 @@ section.background-image-top-bottom {
 }
 
 #hero {
-    background: url(../images/hero-mobile.jpg) no-repeat center center
+    background: url(../images/hero-1200.jpg) no-repeat center center
 }
 
 #safe-haven {
-    background: url(../images/safe-haven-mobile.jpg) no-repeat center center
+    background: url(../images/safe-haven-1200.jpg) no-repeat center center
 }
 
 #place-to-play {
-    background: url(../images/puppenecke-mobile.jpg) no-repeat center center
+    background: url(../images/place-to-play-1200.jpg) no-repeat center center
 }
 
 #playground {
-    background: url(../images/playground-mobile.jpg) no-repeat center center
+    background: url(../images/playground-1200.jpg) no-repeat center center
 }
 
 #out-and-about {
-    background: url(../images/out-and-about-mobile.jpg) no-repeat center center
+    background: url(../images/out-and-about-1200.jpg) no-repeat center center
 }
 
 .overlay {
@@ -361,26 +361,6 @@ input#message {
 
     /* Home page content */
 
-    #hero {
-        background: url(../images/hero-1200.jpg) no-repeat center center
-    }
-
-    #safe-haven {
-        background: url(../images/safe-haven-1200.jpg) no-repeat center center
-    }
-
-    #place-to-play {
-        background: url(../images/place-to-play-1200.jpg) no-repeat center center
-    }
-
-    #playground {
-        background: url(../images/playground-1200.jpg) no-repeat center center
-    }
-
-    #out-and-about {
-        background: url(../images/out-and-about-1200.jpg) no-repeat center center
-    }
-
     .overlay {
         width: 90%;
         top: 68vh;
@@ -504,7 +484,7 @@ input#message {
     .overlay {
         position: relative;
         width: 80%;
-        height: 175px;
+        height: 190px;
         border-radius: 55px;
         padding: 10px 0 10px 0;
         top: 420px;
