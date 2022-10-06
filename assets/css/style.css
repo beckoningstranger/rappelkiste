@@ -71,7 +71,10 @@ section.background-image-top-bottom {
 }
 
 .background-image {
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 #hero {
@@ -79,7 +82,8 @@ section.background-image-top-bottom {
 }
 
 #safe-haven {
-    background: url(../images/safe-haven-1200.jpg) no-repeat center center
+    background: url(../images/safe-haven-1200.jpg) no-repeat center center;
+    align-items: flex-start;
 }
 
 #place-to-play {
@@ -97,28 +101,16 @@ section.background-image-top-bottom {
 .overlay {
     position: relative;
     width: 84%;
-    height: 65vw;
+    height: 61vw;
     background: rgba(0, 0, 0, .65);
     border-radius: 55px;
     padding: 3vw 0;
-    top: 63vh;
-    left: 12vw
-}
-
-.overlay-position-hero {
-    top: 53vh;
+    bottom: 10px;
+    left: 10px;
 }
 
 .overlay-position-safe-haven {
-    top: 2vh;
-}
-
-.overlay-position-playground {
-    top: 2vh
-}
-
-.overlay-position-out-and-about {
-    top: 53vh;
+    top: 10px
 }
 
 .overlay>h2 {
@@ -363,8 +355,6 @@ input#message {
 
     .overlay {
         width: 90%;
-        top: 68vh;
-        left: 8vw;
         height: 25vh;
     }
 
@@ -378,18 +368,6 @@ input#message {
         text-align: center;
         font-size: 3.5vw;
         padding: 0 2vw
-    }
-
-    .overlay-position-hero {
-        top: 48vh
-    }
-
-    .overlay-position-safe-haven {
-        top: 5vh
-    }
-
-    .overlay-position-out-and-about {
-        top: 60vh;
     }
 
     /* Team Page*/
@@ -487,8 +465,6 @@ input#message {
         height: 190px;
         border-radius: 55px;
         padding: 10px 0 10px 0;
-        top: 420px;
-        left: 15vw
     }
 
     .overlay>h2 {
@@ -501,14 +477,6 @@ input#message {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
-    }
-
-    .overlay-position-hero {
-        top: 325px
-    }
-
-    .overlay-position-out-and-about {
-        top: 325px
     }
 
     /* Team Page*/
@@ -678,7 +646,7 @@ input#message {
         padding: 0 2vw
     }
 
-    .overlay-position-hero {
+    /* .overlay-position-hero {
         top: 410px;
         left: 10vw
     }
@@ -701,7 +669,7 @@ input#message {
     .overlay-position-out-and-about {
         top: 500px;
         left: 48vw
-    }
+    } */
 
     .auto-scroll-button {
         position: absolute;
