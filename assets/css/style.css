@@ -697,9 +697,9 @@ input#message {
     }
 
     #team-overview-1200px-and-above {
-        height: 85vh;
         display: flex;
         background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
+        height: 80vh;
     }
 
     #image-shelf-top {
@@ -727,7 +727,7 @@ input#message {
         font-size: 200%;
         font-weight: 500;
         left: 1vw;
-        top: 410px;
+        top: 73%;
         padding: 0 100px;
     }
 
@@ -738,7 +738,7 @@ input#message {
     #team-member-description-box {
         position: absolute;
         left: 1vw;
-        top: 460px;
+        top: 65%;
         margin: 0 auto;
         width: 98vw;
         height: 220px;
@@ -817,7 +817,7 @@ input#message {
 
  @media screen and (min-width:1400px) {
     #image-shelf-top {
-        padding: 15vh 0 5vh;
+        padding: 12vh 0 5vh;
     }
 
     .team-member-description-reveal-on-hover {
