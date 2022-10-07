@@ -16,14 +16,14 @@ body {
     font-family: 'Lusitana', sans-serif;
     font-weight: 400;
     color: #fff;
-    background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
+    background: #3567BB;
 }
 
 /* Header, Navigation & Logo */
 
 #header {
     background: url(../images/header-2160-150.png) no-repeat center center;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 5px;
 }
 
 h1 {
@@ -283,33 +283,31 @@ table {
 }
 
 #contact-page-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#photo-column {
-    display: none;
-}
-
-#form-column {
     background: linear-gradient(180deg, #3567BB 0%, #19366d 100%);
-    padding-left: 1vw;
-    padding-right: 1vw;
-    height: 80vh
-}
-
-#form-column * {
+    height: 80vh;
     font-size: 4vw;
+    background: url('../images/contact-1080-smaller.webp') no-repeat bottom center;
 }
 
-#form-column input {
+#contact-page-content {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.6);
+    height: 80vh;
+}
+
+#contact-page-content > div {
+    width: 100vw;
+}
+
+#contact-page-container input {
     width: 96vw;
     border-radius: 10px;
     text-indent: 5px;
     height: 5vw;
 }
 
-#form-column textarea {
+#contact-page-container textarea {
     width: 96vw;
     border-radius: 10px;
     text-indent: 5px;
@@ -317,17 +315,20 @@ table {
     padding: 10px 5px;
 }
 
-#form-column p {
+#contact-page-container p {
     margin-left: 1vw;
     padding-left: 1px;
 }
 
 div#info {
-    margin-left: 1vw;
     padding: 2vw 0;
     font-size: 4.5vw;
-    font-weight: 600;
     text-align: center;
+    padding: 10px;
+}
+
+div#form p {
+    font-size: 20px;
 }
 
 div#info > ul {
@@ -424,7 +425,7 @@ input#message {
 
     /* Get in Touch page*/
 
-    #form-column * {
+    #contact-page-container * {
         font-size: 3.5vw;
     }
 
@@ -432,7 +433,7 @@ input#message {
         font-size: 3.5vw
     }
 
-    #form-column input {
+    #contact-page-container input {
         height: 4vw;
     }
 }
@@ -445,7 +446,6 @@ input#message {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 10vh;
     }
 
     h1 {
@@ -541,38 +541,29 @@ input#message {
 
     /* Get in Touch page*/
 
-    #photo-column {
-        display: flex;
-        height: 80vh;
-        width: 50vw;
+    #contact-page-container {
+        background: url('../images/contact-1080x1138px.webp') no-repeat bottom right;
+        height: 85vh;
     }
 
-    #photo-column > img {
-        width: 50vw;
+    #contact-page-container * {
+        font-size: 2.9vh;
     }
 
-    #form-column {
-        vertical-align: top;
-        width: 50vw;
-        height: 80vh;
+    #contact-page-container input {
+        height: 40px;
     }
 
-    #form-column * {
-        font-size: 2vw;
+    #contact-page-content {
+        height: 85vh;
     }
 
-    div#info {
-        font-size: 2.5vw;
-        text-align: left;
+    #form input {
+        font-size: 20px
     }
 
-    #form-column input {
-        width: 46vw;
-        height: 3vw;
-    }
-
-    #form-column textarea {
-        width: 46vw;
+    #form textarea {
+        font-size: 20px
     }
 
     #name {
@@ -580,7 +571,7 @@ input#message {
     }
 
     #name input {
-        width: 20vw;
+        width: 47.5vw;
     }
 }
 
@@ -791,18 +782,31 @@ input#message {
 
     /* Get in Touch page */
 
-    #form-column * {
+    #contact-page-container * {
         font-size: 20px;
+        width: 50vw;
     }
 
-    div#info {
-        font-size: 25px
+    #contact-page-content * {
+        font-size: 25px;
     }
 
-    #form-column input {
-        height: 28px;
+    div#form p {
+        width: 15vw;
     }
 
+    #contact-page-container input {
+        width: 48vw;
+    }
+
+    #contact-page-container textarea {
+        width: 48vw;
+        height: 200px;
+    }
+
+    #name input {
+        width: 23vw;
+    }
 }
 
  /* XX-Large Devices (large desktops, 1400px and up */
