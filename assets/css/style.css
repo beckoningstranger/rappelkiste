@@ -714,8 +714,12 @@ div#name input {
         height: 93vh
     }
 
+    #contact-page-content {
+        height: 93vh;
+    }
+
     div#info > ul > li {
-        font-size: 1.6rem
+        font-size: 1.6rem;
     }
 }
 
@@ -934,13 +938,28 @@ div#name input {
 
     /* Get in Touch page */
 
+    #contact-page-container {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
     #contact-page-container * {
         font-size: 20px;
         width: 50vw;
     }
 
+    #contact-page-content {
+        border-radius: 50px;
+        height: 83vh;
+    }
+
     #contact-page-content * {
         font-size: 25px;
+    }
+
+    #contact-page-content > div {
+        width: 50vw
     }
 
     div#form p {
@@ -953,11 +972,15 @@ div#name input {
 
     #contact-page-container textarea {
         width: 48vw;
-        height: 200px;
+        height: 140px;
     }
 
     div#name input {
         width: 23vw;
+    }
+
+    div#info > ul > li {
+        width: 48vw
     }
 }
 
@@ -974,5 +997,13 @@ div#name input {
 
     #team-member-description-box {
         top: 560px;
+    }
+
+    #contact-page-content {
+        height: 72vh;
+    }
+
+    #contact-page-container {
+        height: 80vh;
     }
 }
