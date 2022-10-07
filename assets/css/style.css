@@ -311,7 +311,7 @@ table {
     width: 96vw;
     border-radius: 10px;
     text-indent: 5px;
-    height: 20vw;
+    height: 22vh;
     padding: 10px 5px;
 }
 
@@ -328,7 +328,7 @@ div#info {
 }
 
 div#form p {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 div#info > ul {
@@ -339,7 +339,30 @@ input#message {
     height: 20vh;
 }
 
+div#name {
+    display: flex;
+    flex-direction: row;
+}
+
+div#name input {
+    width: 48vw;
+}
+
 /* Media Queries */
+
+@media screen and (orientation: landscape) {
+    div#form p {
+        font-size: 0.2rem;
+    }
+
+    div#info > ul > li {
+        font-size: 1.1rem
+    }
+
+    #contact-page-container {
+        height: 149vh;
+    }
+}
 
 /* Small Devices (portrait phones, 540px and up */
 
@@ -426,7 +449,7 @@ input#message {
     /* Get in Touch page*/
 
     #contact-page-container * {
-        font-size: 3.5vw;
+        font-size: 1.2rem;
     }
 
     div#info {
@@ -435,6 +458,67 @@ input#message {
 
     #contact-page-container input {
         height: 4vw;
+    }
+
+    div#name {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #form label {
+        font-size: 1rem
+    }
+}
+
+@media screen and (min-width:540px) and (orientation: landscape) {
+    h1 {
+        font-size: 2.4rem;    
+    }
+    
+    #menu * {
+        font-size: 1.4rem;
+        line-height: 2.7rem;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .overlay > h2 {
+        font-size: 1.6rem
+    }
+
+    .overlay > p {
+        font-size: 1.1rem
+    }
+
+    .overlay {
+        height: 44vh;
+        padding: 2vw 0;
+    }
+
+    .auto-scroll-button {
+        top: 16vh
+    }
+
+    #form label {
+        font-size: 1rem
+    }
+
+    #form input {
+        font-size: 0.9rem;
+        height: 5.5vh;
+        width: 97vw;
+        margin-top: 3px
+    }
+
+    #contact-page-container textarea {
+        font-size: 0.9rem;
+        width: 97vw;
+        height: 32vh;
+        padding: 5px 5px;
     }
 }
 
@@ -449,12 +533,12 @@ input#message {
     }
 
     h1 {
-        font-size: 5.6vw;
-        letter-spacing: 3px;
+        font-size: 2.8rem;
+        letter-spacing: 2px;
     }
 
     #menu * {
-        font-size: 3.2vw;
+        font-size: 1.5rem;
     }
 
     .overlay {
@@ -572,6 +656,66 @@ input#message {
 
     #name input {
         width: 47.5vw;
+    }
+}
+
+@media screen and (min-width:768px) and (orientation: landscape) {
+    
+    .overlay {
+        height: 36vh
+    }
+
+    .overlay > h2 {
+        font-size: 2rem
+    }
+
+    .overlay > p {
+        font-size: 1.3rem
+    }
+    
+    #contact-page-container {
+        height: 138vh;
+    }
+
+    div#info > ul > li {
+        font-size: 1.3rem
+    }
+
+    #form label {
+        font-size: 1.3rem
+    }
+}
+
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size: 4rem
+    }
+
+    #menu * {
+        font-size: 2rem
+    }
+
+    .overlay {
+        height: 30vh;
+    }
+
+    .overlay > h2 {
+        font-size: 3rem
+    }
+
+    .overlay > p {
+        font-size: 1.9rem
+    }
+}   
+
+
+@media screen and (min-width:1024px) and (orientation: landscape) {
+    #contact-page-container {
+        height: 93vh
+    }
+
+    div#info > ul > li {
+        font-size: 1.6rem
     }
 }
 
