@@ -626,7 +626,7 @@ div#name input {
     /* Get in Touch page*/
 
     #contact-page-container {
-        background: url('../images/contact-1080x1138px.webp') no-repeat bottom right;
+        background: url('../images/contact-landscape-1920.webp') no-repeat top center;
         height: 85vh;
     }
 
@@ -763,6 +763,14 @@ div#name input {
     #safe-haven {
         background: url(../images/safe-haven-2160.jpg) no-repeat center center;
         align-items: flex-end;
+    }
+
+    #place-to-play {
+        align-items: flex-end;
+    }
+
+    .overlay-position-place-to-play {
+        top: -20px
     }
 
     .overlay-position-safe-haven {
@@ -948,7 +956,7 @@ div#name input {
         height: 200px;
     }
 
-    #name input {
+    div#name input {
         width: 23vw;
     }
 }
