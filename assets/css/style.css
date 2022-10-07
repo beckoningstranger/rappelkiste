@@ -696,7 +696,7 @@ div#name input {
     }
 
     .overlay {
-        height: 30vh;
+        height: 18vh;
     }
 
     .overlay > h2 {
@@ -710,8 +710,25 @@ div#name input {
 
 
 @media screen and (min-width:1024px) and (orientation: landscape) {
+
+    .overlay {
+        height: 26vh
+    }
+
+    .overlay > h2 {
+        font-size: 2rem;
+    }
+
+    .overlay > p {
+        font-size: 1.5rem;
+    }
+
     #contact-page-container {
         height: 93vh
+    }
+
+    #contact-page-container textarea {
+        height: 16vh;
     }
 
     #contact-page-content {
