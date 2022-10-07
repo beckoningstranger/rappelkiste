@@ -23,7 +23,7 @@ body {
 
 #header {
     background: url(../images/header-2160-150.png) no-repeat center center;
-    padding: 10px 5px 0 5px;
+    padding: 10px 5px 10px 5px;
 }
 
 h1 {
@@ -100,12 +100,12 @@ section.background-image-top-bottom {
     background: rgba(0, 0, 0, .65);
     border-radius: 55px;
     padding: 3vw 0;
-    bottom: 10px;
+    bottom: 40px;
     left: 10px;
 }
 
 .overlay-position-place-to-play {
-    top: 10px
+    top: 20px
 }
 
 .overlay>h2 {
@@ -216,6 +216,10 @@ section.background-image-top-bottom {
     padding-bottom: 10px;
 }
 
+.background-gradient-blog {
+    background: linear-gradient(180deg, #19366d 0%, #0a214b 100%);
+}
+
 .blog-header {
     display: flex;
     align-items: center;
@@ -239,7 +243,7 @@ section.background-image-top-bottom {
 
 .blog-heading {
     font-size: 7vw;
-    text-align: center
+    text-align: center;
 }
 
 .blog-date {
@@ -265,6 +269,7 @@ section.background-image-top-bottom {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .blog-photos img {
@@ -340,11 +345,6 @@ input#message {
 @media screen and (min-width:540px) {
 
     /* Header, Navigation & Logo */
-
-    h1 {
-        font-family: 'Meow Script', serif;
-        color: #fff;
-    }
 
     #menu a:hover {
         border-bottom: 1px solid #fff
@@ -445,12 +445,11 @@ input#message {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 10vh;
     }
 
     h1 {
         font-size: 5.6vw;
-        font-family: 'Meow Script', serif;
-        color: #fff;
         letter-spacing: 3px;
     }
 
@@ -523,17 +522,17 @@ input#message {
 
     .blog-entry {
         display: flex;
+        flex-direction: column;
     }
 
     .blog-text {
-        width: 50vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .blog-photos {
-        width: 50vw;
+        flex-direction: column;
     }
 
     .blog-body {
@@ -544,7 +543,7 @@ input#message {
 
     #photo-column {
         display: flex;
-        height: auto;
+        height: 80vh;
         width: 50vw;
     }
 
@@ -555,7 +554,7 @@ input#message {
     #form-column {
         vertical-align: top;
         width: 50vw;
-        height: auto;
+        height: 80vh;
     }
 
     #form-column * {
@@ -594,10 +593,7 @@ input#message {
     }
 
     h1 {
-        font-family: 'Meow Script', serif;
         font-size: 50px;
-        letter-spacing: 3px;
-        color: #fff;
     }
 
     #menu * {
@@ -778,14 +774,11 @@ input#message {
 
     .blog-entry {
         justify-content: space-evenly;
+        flex-direction: row;
     }
 
-    .blog-photos {
-        display: block;
-        line-height: 0;
-        column-gap: 0;
-        column-count: 2;
-        margin: 0 auto;
+    .blog-text {
+        width: 50%;
     }
 
     .blog-photos {
