@@ -348,6 +348,15 @@ div#name input {
     width: 48vw;
 }
 
+/* Thank you page*/
+
+#thank-you-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
 /* Media Queries */
 
 @media screen and (orientation: landscape) {
