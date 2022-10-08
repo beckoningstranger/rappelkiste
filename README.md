@@ -52,13 +52,16 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 
 ![Color Scheme](/assets/README-images/color-scheme.png)
 
+The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. 
+On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
+
 ### Typography
 
 Google Fonts was used for the following fonts:
 
 - Lusitana is used for headings and body text of the site. It is a serif font that is still very easy to read.
 
-- Meow Script is used for the logo. It is a monoline font that adds character to the site.
+- Meow Script is a monoline font that adds character to the site's logo.
 
 ### Wireframes
 
