@@ -94,6 +94,10 @@ section.background-image-top-bottom {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 84%;
     height: 61vw;
@@ -371,6 +375,10 @@ div#name input {
     #contact-page-container {
         height: 149vh;
     }
+
+    .auto-scroll-button {
+        top: 20vh
+    }
 }
 
 /* Small Devices (portrait phones, 540px and up */
@@ -509,7 +517,7 @@ div#name input {
     }
 
     .auto-scroll-button {
-        top: 16vh
+        top: 33%
     }
 
     #form label {
@@ -552,7 +560,7 @@ div#name input {
 
     .overlay {
         position: relative;
-        width: 80%;
+        width: 85%;
         height: 320px;
         border-radius: 55px;
         padding: 10px 0 10px 0;
@@ -705,7 +713,7 @@ div#name input {
     }
 
     .overlay {
-        height: 18vh;
+        height: 24vh;
     }
 
     .overlay > h2 {
@@ -837,18 +845,6 @@ div#name input {
         text-align: center;
         font-size: 150%;
         padding: 0 2vw
-    }
-
-    .auto-scroll-button {
-        position: absolute;
-        left: 20px;
-        line-height: 40px;
-        top: 33%
-    }
-
-    .auto-scroll-button a {
-        text-decoration: none;
-        color: inherit
     }
 
     #footer {
