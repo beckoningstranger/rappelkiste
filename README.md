@@ -1,35 +1,56 @@
 # Rappelkiste e.V.
 
-Rappelkiste e.V. is a site that is aimed at parents who are looking for a day care center for their unborn or newly born child. The German word Rappelkiste could be translated loosely to 'rattlebox', it refers to the house (the box) from which you can hear all kinds of noises (the rattling). "e.V." means "registered association", which is legally relevant and also hints at the fact that this day care center is special in that it was founded and is still run by parents, not the state, a church or any other institution. 
+Rappelkiste e.V. is a site that is aimed at parents who are looking for a day care center for their unborn or newly born child. The German word Rappelkiste could be translated loosely to 'rattlebox', it refers to the house (the box) from which you can hear all kinds of noises (the rattling). "e.V." means "registered association", which is legally relevant and also hints at the fact that this day care center is special in that it was founded and is still run by parents, not the state, a church or any other institution.
 
-![Responsive Design - Rappelkiste e.V.](/assets/README-images/amiresponsive.jpg)
+Visitors of the site are supposed to get a first impression of what makes this day care center special, i.e. is the picturesque building, the interior's cozy atmosphere, the friendly teachers, the fact that it has an above average sized team and that the teachers have lots of interesting activities and projects in store for the children which parents can read about in the Stories section. Users can then use the Get in Touch page or click the telephone/email links to contact the day care center.
 
-## CONTENTS
+Take a look at the deployed page: <a href="https://beckoningstranger.github.io/rappelkiste/index.html" target="_blank" rel="noopener">Rappelkiste</a>.
 
- - Bullet Point Level 1
-    - Bullet Point Level 2
-    - Bullet Point Level 2
- - Bullet Point Level 1
- - Bullet Point Level 1
-    - Bullet Point Level 2
+![Responsive Design - Rappelkiste e.V.](/assets/README-images/amiresponsive.png)
 
-## User Experience (UX)
+# CONTENTS
 
-### Initial Discussion
+# User Experience (UX)
 
-Visitors of the site are supposed to get a first impression of what makes this day care center special, which is the picturesque building, the interior's cozy atmosphere, the friendly teachers, the fact that it has an above average sized team and that the teachers have lots of interesting activities and projects in store for the children.
+## User Stories
 
-### User Stories
+### Client Goals
 
-#### First Time Visitor Goals
+* As the manager of the Rappelkiste I want a way to attract new parents that may visit the site on a wide range of differently sized devices.
 
-#### Returning Visitor Goals
+* As the manager of the Rappelkiste I want the site to act as a calling card that gives my audience a good impression of the day care center and its team, to build confidence and trust with them.
 
-#### Key information for the site
+* As a teacher I want to showcase projects that the teaching team has done with the children to further build confidence/trust in the team's work.
+
+* As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form.
+
+### First Time Visitor Goals
+
+* As a parent who is looking for a day care center for my child, I want to build trust with a day care center where my child will potentially spend most of their day.
+
+* As a parent who is looking for a day care center for my child, I want to learn what sets the Rappelkiste apart.
+
+* As a parent who is looking for a day care center for my child, I want to learn what the facilities look like and get a vibe of the atmosphere.
+
+* As a parent who is looking for a day care center for my child, I want to learn about who will look after my child and what background they have.
+
+* As a parent who is looking for a day care center for my child I want to learn about special activities the teachers planned for the children.
+
+* As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home.
+
+### Returning Visitor Goals
+
+* As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully.
+
+* As somebody who wants to get in touch with the day care center, be it for  I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.
+
+* As a parent who has made an appointment for a personal visit, I want an easy way tp navigate to the day care center.
 
 ## Design
 
 ### Color Scheme
+
+![Color Scheme](/assets/README-images/color-scheme.png)
 
 ### Typography
 
@@ -38,8 +59,6 @@ Google Fonts was used for the following fonts:
 - Lusitana is used for headings and body text of the site. It is a serif font that is still very easy to read.
 
 - Meow Script is used for the logo. It is a monoline font that adds character to the site.
-
-### Imagery
 
 ### Wireframes
 
