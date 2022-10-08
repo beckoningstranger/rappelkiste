@@ -280,6 +280,14 @@ section.background-image-top-bottom {
     width: 100%;
 }
 
+.blog-body > p {
+    margin-bottom: 1rem;
+}
+
+.blog-body ul {
+    margin-left: 2rem
+}
+
 /* Get in Touch Page */
 
 table {
