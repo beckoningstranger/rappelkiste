@@ -48,6 +48,10 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 
 ## Design
 
+### Site Structure
+
+The website consists of four main pages and a thank you page. The [Home page](index.html) is the landing page, while the [Team page](team.html), the [Stories](stories.html) and the [Get in Touch](contact.html) page are accessible via the top menu. Once the user successfully submits a message on the [Get in Touch page](contact.html), they are taken to a simple [Thank You page](thankyou.html), from where they can navigate anywhere they want via the top menu.
+
 ### Color Scheme
 
 ![Color Scheme](/assets/README-images/color-scheme.jpg)
@@ -72,11 +76,11 @@ At the outset of this project, the design of the website was desktop first, whic
 ![Stories Wireframe](/assets/README-images/stories-wireframe.jpg)
 ![Get in Touch Wireframe](/assets/README-images/get-in-touch-wireframe.jpg)
 
+As this was my first foray into designing, I had to adapt when I found that the initial design would not work. The most significant of these changes was the contact page where I found that the two-column design with the clearly defined border in the middle would not be practical, even on larger screens as the picture would be cut off. I eventually opted for a screen filling background picture with an overlaid box for the text and form.
 
+The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite some research and also eventually consulted the tutor team.
 
 ## Features
-
-The website consists of four pages
 
 ### Existing Features
 

@@ -49,6 +49,10 @@ h1 {
     border-bottom: 2px solid #fff
 }
 
+#logo > a > h1:hover {
+    border-bottom: 2px solid #fff
+}
+
 #menu li {
     list-style-type: none;
     display: inline;
