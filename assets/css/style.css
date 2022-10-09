@@ -34,11 +34,11 @@ body {
 h1 {
     font-family: 'Meow Script', serif;
     color: #fff;
-    font-size: 12vw;    
+    font-size: 10vw;    
 }
 
 #menu * {
-    font-size: 6.4vw
+    font-size: 6vw
 }
 
 .active {
@@ -553,7 +553,7 @@ div#name input {
     }
 
     h1 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         letter-spacing: 2px;
     }
 
@@ -1012,7 +1012,7 @@ div#name input {
     }
 
     #contact-page-content {
-        height: 72vh;
+        height: 77vh;
     }
 
     #contact-page-container {

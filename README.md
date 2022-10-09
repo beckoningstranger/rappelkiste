@@ -103,8 +103,19 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
     All pictures are centered on both axes, except for the hero image where I wanted to about the gable of the house being cut off.
 
     - For each pictures, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is most located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
+    To ensure that the text is easily to read, the overlay text box is semi-transparent, giving enough contrast against the background picture.
 
     - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
+
+    ![Home page 1 of 5 sections](assets/readme-images/home-page-content.jpg)
+
+#### __Footer__
+
+    - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
+
+    ![Footer](assets/readme-images/footer.jpg)
+
+#### ____
 
 ![Description](https://linktophoto.jpg)
 
@@ -175,6 +186,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 The live link can be found here - https://beckoningstranger.github.io/rappelkiste
 
 ## Credits
+
+## Acknoledgements
 
 ### Content
 
