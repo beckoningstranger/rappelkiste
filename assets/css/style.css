@@ -632,11 +632,7 @@ div#name input {
     .blog-text {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .blog-photos {
-        flex-direction: column;
+        justify-content: flex-start;
     }
 
     .blog-body {

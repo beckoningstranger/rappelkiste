@@ -78,7 +78,7 @@ At the outset of this project, the design of the website was desktop first, whic
 
 As this was my first foray into designing, I had to adapt when I found that the initial design would not work or could be improved. The most significant of these changes was the contact page where I found that the two-column design with the clearly defined border in the middle would not be practical, even on larger screens as the picture would often be cut off or the two columns would not be of equal length, breaking the design. I eventually opted for a screen filling background picture with an overlaid box for the text and form.
 
-The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets with viewport widths greater than 540px but smaller than 1200px. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
+The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets with viewport widths greater than 540px but smaller than 1200px. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. 
 
 ## Features
 
@@ -96,36 +96,45 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 #### __Home page: Picture Gallery with text boxes and full page scrolling__
 
-    - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distrations. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
-      - For phones, a 1024x1024px sized picture, so that users can also use their phone in landscape mode without the picture being cut off.
-      - For tables and small laptops, a 1368x1368px sized picture. This specific size was chosen because of the Surface Pro 7 that has this exact width in landscape mode. The iPad Pro has a width of 1366px, which is very similar.
-      - For wider viewports, a picture with a width of 2160px is used.
-    All pictures are centered on both axes, except for the hero image where I wanted to about the gable of the house being cut off.
+  - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distrations. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
 
-    - For each pictures, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is most located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
-    To ensure that the text is easily to read, the overlay text box is semi-transparent, giving enough contrast against the background picture.
+    - For phones, a 1024x1024px sized picture, so that users can also use their phone in landscape mode without the picture being cut off.
+    - For tables and small laptops, a 1368x1368px sized picture. This specific size was chosen because of the Surface Pro 7 that has this exact width in landscape mode. The iPad Pro has a width of 1366px, which is very similar.
+    - For wider viewports, a picture with a width of 2160px is used.
 
-    - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
+  All pictures are centered on both axes, except for the hero image where I wanted to avoid the gable of the house being cut off.
 
-    ![Home page 1 of 5 sections](assets/readme-images/home-page-content.jpg)
+  - For each pictures, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is most located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
+  To ensure that the text is easily to read, the overlay text box is semi-transparent, giving enough contrast against the background picture.
+
+  - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
+
+  ![Home page 1 of 5 sections](assets/readme-images/home-page-content.jpg)
 
 #### __Footer__
 
-    - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
+  - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
 
-    ![Footer](assets/readme-images/footer.jpg)
+  ![Footer](assets/readme-images/footer.jpg)
 
-#### ____
+#### __Team Page__
 
-![Description](https://linktophoto.jpg)
+  - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
 
-- __Feature 3__
+  ![Team page - 1 column layout](/assets/readme-images/team-page-1-column.jpg)
+  ![Team page - 2 column layout](/assets/readme-images/team-page-2-columns.jpg)
+  ![Team page - wide viewports layout](/assets/readme-images/team-page-wide-viewports.jpg)
 
-    - Bullet Point 1
+#### __Stories Page__
 
-    - Bullet Point 2
+  - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen.
+  
+  ![Stories page - 1 column layout](/assets/readme-images/stories-page-one-column.jpg)
+  ![Stories page - 2 column layout](/assets/readme-images/stories-page-two-columns.jpg)
 
-![Description](https://linktophoto.jpg)
+#### __Get in Touch Page__
+
+  - 
 
 ### Future Implementations
 
@@ -135,9 +144,11 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### Languages Used
 
+HTML 5 & CSS 3
+
 ### Frameworks, Libraries & Programs Used
 
-![Figma](https://figma.com) - For creating wireframes and experimenting with page layouts
+![Figma](https://figma.com) - For creating designs and experimenting with page layouts
 
 ![Git](https://git-scm.com/) - For version control
 
