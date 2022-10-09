@@ -134,7 +134,11 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 #### __Get in Touch Page__
 
-  - 
+  - blabla
+
+  ![Get in Touch page - 1 column layout](/assets/readme-images/contact-page-one-column.jpg)
+  ![Get in Touch page - Layout with background image and overlaid form box](/assets/readme-images/contact-page-overlay-box.jpg)
+
 
 ### Future Implementations
 
