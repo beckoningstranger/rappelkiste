@@ -768,14 +768,6 @@ div#name input {
         height: 10vh
     }
 
-    h1 {
-        font-size: 50px;
-    }
-
-    #menu * {
-        font-size: 30px
-    }
-
     .active {
         border-bottom: 2px solid #fff
     }

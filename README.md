@@ -6,7 +6,7 @@ Visitors of the site are supposed to get a first impression of what makes this d
 
 Take a look at the deployed page: <a href="https://beckoningstranger.github.io/rappelkiste/index.html" target="_blank" rel="noopener">Rappelkiste</a>.
 
-![Responsive Design - Rappelkiste e.V.](/assets/README-images/amiresponsive.png)
+![Responsive Design - Rappelkiste e.V.](/assets/readme-images/amiresponsive.png)
 
 # CONTENTS
 
@@ -54,7 +54,7 @@ The website consists of four main pages and a thank you page. The [Home page](in
 
 ### Color Scheme
 
-![Color Scheme](/assets/README-images/color-scheme.jpg)
+![Color Scheme](/assets/readme-images/color-scheme.jpg)
 
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
@@ -71,32 +71,40 @@ Google Fonts was used for the following fonts:
 
 At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contat page which was redesigned at a late stage of development.
 
-![Home Wireframe](/assets/README-images/home-wireframe.jpg)
-![Team Wireframe](/assets/README-images/team-wireframe.jpg)
-![Stories Wireframe](/assets/README-images/stories-wireframe.jpg)
-![Get in Touch Wireframe](/assets/README-images/get-in-touch-wireframe.jpg)
+![Home Wireframe](/assets/readme-images/home-wireframe.jpg)
+![Team Wireframe](/assets/readme-images/team-wireframe.jpg)
+![Stories Wireframe](/assets/readme-images/stories-wireframe.jpg)
+![Get in Touch Wireframe](/assets/readme-images/get-in-touch-wireframe.jpg)
 
-As this was my first foray into designing, I had to adapt when I found that the initial design would not work. The most significant of these changes was the contact page where I found that the two-column design with the clearly defined border in the middle would not be practical, even on larger screens as the picture would be cut off. I eventually opted for a screen filling background picture with an overlaid box for the text and form.
+As this was my first foray into designing, I had to adapt when I found that the initial design would not work or could be improved. The most significant of these changes was the contact page where I found that the two-column design with the clearly defined border in the middle would not be practical, even on larger screens as the picture would often be cut off or the two columns would not be of equal length, breaking the design. I eventually opted for a screen filling background picture with an overlaid box for the text and form.
 
-The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite some research and also eventually consulted the tutor team.
+The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets with viewport widths greater than 540px but smaller than 1200px. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
 
 ## Features
 
 ### Existing Features
 
-- __Feature 1__
+#### __Navigation Menu__
 
-    - Bullet Point 1
+    - The navigation menu lets users access the four main pages of the website. It is responsive and displayed in two rows for viewport widths lower than 768px. In wider viewports, all of the content is fit into one row. 
+    - Users on devices with attached pointing devices will see a hovering effect that underlines the menu items they hover over.
+    - The page the users are on is displayed as underlined.
+    - The logo is also clickable, but will show the Home page if clicked.
 
-    - Bullet Point 2
+  ![Layout for viewport widths below 786px](assets/readme-images/topmenu-one-row.png)
+  ![Layout for viewport widths 786px and up](assets/readme-images/topmenu-two-rows.png)
 
-![Description](https://linktophoto.jpg)
+#### __Home page: Picture Gallery with text boxes and full page scrolling__
 
-- __Feature 2__
+    - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distrations. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
+      - For phones, a 1024x1024px sized picture, so that users can also use their phone in landscape mode without the picture being cut off.
+      - For tables and small laptops, a 1368x1368px sized picture. This specific size was chosen because of the Surface Pro 7 that has this exact width in landscape mode. The iPad Pro has a width of 1366px, which is very similar.
+      - For wider viewports, a picture with a width of 2160px is used.
+    All pictures are centered on both axes, except for the hero image where I wanted to about the gable of the house being cut off.
 
-    - Bullet Point 1
+    - For each pictures, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is most located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
 
-    - Bullet Point 2
+    - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
 
 ![Description](https://linktophoto.jpg)
 
