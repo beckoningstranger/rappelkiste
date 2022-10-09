@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit
+}
+
 /* Font and Font color */
 
 body {
@@ -34,11 +39,6 @@ h1 {
 
 #menu * {
     font-size: 6.4vw
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit
 }
 
 .active {
@@ -131,11 +131,6 @@ section.background-image-top-bottom {
     top: 33%
 }
 
-.auto-scroll-button a {
-    text-decoration: none;
-    color: inherit
-}
-
 .auto-scroll-button > p:hover {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -152,10 +147,6 @@ section.background-image-top-bottom {
     font-size: 4vh
 }
 
-#footer a {
-    text-decoration: none;
-    color: inherit
-}
 /* Team Page*/
 
 .team-member-container {
@@ -779,11 +770,6 @@ div#name input {
 
     #menu * {
         font-size: 30px
-    }
-
-    #menu a {
-        text-decoration: none;
-        color: inherit
     }
 
     .active {

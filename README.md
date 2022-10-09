@@ -50,9 +50,9 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 
 ### Color Scheme
 
-![Color Scheme](/assets/README-images/color-scheme.png)
+![Color Scheme](/assets/README-images/color-scheme.jpg)
 
-The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. 
+The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
 
 ### Typography
@@ -64,6 +64,15 @@ Google Fonts was used for the following fonts:
 - Meow Script is a monoline font that adds character to the site's logo.
 
 ### Wireframes
+
+At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contat page which was redesigned at a late stage of development.
+
+![Home Wireframe](/assets/README-images/home-wireframe.jpg)
+![Team Wireframe](/assets/README-images/team-wireframe.jpg)
+![Stories Wireframe](/assets/README-images/stories-wireframe.jpg)
+![Get in Touch Wireframe](/assets/README-images/get-in-touch-wireframe.jpg)
+
+
 
 ## Features
 
