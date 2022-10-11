@@ -424,7 +424,7 @@ div#submit-button {
 
     .overlay {
         width: 90%;
-        height: 25vh;
+        height: 30vh;
     }
 
     .overlay>h2 {
@@ -514,6 +514,10 @@ div#submit-button {
     #form label {
         font-size: 1rem
     }
+
+    div#submit-button {
+        padding-left: 10px;
+    }
 }
 
 @media screen and (min-width:540px) and (orientation: landscape) {
@@ -585,7 +589,7 @@ div#submit-button {
     }
 
     #menu * {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .overlay {
@@ -1020,6 +1024,10 @@ div#submit-button {
 
     div#info > ul > li {
         width: 48vw
+    }
+
+    div#submit-button {
+        padding-left: 15px;
     }
 
     /* Thank you page*/ 
