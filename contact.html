@@ -34,7 +34,7 @@
                         <li>Would you like to visit to have a look at our facilities?</li>
                         <li>Would you like to intern with us?</li>
                         <li>Do you have any other questions or feedback for us?</li>
-                        <br>
+                        <li></li>
                         <li>We would love to hear from you!</li>
                         <li>Just call or send an email by clicking the buttons at the bottom or use this contact form!</li>
                     </ul>
@@ -51,17 +51,15 @@
                                 <p><input type="text" id="lname" name="last_name" placeholder="Doe" required></p>
                             </div>
                         </div>
-                        <p id="email">
-                            <p><label for="email" id="email-input">Email:</label></p>
-                            <p><input type="email" id="email" name="email_address" placeholder="jane.doe@gmail.com" required></p>
-                        </p>
-                        <p id="message">
+                        <div id="email-add">
+                           <p><label for="email" id="email-input">Email:</label></p>
+                           <p><input type="email" id="email" name="email_address" placeholder="jane.doe@gmail.com" required></p>
+                        </div>
+                        <div id="message-from-user">
                             <p><label for="message" id="user-message-textarea">Message:</label></p>
-                            <p><textarea aria-label="Textbox" id="message" name="user_message" placeholder="Your message" required></textarea></p>
-                        </p>
-                        <p>
-                            <input type="submit" id="submit" value="Submit">
-                        </p>
+                         <p><textarea aria-label="Textbox" id="message" name="user_message" placeholder="Your message" required></textarea></p>
+                        </div>
+                        <div id="submit-button"><input type="submit" id="submit" value="Submit"></div>
                     </form>
                 </div>
             </div>

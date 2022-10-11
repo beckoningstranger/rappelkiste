@@ -236,7 +236,7 @@ section.background-image-top-bottom {
     font-size: 12px;
 }
 
-.blog-heading {
+.blog-heading > h3 {
     font-size: 7vw;
     text-align: center;
 }
