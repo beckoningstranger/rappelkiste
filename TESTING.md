@@ -42,6 +42,8 @@ To test compliance with HTML standards, the [W3C Markup Validation Service](http
 
 11. The form on the Get in Touch page would often overlap with the footer, especially on small viewports in landscape mode. This was fixed by giving the main section more height. Ideally, the main section would always fill up the entire alloted space between header and footer, but I don't think this can be done in an efficient way. One would probably have to optimize for every device specifically.
 
+12. Lighthouse Testing revealed a problem on the Stories page, where I had used \<h3\> for an article heading where I should have used \<h1\> because it was the topmost heading. I had done this in order not to confuse the styling with the heading on the Home page. This was solved by replacing the \<h3\> with \<h1\> and precise CSS styling.
+
 ## Known Bugs
 
 1. As I have mentioned before, when users navigate to the Teams page on viewports >1200px width, they will see the layout where all team member photos are displayed next to each other with an empty under the photos. Only when they hover the mouse over a photo or tap it (e.g. on tablets) will they see a description for this team member. This is not ideal, but I really believe in this layout because it's nicely interactive, shows all team members side by side and does not require any scrolling at all, making it nicely compact. I contacted the Code Institute tutors for help, but they could not figure out a way of showing the page with a team member pre-selected, at least not with pure HTML/CSS. This is something that I will solve once I learn about JavaScript, as I have been told that this is a common way of doing a layout like this.

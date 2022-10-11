@@ -32,7 +32,7 @@ body {
     height: 16vh;
 }
 
-h1 {
+#logo h1 {
     font-family: 'Meow Script', serif;
     color: #fff;
     font-size: 10vw;
@@ -244,7 +244,7 @@ section.background-image-top-bottom {
     font-size: 12px;
 }
 
-.blog-heading > h3 {
+.blog-heading > h1 {
     font-size: 7vw;
     text-align: center;
 }
@@ -522,7 +522,7 @@ div#submit-button {
 }
 
 @media screen and (min-width:540px) and (orientation: landscape) {
-    h1 {
+    #logo h1 {
         font-size: 2.4rem;    
     }
     
@@ -584,7 +584,7 @@ div#submit-button {
         height: auto;
     }
 
-    h1 {
+    #logo h1 {
         font-size: 2.6rem;
         letter-spacing: 2px;
     }
@@ -671,7 +671,7 @@ div#submit-button {
         font-size: 150%
     }
 
-    .blog-heading > h3 {
+    .blog-heading > h1 {
         font-size: 2.5rem
     }
 
@@ -739,7 +739,7 @@ div#submit-button {
 }
 
 @media screen and (min-width:1024px) {
-    h1 {
+    #logo h1 {
         font-size: 4rem
     }
 
