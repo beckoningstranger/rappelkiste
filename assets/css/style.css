@@ -310,6 +310,14 @@ table {
     height: 5vw;
 }
 
+#contact-page-container input:focus {
+    border: 5px solid #F3A712;
+}
+
+#contact-page-container textarea:focus {
+    border: 5px solid #F3A712;
+}
+
 #contact-page-container textarea {
     width: 96vw;
     border-radius: 10px;

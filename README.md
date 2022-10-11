@@ -104,7 +104,7 @@ The website consists of four main pages and a thank you page. The [Home page](in
 
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
-The Marigold Orange was picked because it can highlight elements clearly on the mostly blue backgrounds. As orange is a complementary color for blue, they work nicely together.
+The Marigold Orange (#F3A712) was picked because it can highlight elements clearly. As orange is a complementary color for blue, they work nicely together.
 
 [Back to top](<#contents>)
 
