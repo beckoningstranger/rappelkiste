@@ -6,7 +6,7 @@ Visitors of the site are supposed to get a first impression of what makes this d
 
 Take a look at the deployed website: <a href="https://beckoningstranger.github.io/rappelkiste/index.html" target="_blank" rel="noopener">Rappelkiste</a>.
 
-![Responsive Design - Rappelkiste e.V.](/assets/readme-images/amiresponsive.jpg)
+![Responsive Design - Rappelkiste e.V.](/assets/documentation-images/amiresponsive.jpg)
 
 # Contents
 
@@ -100,7 +100,7 @@ The website consists of four main pages and a thank you page. The [Home page](in
 
 ## Color Scheme
 
-![Color Scheme](/assets/readme-images/color-scheme.png)
+![Color Scheme](/assets/documentation-images/color-scheme.png)
 
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
@@ -122,10 +122,10 @@ Google Fonts was used for the following fonts:
 
 At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contat page which was redesigned at a late stage of development.
 
-![Home Wireframe](/assets/readme-images/home-wireframe.jpg)
-![Team Wireframe](/assets/readme-images/team-wireframe.jpg)
-![Stories Wireframe](/assets/readme-images/stories-wireframe.jpg)
-![Get in Touch Wireframe](/assets/readme-images/get-in-touch-wireframe.jpg)
+![Home Wireframe](/assets/documentation-images/home-wireframe.jpg)
+![Team Wireframe](/assets/documentation-images/team-wireframe.jpg)
+![Stories Wireframe](/assets/documentation-images/stories-wireframe.jpg)
+![Get in Touch Wireframe](/assets/documentation-images/get-in-touch-wireframe.jpg)
 
 As this was my first foray into designing, I had to adapt when I found that the initial design would not work or could be improved. The most significant of these changes was the contact page where I found that the two-column design with the clearly defined border in the middle would not be practical, even on larger screens as the picture would often be cut off or the two columns would not be of equal length, breaking the design. I eventually opted for a screen filling background picture with an overlaid box for the text and form.
 
@@ -144,8 +144,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
     - The page the users are on is displayed as underlined.
     - The logo is also clickable, but will show the Home page if clicked.
 
-  ![Layout for viewport widths below 786px](assets/readme-images/topmenu-one-row.png)
-  ![Layout for viewport widths 786px and up](assets/readme-images/topmenu-two-rows.png)
+  ![Layout for viewport widths below 786px](assets/documentation-images/topmenu-one-row.png)
+  ![Layout for viewport widths 786px and up](assets/documentation-images/topmenu-two-rows.png)
 
 [Back to top](<#contents>)
 
@@ -164,7 +164,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
 
-  ![Home page 1 of 5 sections](assets/readme-images/home-page-content.jpg)
+  ![Home page 1 of 5 sections](assets/documentation-images/home-page-content.jpg)
 
 [Back to top](<#contents>)  
 
@@ -172,7 +172,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
 
-  ![Footer](assets/readme-images/footer.jpg)
+  ![Footer](assets/documentation-images/footer.jpg)
 
 [Back to top](<#contents>)
 
@@ -181,9 +181,9 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
   - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
   - The Team page will give users an idea of who will look after their children and what background they have, the aim is to build trust.
 
-  ![Team page - 1 column layout](/assets/readme-images/team-page-1-column.jpg)
-  ![Team page - 2 column layout](/assets/readme-images/team-page-2-columns.jpg)
-  ![Team page - wide viewports layout](/assets/readme-images/team-page-wide-viewports.jpg)
+  ![Team page - 1 column layout](/assets/documentation-images/team-page-1-column.jpg)
+  ![Team page - 2 column layout](/assets/documentation-images/team-page-2-columns.jpg)
+  ![Team page - wide viewports layout](/assets/documentation-images/team-page-wide-viewports.jpg)
 
 [Back to top](<#contents>)
 
@@ -191,8 +191,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen. On this page, users can read more about the team's work, recent events and projects the children did and anything else the teachers might choose to blog about. All of this serves to build trust in the day care center and its team's work.
   
-  ![Stories page - 1 column layout](/assets/readme-images/stories-page-one-column.jpg)
-  ![Stories page - 2 column layout](/assets/readme-images/stories-page-two-columns.jpg)
+  ![Stories page - 1 column layout](/assets/documentation-images/stories-page-one-column.jpg)
+  ![Stories page - 2 column layout](/assets/documentation-images/stories-page-two-columns.jpg)
 
 [Back to top](<#contents>)
 
@@ -200,8 +200,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. Upon submitting the form, users are taken to a simple Thank You page.
 
-  ![Get in Touch page - 1 column layout](/assets/readme-images/contact-page-one-column.jpg)
-  ![Get in Touch page - Layout with background image and overlaid form box](/assets/readme-images/contact-page-overlay-box.jpg)
+  ![Get in Touch page - 1 column layout](/assets/documentation-images/contact-page-one-column.jpg)
+  ![Get in Touch page - Layout with background image and overlaid form box](/assets/documentation-images/contact-page-overlay-box.jpg)
 
 [Back to top](<#contents>)
 
@@ -209,7 +209,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
   
   - From this simple page, user can navigate back to where they want, as the navigation menu at the top is shown as on all other sites. This just serves as feedback that their message was processed.
 
-  ![Thank You page](assets/readme-images/thank-you-page.jpg)
+  ![Thank You page](assets/documentation-images/thank-you-page.jpg)
 
 [Back to top](<#contents>)
 
@@ -234,7 +234,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ## Accessibility
 
-I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc.
+I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc. To further ensure that the site is accessible I ran tests with the Web Accessibility Evaluation Tool (WAVE) and also used a Chrome browser extension called Web Disability Simulator. More on this in [Testing](#testing).
 
 # Technologies Used
 
@@ -262,7 +262,7 @@ HTML5 & CSS3
 
 * [Favicon.io](https://favicon.io/) - To create a favicon
 
-* [Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on all of the images used in this README file
+* [Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on all of the images used in this documentation file
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - To ensure accessibility for all users
 
@@ -283,7 +283,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 ## How to Deploy the Project on GitHub Pages
 
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
-![Image of the repository's website](assets/readme-images/how-to-deploy.png)
+![Image of the repository's website](assets/documentation-images/how-to-deploy.png)
 2. Click on the 'Settings' button in the top menu
 3. Select the 'Pages' section in the side bar on the left
 4. Under 'Source' select 'Deploy from a branch'
@@ -291,7 +291,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 6. Click 'Save'
 7. After about a minute, when you come back to the page, you will see the message 'Your site is live ...' with a link you can simply click.
 
-![Here's a short gif of the process:](assets/readme-images/how-to-deploy.gif)
+![Here's a short gif of the process:](assets/documentation-images/how-to-deploy.gif)
 
 [Back to top](<#contents>)
 
@@ -300,7 +300,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 2. Click the 'Fork' button at the top right of the page. If you are not the owner of the project, it will not appear greyed out to you:
 
-![Location of Fork button](assets/readme-images/how-to-fork.png)
+![Location of Fork button](assets/documentation-images/how-to-fork.png)
 
 [Back to top](<#contents>)
 
@@ -309,7 +309,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 2. Click the 'Code' button, make sure you have HTTPS selected and then click the button to copy the link to your clipboard as demonstrated in this GIF:
 
-  ![How to Clone](assets/readme-images/how-to-clone.gif)
+  ![How to Clone](assets/documentation-images/how-to-clone.gif)
 
 3. Open your IDE and either use the functionality it provides to paste your link and have your clone created or go to the terminal and type: 'git clone \[insert your link here\]'
 4. Hit ENTER and wait for you local clone to be created.

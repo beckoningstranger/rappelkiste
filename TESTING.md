@@ -1,12 +1,22 @@
-### Validator Testing
+# Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+## Validator Testing
 
-- Lighthouse
 
-- WAVE
+### HTML and CSS
 
-### Unfixed Bugs
+To test compliance with HTML standards, the [W3C Markup Validation Service](https://validator.w3.org/) was used. Here are the results for all files:
+
+![index.html](/assets/documentation-images/code-validation-index.png) 
+![team.html](/assets/documentation-images/code-validation-team.png) 
+![stories.html](/assets/documentation-images/code-validation-stories.png) 
+![contact.html]/assets/documentation-images/code-validation-contact.png) 
+![thankyou.html](/assets/documentation-images/code-validation-thankyou.png)
+![style.css](assets/documentation-images/jigsaw-validation.png)
+
+
+### Lighthouse Test
+
+### WAVE
+
+## Unfixed Bugs
