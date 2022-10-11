@@ -320,11 +320,11 @@ table {
 }
 
 #contact-page-container input:focus {
-    border: 5px solid #F3A712;
+    border: 3px solid #F3A712;
 }
 
 #contact-page-container textarea:focus {
-    border: 5px solid #F3A712;
+    border: 3px solid #F3A712;
 }
 
 #contact-page-container textarea {
@@ -516,6 +516,7 @@ div#submit-button {
     }
 
     div#submit-button {
+        padding-top: 5px;
         padding-left: 10px;
     }
 }
