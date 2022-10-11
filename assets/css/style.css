@@ -276,7 +276,8 @@ section.background-image-top-bottom {
 }
 
 .blog-body ul {
-    margin-left: 2rem
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Get in Touch Page */
@@ -650,6 +651,10 @@ div#name input {
 
     .blog-body {
         font-size: 150%
+    }
+
+    .blog-heading > h3 {
+        font-size: 2.5rem
     }
 
     /* Get in Touch page*/
