@@ -8,7 +8,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 ![Responsive Design - Rappelkiste e.V.](/assets/readme-images/amiresponsive.jpg)
 
-# CONTENTS
+# Contents
 
 * [**User Experience UX**](#user-experience-ux)
   * [User Stories](#user-stories)
@@ -20,30 +20,33 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
     * [Wireframes](#wireframes)
-  * [Features](#features)
-    * [Existing Features](#existing-features)
-      * [Navigation Menu](#navigation-menu)
-      * [Home Page: Picture Gallery with text boxes and full page scrolling](#home-page-picture-gallery-with-text-boxes-and-full-page-scrolling)
-      * [Footer](#footer)
-      * [Team Page](#team-page)
-      * [Stories Page](#stories-page)
-      * [Get in Touch Page](#get-in-touch-page)
-      * [Thank You Page](#thank-you-page)
+* [Features](#features)
+  * [Existing Features](#existing-features)
+    * [Navigation Menu](#navigation-menu)
+    * [Home Page: Picture Gallery with text boxes and full page scrolling](#home-page-picture-gallery-with-text-boxes-and-full-page-scrolling)
+    * [Footer](#footer)
+    * [Team Page](#team-page)
+    * [Stories Page](#stories-page)
+    * [Get in Touch Page](#get-in-touch-page)
+    * [Thank You Page](#thank-you-page)
     * [Future Implementations](#future-implementations)
       * [Teachers Section](#teachers-section)
       * [Members Section](#members-section)
       * [Updated Team Page](#updated-team-page)
       * [Swipe actions](#swipe-actions)
   * [Accessibility](#accessibility)
-  * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-  * [Testing](#testing)
-  * [Deployment](#deployment)
-  * [Credits](#credits)
-    * [Content](#content)
-    * [Media](#media)
-  * [Acknoledgements](#acknoledgements)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+  * [How to Deploy the Project on GitHub Pages](#how-to-deploy-the-project)
+  * [How to Forl the Repository on GitHub](#how-to-fork-the-repository-on-github)
+  * [How to Clone the Repository on GitHub](#how-to-clone-the-respository-on-github)
+* [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+* [Acknoledgements](#acknoledgements)
 
 # User Experience UX
 
@@ -87,24 +90,25 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 [Back to top](<#contents>)
 
-## Design
+# Design
 
-### Site Structure
+## Site Structure
 
 The website consists of four main pages and a thank you page. The [Home page](index.html) is the landing page, while the [Team page](team.html), the [Stories](stories.html) and the [Get in Touch](contact.html) page are accessible via the top menu. Once the user successfully submits a message on the [Get in Touch page](contact.html), they are taken to a simple [Thank You page](thankyou.html), from where they can navigate anywhere they want via the top menu.
 
 [Back to top](<#contents>)
 
-### Color Scheme
+## Color Scheme
 
-![Color Scheme](/assets/readme-images/color-scheme.jpg)
+![Color Scheme](/assets/readme-images/color-scheme.png)
 
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
+The Marigold Orange was picked because it can highlight elements clearly on the mostly blue backgrounds. As orange is a complementary color for blue, they work nicely together.
 
 [Back to top](<#contents>)
 
-### Typography
+## Typography
 
 Google Fonts was used for the following fonts:
 
@@ -114,7 +118,7 @@ Google Fonts was used for the following fonts:
 
 [Back to top](<#contents>)
 
-### Wireframes
+## Wireframes
 
 At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contat page which was redesigned at a late stage of development.
 
@@ -129,11 +133,11 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-## Features
+# Features
 
-### Existing Features
+## Existing Features
 
-#### __Navigation Menu__
+### __Navigation Menu__
 
     - The navigation menu lets users access the four main pages of the website. It is responsive and displayed in two rows for viewport widths lower than 768px. In wider viewports, all of the content is fit into one row. 
     - Users on devices with attached pointing devices will see a hovering effect that underlines the menu items they hover over.
@@ -145,7 +149,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-#### __Home page: Picture Gallery with text boxes and full page scrolling__
+### __Home page: Picture Gallery with text boxes and full page scrolling__
 
   - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distrations. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
 
@@ -164,7 +168,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)  
 
-#### __Footer__
+### __Footer__
 
   - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
 
@@ -172,7 +176,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-#### __Team Page__
+### __Team Page__
 
   - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
   - The Team page will give users an idea of who will look after their children and what background they have, the aim is to build trust.
@@ -183,7 +187,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-#### __Stories Page__
+### __Stories Page__
 
   - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen. On this page, users can read more about the team's work, recent events and projects the children did and anything else the teachers might choose to blog about. All of this serves to build trust in the day care center and its team's work.
   
@@ -192,7 +196,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-#### __Get in Touch Page__
+### __Get in Touch Page__
 
   - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. Upon submitting the form, users are taken to a simple Thank You page.
 
@@ -201,7 +205,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-#### __Thank You Page__
+### __Thank You Page__
   
   - From this simple page, user can navigate back to where they want, as the navigation menu at the top is shown as on all other sites. This just serves as feedback that their message was processed.
 
@@ -209,36 +213,36 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 [Back to top](<#contents>)
 
-### Future Implementations
+## Future Implementations
 
-#### Teachers Section
+### Teachers Section
   -  An teacher section that allows teachers to
     - publish more articles on the Stories page.
     - post announcements for all current parents. Polls are another idea.
 
-#### Members Section
+### Members Section
   - A members section where parents can read the announcements that teachers have previously posted (cf. idea above)
 
-#### Updated Team page
+### Updated Team page
   - An update to the Team page layout visible with viewports wider than 1200px so that when users come to it, a teacher is pre-selected.
 
-#### Swipe actions
+### Swipe actions
 
   - Swipe actions on mobile devices to let users navigate from page to page, giving it the feel of an app.
 
 [Back to top](<#contents>)
 
-### Accessibility
+## Accessibility
 
 I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc.
 
-## Technologies Used
+# Technologies Used
 
-### Languages Used
+## Languages Used
 
 HTML5 & CSS3
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 * [Figma](https://figma.com) - For creating designs and experimenting with page layouts
 
@@ -268,15 +272,15 @@ HTML5 & CSS3
 
 [Back to top](<#contents>)
 
-## Testing
+# Testing
 
 Please go [here](TESTING.md) for information about the testing that went into this project.
 
 [Back to top](<#contents>)
 
-## Deployment
+# Deployment
 
-### How to Deploy the Project
+## How to Deploy the Project on GitHub Pages
 
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 ![Image of the repository's website](assets/readme-images/how-to-deploy.png)
@@ -291,7 +295,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 
 [Back to top](<#contents>)
 
-### How to Fork the Repository on GitHub
+## How to Fork the Repository on GitHub
 
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 2. Click the 'Fork' button at the top right of the page. If you are not the owner of the project, it will not appear greyed out to you:
@@ -300,7 +304,7 @@ Please go [here](TESTING.md) for information about the testing that went into th
 
 [Back to top](<#contents>)
 
-### How to Clone the Respository on GitHub
+## How to Clone the Respository on GitHub
 
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 2. Click the 'Code' button, make sure you have HTTPS selected and then click the button to copy the link to your clipboard as demonstrated in this GIF:
@@ -312,9 +316,9 @@ Please go [here](TESTING.md) for information about the testing that went into th
 
 [Back to top](<#contents>)
 
-## Credits
+# Credits
 
-### Content
+## Content
 
 All of the content on the Home Page was written by myself, except for the heading 'Your child is unique - so are we', which was written by the Rappelkiste's team and only translated from the German 'Ihr Kind ist einzigartig - wir sind es auch'. This can be found on [their current live website](https://www.rappelkiste-siegen.de), specifically [here](https://www.rappelkiste-siegen.de/wer-wir-sind/).
 
@@ -324,7 +328,7 @@ All of the other content is original and written by the me, Jan Eisen.
 
 [Back to top](<#contents>)
 
-### Media
+## Media
 
 All photos on the page were taken by the Rappelkiste's team and are used with express permission by them. There are only three exceptions to this:
 
@@ -334,7 +338,7 @@ All photos on the page were taken by the Rappelkiste's team and are used with ex
 
 [Back to top](<#contents>)
 
-## Acknoledgements
+# Acknoledgements
 
 I would like to thank the following people
 
