@@ -38,15 +38,12 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
   * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
     * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-  * [Deployment & Local Development](#deployment--local-development)
   * [Testing](#testing)
+  * [Deployment](#deployment)
   * [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
   * [Acknoledgements](#acknoledgements)
-
-
-
 
 # User Experience UX
 
@@ -233,11 +230,13 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### Accessibility
 
+I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc.
+
 ## Technologies Used
 
 ### Languages Used
 
-HTML 5 & CSS 3
+HTML5 & CSS3
 
 ### Frameworks, Libraries & Programs Used
 
@@ -245,7 +244,7 @@ HTML 5 & CSS 3
 
 * [Git](https://git-scm.com/) - For version control
 
-* [Github](https://github.com) - To save and store my project files
+* [GitHub](https://github.com) - To save and store my project files
 
 * [Google Fonts](https://fonts.google.com/) - To find and import fonts
 
@@ -265,9 +264,9 @@ HTML 5 & CSS 3
 
 * [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) - To further ensure accessibility for all users
 
-[Back to top](<#contents>)
+* [Google Translate](https://translate.google.com) - To translate some of the content from German to English
 
-## Deployment & Local Development
+[Back to top](<#contents>)
 
 ## Testing
 
@@ -277,12 +276,39 @@ Please go [here](TESTING.md) for information about the testing that went into th
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+### How to Deploy the Project
 
-The live link can be found here - https://beckoningstranger.github.io/rappelkiste
+1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
+![Image of the repository's website](assets/readme-images/how-to-deploy.png)
+2. Click on the 'Settings' button in the top menu
+3. Select the 'Pages' section in the side bar on the left
+4. Under 'Source' select 'Deploy from a branch'
+5. Select the 'main' branch
+6. Click 'Save'
+7. After about a minute, when you come back to the page, you will see the message 'Your site is live ...' with a link you can simply click.
+
+![Here's a short gif of the process:](assets/readme-images/how-to-deploy.gif)
+
+[Back to top](<#contents>)
+
+### How to Fork the Repository on GitHub
+
+1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
+2. Click the 'Fork' button at the top right of the page. If you are not the owner of the project, it will not appear greyed out to you:
+
+![Location of Fork button](assets/readme-images/how-to-fork.png)
+
+[Back to top](<#contents>)
+
+### How to Clone the Respository on GitHub
+
+1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
+2. Click the 'Code' button, make sure you have HTTPS selected and then click the button to copy the link to your clipboard as demonstrated in this GIF:
+
+  ![How to Clone](assets/readme-images/how-to-clone.gif)
+
+3. Open your IDE and either use the functionality it provides to paste your link and have your clone created or go to the terminal and type: 'git clone \[insert your link here\]'
+4. Hit ENTER and wait for you local clone to be created.
 
 [Back to top](<#contents>)
 
@@ -290,18 +316,34 @@ The live link can be found here - https://beckoningstranger.github.io/rappelkist
 
 ### Content
 
-- Bullet Point 1
-- Bullet Point 2
+All of the content on the Home Page was written by myself, except for the heading 'Your child is unique - so are we', which was written by the Rappelkiste's team and only translated from the German 'Ihr Kind ist einzigartig - wir sind es auch'. This can be found on [their current live website](https://www.rappelkiste-siegen.de), specifically [here](https://www.rappelkiste-siegen.de/wer-wir-sind/).
+
+The Team Page and Stories page content was also written by the Rappelkiste's team and then translated by Google Translate. All of the content used is used with express permission from the team.
+
+All of the other content is original and written by the me, Jan Eisen.
 
 [Back to top](<#contents>)
 
 ### Media
 
-- Bullet Point 1
-- Bullet Point 2
+All photos on the page were taken by the Rappelkiste's team and are used with express permission by them. There are only three exceptions to this:
+
+  1. The hero image, taken by myself
+  2. The image for the 'Out and About' section of the Home page. This was taken from Pexels, specifically [cottonbro](https://www.pexels.com/photo/a-boy-hiding-behind-the-wooden-sticks-6034408/).
+  3. The image of the police car in the article [Mr Röcher, the policeman comes to visit!](https://beckoningstranger.github.io/rappelkiste/stories.html) on the Stories page. I found it on [Pexels](https://www.pexels.com/photo/a-photo-of-a-police-car-3671134/), it was taken by Markus Spiske.
 
 [Back to top](<#contents>)
 
 ## Acknoledgements
+
+I would like to thank the following people
+
+* Precious Ijege, my mentor, for providing feedback on my ideas and helping me create this project.
+
+* Kera Cudmore, for her class on how to write a README and her insight she offered when I contacted her on Slack.
+
+* The Code Institute tutor team, especially for making me aware of flexbox, which solved so many problems for my page layout.
+
+* My family, for bearing with me when I dealt with time pressure and frustration.
 
 [Back to top](<#contents>)
