@@ -355,9 +355,18 @@ div#name input {
 
 #thank-you-message {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 85vh;
+}
+
+#thank-you-message > p {
+    font-family: 'Meow Script', serif;
+    color: #fff;
+    font-size: 6vw;
+    padding: 4vw;
+    text-align: center;
 }
 
 /* Media Queries */
@@ -985,6 +994,12 @@ div#name input {
 
     div#info > ul > li {
         width: 48vw
+    }
+
+    /* Thank you page*/ 
+
+    #thank-you-message > p {
+        font-size: 4rem;
     }
 }
 
