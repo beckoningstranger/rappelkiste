@@ -120,6 +120,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 #### __Team Page__
 
   - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
+  - The Team page will give users an idea of who will look after their children and what background they have, the aim is to build trust.
 
   ![Team page - 1 column layout](/assets/readme-images/team-page-1-column.jpg)
   ![Team page - 2 column layout](/assets/readme-images/team-page-2-columns.jpg)
@@ -127,20 +128,30 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 #### __Stories Page__
 
-  - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen.
+  - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen. On this page, users can read more about the team's work, recent events and projects the children did and anything else the teachers might choose to blog about. All of this serves to build trust in the day care center and its team's work.
   
   ![Stories page - 1 column layout](/assets/readme-images/stories-page-one-column.jpg)
   ![Stories page - 2 column layout](/assets/readme-images/stories-page-two-columns.jpg)
 
 #### __Get in Touch Page__
 
-  - blabla
+  - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. Upon submitting the form, users are taken to a simple Thank You page.
 
   ![Get in Touch page - 1 column layout](/assets/readme-images/contact-page-one-column.jpg)
   ![Get in Touch page - Layout with background image and overlaid form box](/assets/readme-images/contact-page-overlay-box.jpg)
 
+#### __Thank You Page__
+  
+  - From this simple page, user can navigate back to where they want, as the navigation menu at the top is shown as on all other sites. This just serves as feedback that their message was processed.
+
+  ![Thank You page](assets/readme-images/thank-you-page.jpg)
 
 ### Future Implementations
+
+* An admin section that allows teachers to publish more articles on the Stories page.
+* A members section where teachers can post announcements for all current parents. Polls are another idea.
+* An update to the Team page layout visible with viewports wider than 1200px so that when users come to it, a teacher is pre-selected.
+* Swipe actions on mobile devices to let users navigate from page to page, giving it the feel of an app.
 
 ### Accessibility
 
