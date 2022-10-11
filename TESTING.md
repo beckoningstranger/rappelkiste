@@ -2,7 +2,6 @@
 
 ## Validator Testing
 
-
 ### HTML and CSS
 
 To test compliance with HTML standards, the [W3C Markup Validation Service](https://validator.w3.org/) was used. Here are the results for all files:

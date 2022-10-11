@@ -29,12 +29,13 @@ body {
 #header {
     background: url(../images/header-2160-150.png) no-repeat center center;
     padding: 10px 5px;
+    height: 16vh;
 }
 
 h1 {
     font-family: 'Meow Script', serif;
     color: #fff;
-    font-size: 10vw;    
+    font-size: 10vw;
 }
 
 #menu * {
@@ -45,6 +46,7 @@ ul#menu {
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
+    line-height: 2.4rem;
 }
 
 .active {
@@ -574,6 +576,7 @@ div#submit-button {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: auto;
     }
 
     h1 {
