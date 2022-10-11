@@ -1,4 +1,11 @@
-# Testing
+# Contents
+
+* [**Validator Testing**](#validator-testing)
+  * [HTML and CSS](#html-and-css)
+  * [Lighthouse Test](#lighthouse-test)
+  * [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+* [Solved Bugs](#solved-bugs)
+* [Known Bugs](#known-bugs)
 
 ## Validator Testing
 
@@ -6,17 +13,62 @@
 
 To test compliance with HTML standards, the [W3C Markup Validation Service](https://validator.w3.org/) was used. Here are the results for all files:
 
-![index.html](/assets/documentation-images/code-validation-index.png) 
-![team.html](/assets/documentation-images/code-validation-team.png) 
-![stories.html](/assets/documentation-images/code-validation-stories.png) 
-![contact.html]/assets/documentation-images/code-validation-contact.png) 
+![index.html](/assets/documentation-images/code-validation-index.png)
+![team.html](/assets/documentation-images/code-validation-team.png)
+![stories.html](/assets/documentation-images/code-validation-stories.png)
+![contact.html](/assets/documentation-images/code-validation-contact.png)
 ![thankyou.html](/assets/documentation-images/code-validation-thankyou.png)
-![style.css](assets/documentation-images/jigsaw-validation.png)
+![style.css](/assets/documentation-images/jigsaw-validation.png)
 
+[Back to top](<#contents>)
 
 ### Lighthouse Test
 
-### WAVE
+Lighthouse Test for desktops - Home
+
+![Lighthouse Test for desktops - Home](/assets/documentation-images/lighthouse-desktop-home.png)
+
+Lighthouse Test for mobile devices - Home
+
+![Lighthouse Test for mobile devices - Home](/assets/documentation-images/lighthouse-mobile-home.png)
+
+Lighthouse Test for desktops - Team
+
+![Lighthouse Test for desktops - Team](/assets/documentation-images/lighthouse-desktop-team.png)
+
+Lighthouse Test for mobile devices - Team
+
+![Lighthouse Test for mobile devices - Team](/assets/documentation-images/lighthouse-mobile-team.png)
+
+Lighthouse Test for desktops - Stories
+
+![Lighthouse Test for desktops - Stories](/assets/documentation-images/lighthouse-desktop-stories.png)
+
+Lighthouse Test for mobile devices - Stories
+
+![Lighthouse Test for mobile devices - Stories](/assets/documentation-images/lighthouse-mobile-stories.png)
+
+Lighthouse Test for desktops - Get in Touch
+
+![Lighthouse Test for desktops - Get in Touch](/assets/documentation-images/lighthouse-desktop-contact.png)
+
+Lighthouse Test for mobile devices - Get in Touch
+
+![Lighthouse Test for mobile devices - Get in Touch](/assets/documentation-images/lighthouse-mobile-contact.png)
+
+Lighthouse Test for desktops - Thank You
+
+![Lighthouse Test for desktops - Thank You](/assets/documentation-images/lighthouse-desktop-thankyou.png)
+
+Lighthouse Test for mobile devices - Thank You
+
+![Lighthouse Test for mobile devices - Thank You](/assets/documentation-images/lighthouse-mobile-thankyou.png)
+
+[Back to top](<#contents>)
+
+### WAVE Web Accessibility Evaluation Tool
+
+[Back to top](<#contents>)
 
 ## Solved Bugs
 
@@ -44,8 +96,12 @@ To test compliance with HTML standards, the [W3C Markup Validation Service](http
 
 12. Lighthouse Testing revealed a problem on the Stories page, where I had used \<h3\> for an article heading where I should have used \<h1\> because it was the topmost heading. I had done this in order not to confuse the styling with the heading on the Home page. This was solved by replacing the \<h3\> with \<h1\> and precise CSS styling.
 
+[Back to top](<#contents>)
+
 ## Known Bugs
 
 1. As I have mentioned before, when users navigate to the Teams page on viewports >1200px width, they will see the layout where all team member photos are displayed next to each other with an empty under the photos. Only when they hover the mouse over a photo or tap it (e.g. on tablets) will they see a description for this team member. This is not ideal, but I really believe in this layout because it's nicely interactive, shows all team members side by side and does not require any scrolling at all, making it nicely compact. I contacted the Code Institute tutors for help, but they could not figure out a way of showing the page with a team member pre-selected, at least not with pure HTML/CSS. This is something that I will solve once I learn about JavaScript, as I have been told that this is a common way of doing a layout like this.
 
 2. The form on the Contact page does not *actually* work, it does not send the gathered data anywhere. This is an obvious limitation in this project but can be rectified once I learn about back end technology.
+
+[Back to top](<#contents>)
