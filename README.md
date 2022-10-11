@@ -1,16 +1,54 @@
-# Rappelkiste e.V.
+# Kita Rappelkiste e.V.
 
-Rappelkiste e.V. is a site that is aimed at parents who are looking for a day care center for their unborn or newly born child. The German word Rappelkiste could be translated loosely to 'rattlebox', it refers to the house (the box) from which you can hear all kinds of noises (the rattling). "e.V." means "registered association", which is legally relevant and also hints at the fact that this day care center is special in that it was founded and is still run by parents, not the state, a church or any other institution.
+Kita Rappelkiste e.V. is a site that is aimed at parents who are looking for a day care center for their unborn or newly born child. "Kita" is a German abbreviation for KInderTAgesstätte, basically kindergarten. The German word Rappelkiste could be translated loosely to 'rattlebox', it refers to the house (the box) from which you can hear all kinds of noises (the rattling). "e.V." means "registered association", which is legally relevant and also hints at the fact that this day care center is special in that it was founded and is still run by parents, not the state, a church or any other institution.
 
 Visitors of the site are supposed to get a first impression of what makes this day care center special, i.e. is the picturesque building, the interior's cozy atmosphere, the friendly teachers, the fact that it has an above average sized team and that the teachers have lots of interesting activities and projects in store for the children which parents can read about in the Stories section. Users can then use the Get in Touch page or click the telephone/email links to contact the day care center.
 
-Take a look at the deployed page: <a href="https://beckoningstranger.github.io/rappelkiste/index.html" target="_blank" rel="noopener">Rappelkiste</a>.
+Take a look at the deployed website: <a href="https://beckoningstranger.github.io/rappelkiste/index.html" target="_blank" rel="noopener">Rappelkiste</a>.
 
-![Responsive Design - Rappelkiste e.V.](/assets/readme-images/amiresponsive.png)
+![Responsive Design - Rappelkiste e.V.](/assets/readme-images/amiresponsive.jpg)
 
 # CONTENTS
 
-# User Experience (UX)
+* [**User Experience UX**](#user-experience-ux)
+  * [User Stories](#user-stories)
+    * [Client Goals](#client-goals)
+    * [First Time Visitor Goals](#first-time-visitor-goals)
+    * [Returning Visitor Goals](#returning-visitor-goals)
+  * [Design](#design) 
+    * [Site Structure](#site-structure)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Wireframes](#wireframes)
+  * [Features](#features)
+    * [Existing Features](#existing-features)
+      * [Navigation Menu](#navigation-menu)
+      * [Home Page: Picture Gallery with text boxes and full page scrolling](#home-page-picture-gallery-with-text-boxes-and-full-page-scrolling)
+      * [Footer](#footer)
+      * [Team Page](#team-page)
+      * [Stories Page](#stories-page)
+      * [Get in Touch Page](#get-in-touch-page)
+      * [Thank You Page](#thank-you-page)
+    * [Future Implementations](#future-implementations)
+      * [Teachers Section](#teachers-section)
+      * [Members Section](#members-section)
+      * [Updated Team Page](#updated-team-page)
+      * [Swipe actions](#swipe-actions)
+  * [Accessibility](#accessibility)
+  * [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Deployment & Local Development](#deployment--local-development)
+  * [Testing](#testing)
+  * [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+  * [Acknoledgements](#acknoledgements)
+
+
+
+
+# User Experience UX
 
 ## User Stories
 
@@ -23,6 +61,8 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 * As a teacher I want to showcase projects that the teaching team has done with the children to further build confidence/trust in the team's work.
 
 * As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form.
+
+[Back to top](<#contents>)
 
 ### First Time Visitor Goals
 
@@ -38,6 +78,8 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 
 * As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home.
 
+[Back to top](<#contents>)
+
 ### Returning Visitor Goals
 
 * As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully.
@@ -46,11 +88,15 @@ Take a look at the deployed page: <a href="https://beckoningstranger.github.io/r
 
 * As a parent who has made an appointment for a personal visit, I want an easy way tp navigate to the day care center.
 
+[Back to top](<#contents>)
+
 ## Design
 
 ### Site Structure
 
 The website consists of four main pages and a thank you page. The [Home page](index.html) is the landing page, while the [Team page](team.html), the [Stories](stories.html) and the [Get in Touch](contact.html) page are accessible via the top menu. Once the user successfully submits a message on the [Get in Touch page](contact.html), they are taken to a simple [Thank You page](thankyou.html), from where they can navigate anywhere they want via the top menu.
+
+[Back to top](<#contents>)
 
 ### Color Scheme
 
@@ -59,6 +105,8 @@ The website consists of four main pages and a thank you page. The [Home page](in
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
 
+[Back to top](<#contents>)
+
 ### Typography
 
 Google Fonts was used for the following fonts:
@@ -66,6 +114,8 @@ Google Fonts was used for the following fonts:
 - Lusitana is used for headings and body text of the site. It is a serif font that is still very easy to read.
 
 - Meow Script is a monoline font that adds character to the site's logo.
+
+[Back to top](<#contents>)
 
 ### Wireframes
 
@@ -80,6 +130,8 @@ As this was my first foray into designing, I had to adapt when I found that the 
 
 The initial Team page design was realized for mid-sized screens, i.e. larger phones in landscape mode and tablets with viewport widths greater than 540px but smaller than 1200px. For smaller viewports I decided on a one-column design and for viewports over 1200px in width I found a completely new design that presents the team as a whole in one line with a text box under the pictures with changing text, depending on which picture the user taps/hovers. 
 
+[Back to top](<#contents>)
+
 ## Features
 
 ### Existing Features
@@ -93,6 +145,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   ![Layout for viewport widths below 786px](assets/readme-images/topmenu-one-row.png)
   ![Layout for viewport widths 786px and up](assets/readme-images/topmenu-two-rows.png)
+
+[Back to top](<#contents>)
 
 #### __Home page: Picture Gallery with text boxes and full page scrolling__
 
@@ -111,11 +165,15 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   ![Home page 1 of 5 sections](assets/readme-images/home-page-content.jpg)
 
+[Back to top](<#contents>)  
+
 #### __Footer__
 
   - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
 
   ![Footer](assets/readme-images/footer.jpg)
+
+[Back to top](<#contents>)
 
 #### __Team Page__
 
@@ -126,12 +184,16 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
   ![Team page - 2 column layout](/assets/readme-images/team-page-2-columns.jpg)
   ![Team page - wide viewports layout](/assets/readme-images/team-page-wide-viewports.jpg)
 
+[Back to top](<#contents>)
+
 #### __Stories Page__
 
   - The Stories page is also fully responsive, with a one column layout for viewports widths below 1200px and a two column layout for viewports above 1200px width. Where photo and viewport width allow, photos will be displayed next to each other to fit more content on the screen. On this page, users can read more about the team's work, recent events and projects the children did and anything else the teachers might choose to blog about. All of this serves to build trust in the day care center and its team's work.
   
   ![Stories page - 1 column layout](/assets/readme-images/stories-page-one-column.jpg)
   ![Stories page - 2 column layout](/assets/readme-images/stories-page-two-columns.jpg)
+
+[Back to top](<#contents>)
 
 #### __Get in Touch Page__
 
@@ -140,18 +202,34 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
   ![Get in Touch page - 1 column layout](/assets/readme-images/contact-page-one-column.jpg)
   ![Get in Touch page - Layout with background image and overlaid form box](/assets/readme-images/contact-page-overlay-box.jpg)
 
+[Back to top](<#contents>)
+
 #### __Thank You Page__
   
   - From this simple page, user can navigate back to where they want, as the navigation menu at the top is shown as on all other sites. This just serves as feedback that their message was processed.
 
   ![Thank You page](assets/readme-images/thank-you-page.jpg)
 
+[Back to top](<#contents>)
+
 ### Future Implementations
 
-* An admin section that allows teachers to publish more articles on the Stories page.
-* A members section where teachers can post announcements for all current parents. Polls are another idea.
-* An update to the Team page layout visible with viewports wider than 1200px so that when users come to it, a teacher is pre-selected.
-* Swipe actions on mobile devices to let users navigate from page to page, giving it the feel of an app.
+#### Teachers Section
+  -  An teacher section that allows teachers to
+    - publish more articles on the Stories page.
+    - post announcements for all current parents. Polls are another idea.
+
+#### Members Section
+  - A members section where parents can read the announcements that teachers have previously posted (cf. idea above)
+
+#### Updated Team page
+  - An update to the Team page layout visible with viewports wider than 1200px so that when users come to it, a teacher is pre-selected.
+
+#### Swipe actions
+
+  - Swipe actions on mobile devices to let users navigate from page to page, giving it the feel of an app.
+
+[Back to top](<#contents>)
 
 ### Accessibility
 
@@ -163,44 +241,39 @@ HTML 5 & CSS 3
 
 ### Frameworks, Libraries & Programs Used
 
-![Figma](https://figma.com) - For creating designs and experimenting with page layouts
+* [Figma](https://figma.com) - For creating designs and experimenting with page layouts
 
-![Git](https://git-scm.com/) - For version control
+* [Git](https://git-scm.com/) - For version control
 
-![Github](https://github.com) - To save and store my project files
+* [Github](https://github.com) - To save and store my project files
 
-![Google Fonts](https://fonts.google.com/) - To find and import fonts
+* [Google Fonts](https://fonts.google.com/) - To find and import fonts
 
-![Font Awesome](https://fontawesome.com/) - To build the full page scrolling navbar and additional iconography
+* [Font Awesome](https://fontawesome.com/) - To build the full page scrolling navbar and additional iconography
 
-![Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values
 
-![Compressor.io](https://compressor.io) - To compress images
+* [Compressor.io](https://compressor.io) - To compress images
 
-![GIMP](https://gimp.org) - To resize and convert images and to make the skies on the images I used one coherent color so that there is no visible transition to the header
+* [GIMP](https://gimp.org) - To resize and convert images and to make the skies on the images I used one coherent color so that there is no visible transition to the header
 
-![Favicon.io](https://favicon.io/) - To create a favicon
+* [Favicon.io](https://favicon.io/) - To create a favicon
 
-![Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on all of the images used in this README file
+* [Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on all of the images used in this README file
 
-![Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - To ensure accessibility for all users
+* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - To ensure accessibility for all users
+
+* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) - To further ensure accessibility for all users
+
+[Back to top](<#contents>)
 
 ## Deployment & Local Development
 
 ## Testing
 
-### Validator Testing
+Please go [here](TESTING.md) for information about the testing that went into this project.
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-- Lighthouse
-
-- WAVE
-
-### Unfixed Bugs
+[Back to top](<#contents>)
 
 ## Deployment
 
@@ -211,17 +284,24 @@ HTML 5 & CSS 3
 
 The live link can be found here - https://beckoningstranger.github.io/rappelkiste
 
-## Credits
+[Back to top](<#contents>)
 
-## Acknoledgements
+## Credits
 
 ### Content
 
 - Bullet Point 1
 - Bullet Point 2
 
+[Back to top](<#contents>)
+
 ### Media
 
 - Bullet Point 1
 - Bullet Point 2
 
+[Back to top](<#contents>)
+
+## Acknoledgements
+
+[Back to top](<#contents>)
