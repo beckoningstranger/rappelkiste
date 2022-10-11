@@ -7,9 +7,9 @@
 * [Solved Bugs](#solved-bugs)
 * [Known Bugs](#known-bugs)
 
-## Validator Testing
+# Validator Testing
 
-### HTML and CSS
+## HTML and CSS
 
 To test compliance with HTML standards, the [W3C Markup Validation Service](https://validator.w3.org/) was used. Here are the results for all files:
 
@@ -22,7 +22,7 @@ To test compliance with HTML standards, the [W3C Markup Validation Service](http
 
 [Back to top](<#contents>)
 
-### Lighthouse Test
+## Lighthouse Test
 
 Lighthouse Test for desktops - Home
 
@@ -66,11 +66,11 @@ Lighthouse Test for mobile devices - Thank You
 
 [Back to top](<#contents>)
 
-### WAVE Web Accessibility Evaluation Tool
+## WAVE Web Accessibility Evaluation Tool
 
 [Back to top](<#contents>)
 
-## Solved Bugs
+# Solved Bugs
 
 1. One problem that came up during Lighthouse testing was 'Tap target are not sized appropriately'. This was because the links in the top menu were two close together on small displays like on the Motorola G4. I first applied 'display: flex' and 'justify-content: space-between' to the menu to arrange for more horizontal space, then increased the overall size of the header for more vertical space. This solved the problem and got me to a perfect score in the SEO category if the Lighthouse test.
 
@@ -98,10 +98,25 @@ Lighthouse Test for mobile devices - Thank You
 
 [Back to top](<#contents>)
 
-## Known Bugs
+# Known Bugs
 
 1. As I have mentioned before, when users navigate to the Teams page on viewports >1200px width, they will see the layout where all team member photos are displayed next to each other with an empty under the photos. Only when they hover the mouse over a photo or tap it (e.g. on tablets) will they see a description for this team member. This is not ideal, but I really believe in this layout because it's nicely interactive, shows all team members side by side and does not require any scrolling at all, making it nicely compact. I contacted the Code Institute tutors for help, but they could not figure out a way of showing the page with a team member pre-selected, at least not with pure HTML/CSS. This is something that I will solve once I learn about JavaScript, as I have been told that this is a common way of doing a layout like this.
 
 2. The form on the Contact page does not *actually* work, it does not send the gathered data anywhere. This is an obvious limitation in this project but can be rectified once I learn about back end technology.
 
 [Back to top](<#contents>)
+
+# Responsiveness Test
+
+Thorough test were conducted to ensure that the website looks great both on devices as small as the Galaxy Fold, which has only 280px of horizontal space when in portrait mode up to viewports with 1920px in viewport width such as desktop computers. Mobile devices were tested both on Google Chrome and Firefox and both in portrait as well as landscape mode.
+
+All tests were carried out in the developer tools of the browsers.
+
+## Chrome
+
+|| Moto G4 | iPhone SE | iPhone XR | iPhone 12 Pro | Pixel 5 | Samsung Galaxy S8+ | Samsung Galaxy S20 Ultra | iPad Air | iPad Mini | iPad Pro | Surface Pro 7 | Surface Duo | Galaxy Fold | Nest Hub | Nest Hub Max | Pixel 2 XL | Laptops (1366x768) | Desktops (1920x1080px)
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Render | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Images | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Links | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+

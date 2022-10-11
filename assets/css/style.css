@@ -527,7 +527,7 @@ div#submit-button {
     }
     
     #menu * {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 2.7rem;
     }
 
@@ -590,7 +590,7 @@ div#submit-button {
     }
 
     #menu * {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .overlay {
@@ -726,7 +726,7 @@ div#submit-button {
     }
     
     #contact-page-container {
-        height: 138vh;
+        height: 150vh;
     }
 
     div#info > ul > li {

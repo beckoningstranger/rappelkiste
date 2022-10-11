@@ -254,7 +254,7 @@ HTML5 & CSS3
 
 * [Font Awesome](https://fontawesome.com/) - To build the full page scrolling navbar and additional iconography
 
-* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values. Also to test the website using the Lighthouse Test.
 
 * [Compressor.io](https://compressor.io) - To compress images
 
