@@ -155,6 +155,10 @@ section.background-image-top-bottom {
     font-size: 4vh
 }
 
+#footer a:hover {
+    color: #F3A712;
+}
+
 /* Team Page*/
 
 .team-member-container {
@@ -350,6 +354,18 @@ div#info {
 
 div#form p {
     font-size: 1.2rem;
+}
+
+div#form input:hover {
+    border: 3px solid #F3A712;
+}
+
+div#form textarea:hover {
+    border: 3px solid #F3A712;
+}
+
+#submit:hover {
+    background-color: #F3A712;
 }
 
 div#info > ul {

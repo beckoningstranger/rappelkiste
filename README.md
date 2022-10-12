@@ -104,7 +104,7 @@ The website consists of four main pages and a thank you page. The [Home page](in
 
 The color True Blue (#3567BB) was taken from the hero image that you see when you first visit the site, the darker blues were picked to create nice looking gradients that ensured contrast to keep the overlaid white text easy to read. The True Blue that's also present on every site in the header will hopefully set the mood for the entire page, as it is associated with good weather, sunshine and all the feelings that are associated with that.
 On the Team page, where the larger font size makes the text easier to read, I have picked a True Blue (#3567BB) to Dark Cornflower Blue (#19366D) gradient, on the Stories page, where the font size is significantly smaller and there's also just more text I have picked a Dark Cornflower Blue (#19366D) to Oxford Blue (#0A214B) gradient.
-The Marigold Orange (#F3A712) was picked because it can highlight elements clearly. As orange is a complementary color for blue, they work nicely together.
+The Marigold Orange (#F3A712) was picked because it can highlight elements clearly. It is used when users hover over interactive elements, such as the side bar on the Home page, the footer icons or the form on the Get in Touch page. As orange is a complementary color for blue, they work nicely together.
 
 [Back to top](<#contents>)
 
@@ -171,6 +171,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 ### __Footer__
 
   - The footer contains three links. One to easily place a call to the day care center, one to email them and one that will take you to Google Maps in case you want to see where the day care center is located or you want to navigate to it.
+  - When users hover over an icon, they get visual feedback as the icon is highlighted in orange.
 
   ![Footer](assets/documentation-images/footer.jpg)
 
@@ -198,7 +199,9 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Get in Touch Page__
 
-  - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. Upon submitting the form, users are taken to a simple Thank You page.
+  - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. 
+  - When users hover over the elements of the form, they get visual feedback as the elements are highlighted in orange.
+  - Upon submitting the form, users are taken to a simple Thank You page.
 
   ![Get in Touch page - 1 column layout](/assets/documentation-images/contact-page-one-column.jpg)
   ![Get in Touch page - Layout with background image and overlaid form box](/assets/documentation-images/contact-page-overlay-box.jpg)
@@ -348,8 +351,16 @@ I would like to thank the following people
 
 * Kera Cudmore, for her class on how to write a README and her insight she offered when I contacted her on Slack.
 
+* Chris Williams, for his peer code review when I asked for it on Slack.
+
+* Kristy Maulerova, for moral support and feedback during development and when I asked for peer code review on Slack.
+
+* Ewan Colquhoun, whose [first project's README](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md) served as a model for this one.
+
 * The Code Institute tutor team, especially for making me aware of flexbox, which solved so many problems for my page layout.
 
 * My family, for bearing with me when I dealt with time pressure and frustration.
+
+* My wife, for putting up with me and proofreading my work.
 
 [Back to top](<#contents>)
