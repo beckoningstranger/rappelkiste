@@ -7,7 +7,7 @@
 * [Responsiveness Test](#responsiveness-test)
   * [Chrome Dev Tools](#chrome-dev-tools)
   * [Firefox Dev Tools](#firefox-dev-tools)
-* [Testing User Stories]()
+* [Testing User Stories](#testing-user-stories)
 * [Solved Bugs](#solved-bugs)
 * [Known Bugs](#known-bugs)
 
@@ -152,7 +152,7 @@ The website was tested in Google Chrome, Mozilla Firefox and Microsoft Edge. Eve
 
 # Known Bugs
 
-1. As I have mentioned before, when users navigate to the Teams page on viewports >1200px width, they will see the layout where all team member photos are displayed next to each other with an empty under the photos. Only when they hover the mouse over a photo or tap it (e.g. on tablets) will they see a description for this team member. This is not ideal, but I really believe in this layout because it's nicely interactive, shows all team members side by side and does not require any scrolling at all, making it nicely compact. I contacted the Code Institute tutors for help, but they could not figure out a way of showing the page with a team member pre-selected, at least not with pure HTML/CSS. This is something that I will solve once I learn about JavaScript, as I have been told that this is a common way of doing a layout like this.
+1. As I have mentioned before, when users navigate to the Teams page on viewports >1200px width, they will see the layout where all team member photos are displayed next to each other with an empty under the photos. Only when they hover the mouse over a photo or tap it (e.g. on tablets) will they see a description for this team member. This is not ideal, but I really believe in this layout because it's nicely interactive, shows all team members side by side and does not require any scrolling at all, making it compact. I contacted the Code Institute tutors for help, but they could not figure out a way of showing the page with a team member pre-selected, at least not with pure HTML/CSS. This is something that I will solve once I learn about JavaScript, as I have been told that this is a common way of doing a layout like this.
 
 2. The form on the Contact page does not *actually* work, it does not send the gathered data anywhere. This is an obvious limitation in this project but can be rectified once I learn about back end technology.
 

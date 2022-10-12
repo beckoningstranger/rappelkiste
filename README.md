@@ -40,8 +40,8 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
-  * [How to Deploy the Project on GitHub Pages](#how-to-deploy-the-project)
-  * [How to Forl the Repository on GitHub](#how-to-fork-the-repository-on-github)
+  * [How to Deploy the Project on GitHub Pages](#how-to-deploy-the-project-on-github-pages)
+  * [How to Fork the Repository on GitHub](#how-to-fork-the-repository-on-github)
   * [How to Clone the Repository on GitHub](#how-to-clone-the-respository-on-github)
 * [Credits](#credits)
   * [Content](#content)
@@ -235,6 +235,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 ## Accessibility
 
 I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc. To further ensure that the site is accessible I ran tests with the Web Accessibility Evaluation Tool (WAVE) and also used a Chrome browser extension called Web Disability Simulator. More on this in [Testing](#testing).
+
+[Back to top](<#contents>)
 
 # Technologies Used
 
