@@ -110,7 +110,7 @@ All tests were carried out in the developer tools of the browsers.
 
 # Browser compatibility
 
-The website was tested in Google Chrome, Mozilla Firefox and Microsoft Edge. Everything worked as intended in realistic use cases. The layout is breakable, e.g. when you narrow the viewport height below 400px on desktop computers that maintain a wide viewport, but I do not expect users to run into scenarios like this.
+The website was tested in Google Chrome, Mozilla Firefox, Microsoft Edge, Opera and Brave. Everything worked as intended in realistic use cases. The layout is breakable, e.g. when you narrow the viewport height below 400px on desktop computers that maintain a wide viewport, but I do not expect users to run into scenarios like this.
 
 [Back to top](<#contents>)
 
