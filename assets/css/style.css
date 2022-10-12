@@ -304,16 +304,17 @@ table {
 #contact-page-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: rgba(0, 0, 0, 0.6);
     height: 80vh;
 }
 
 #contact-page-content > div {
-    width: 100vw;
+    width: 94vw;
 }
 
 #contact-page-container input {
-    width: 96vw;
+    width: 92vw;
     border-radius: 10px;
     text-indent: 5px;
     height: 5vw;
@@ -328,7 +329,7 @@ table {
 }
 
 #contact-page-container textarea {
-    width: 96vw;
+    width: 92vw;
     border-radius: 10px;
     text-indent: 5px;
     height: 19vh;
@@ -365,7 +366,7 @@ div#name {
 }
 
 div#name input {
-    width: 48vw;
+    width: 45.5vw;
 }
 
 div#submit-button {
@@ -565,13 +566,13 @@ span#contact-us {
     #form input {
         font-size: 0.9rem;
         height: 5.5vh;
-        width: 97vw;
+        width: 94vw;
         margin-top: 3px
     }
 
     #contact-page-container textarea {
         font-size: 0.9rem;
-        width: 97vw;
+        width: 94vw;
         height: 32vh;
         padding: 5px 5px;
     }
@@ -710,8 +711,8 @@ span#contact-us {
         display: flex;
     }
 
-    #name input {
-        width: 47.5vw;
+    div#name input {
+        width: 45.5vw;
     }
 }
 
@@ -739,6 +740,10 @@ span#contact-us {
 
     #form label {
         font-size: 1.3rem
+    }
+
+    div#name input {
+        width: 46.5vw;
     }
 }
 
