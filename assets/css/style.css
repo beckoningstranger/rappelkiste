@@ -406,7 +406,7 @@ span#contact-us {
 #thank-you-message > p {
     font-family: 'Meow Script', serif;
     color: #fff;
-    font-size: 6vw;
+    font-size: 8vw;
     padding: 4vw;
     text-align: center;
 }
@@ -428,6 +428,10 @@ span#contact-us {
 
     .auto-scroll-button {
         top: 20vh
+    }
+
+    #thank-you-message > p {
+        font-size: 1.5rem;
     }
 }
 
@@ -591,6 +595,10 @@ span#contact-us {
         width: 94vw;
         height: 32vh;
         padding: 5px 5px;
+    }
+
+    #thank-you-message > p {
+        font-size: 2rem;
     }
 }
 
@@ -1073,5 +1081,9 @@ span#contact-us {
 
     #contact-page-container {
         height: 80vh;
+    }
+
+    div#submit-button {
+        padding-left: 20px;
     }
 }
