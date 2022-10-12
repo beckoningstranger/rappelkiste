@@ -46,7 +46,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 * [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
-* [Acknoledgements](#acknoledgements)
+* [Acknowledgements](#acknowledgements)
 
 # User Experience UX
 
@@ -324,7 +324,7 @@ All of the content on the Home Page was written by myself, except for the headin
 
 The Team Page and Stories page content was also written by the Rappelkiste's team and then translated by Google Translate. All of the content used is used with express permission from the team.
 
-All of the other content is original and written by the me, Jan Eisen.
+All of the other content is original and written by the me.
 
 [Back to top](<#contents>)
 
@@ -332,13 +332,13 @@ All of the other content is original and written by the me, Jan Eisen.
 
 All photos on the page were taken by the Rappelkiste's team and are used with express permission by them. There are only three exceptions to this:
 
-  1. The hero image, taken by myself
+  1. The hero image was taken by myself.
   2. The image for the 'Out and About' section of the Home page. This was taken from Pexels, specifically [cottonbro](https://www.pexels.com/photo/a-boy-hiding-behind-the-wooden-sticks-6034408/).
   3. The image of the police car in the article [Mr Röcher, the policeman comes to visit!](https://beckoningstranger.github.io/rappelkiste/stories.html) on the Stories page. I found it on [Pexels](https://www.pexels.com/photo/a-photo-of-a-police-car-3671134/), it was taken by Markus Spiske.
 
 [Back to top](<#contents>)
 
-# Acknoledgements
+# Acknowledgements
 
 I would like to thank the following people
 

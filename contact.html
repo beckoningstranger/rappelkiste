@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get to know our day care center in Siegen, Germany">
     <meta name="keywords" content="day care, siegen, germany, rappelkiste">
+    <!-- CSS Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Kita Rappelkiste e.V. - Get in Touch</title>
+    <!-- Favicon Link -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+<!-- This page is structured into a header, a contact form with is preceded by some informational text, and a footer. -->
+
+    <!-- Header -->
     <header>
         <div id="header">
             <div id="logo">
                 <a href="index.html"><h1>Kita Rappelkiste e.V.</h1></a>
             </div>
+
+            <!-- Navigation Menu -->
             <nav>
                 <ul id="menu">
                     <li><a href="index.html" title="Get to know our facilities and learn more">Home</a></li>
@@ -26,9 +33,13 @@
             </nav>
         </div>
     </header>
+
     <main>
+        <!-- The following container holds both the informational text and the form. -->
         <div id="contact-page-container">
             <div id="contact-page-content">
+
+                <!-- Informational Text -->
                 <div id="info">
                     <ul>
                         <li>Are you looking for a day care center?</li>
@@ -39,8 +50,12 @@
                         <li><span id="contact-us">Just call or send an email by clicking the buttons at the bottom or use this contact form!</span></li>
                     </ul>
                 </div>
+
+                <!-- Message Form -->
                 <div id="form">
                     <form action="thankyou.html" method="get">
+
+                        <!-- Here users must input their name -->
                         <div id="name">
                             <div id="first-name">
                                 <p><label for="fname" id="first-name-input">First name:</label></p>
@@ -51,20 +66,28 @@
                                 <p><input type="text" id="lname" name="last_name" placeholder="Doe" required></p>
                             </div>
                         </div>
+
+                        <!-- Here users must input their email -->
                         <div id="email-add">
                            <p><label for="email" id="email-input">Email:</label></p>
                            <p><input type="email" id="email" name="email_address" placeholder="jane.doe@gmail.com" required></p>
                         </div>
+
+                        <!-- Here users must compose a message -->
                         <div id="message-from-user">
                             <p><label for="message" id="user-message-textarea">Message:</label></p>
                          <p><textarea aria-label="Textbox" id="message" name="user_message" placeholder="Your message" required></textarea></p>
                         </div>
+
+                        <!-- Submit button -->
                         <div id="submit-button"><input type="submit" id="submit" value="Submit"></div>
                     </form>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div id="footer">
             <a href="tel:+4927172551" title="Click this button to directly place a call"><i class="fa-solid fa-phone"></i></a>
@@ -72,6 +95,7 @@
             <a href="https://goo.gl/maps/WY2Kkp4BzMqdYsbh6" title="Find us on Google Maps" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
         </div>
     </footer>
-    <!-- font awesome script -->
+
+    <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/0f15d7891d.js" crossorigin="anonymous"></script>
 </html>
