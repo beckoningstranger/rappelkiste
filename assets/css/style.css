@@ -248,7 +248,7 @@ section.background-image-top-bottom {
     font-size: 12px;
 }
 
-.blog-heading > h1 {
+.blog-heading > h2 {
     font-size: 7vw;
     text-align: center;
 }
@@ -700,7 +700,7 @@ span.contact-us {
         font-size: 150%
     }
 
-    .blog-heading > h1 {
+    .blog-heading > h2 {
         font-size: 2.5rem
     }
 
