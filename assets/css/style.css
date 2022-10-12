@@ -372,6 +372,10 @@ div#submit-button {
     padding-left: 5px;
 }
 
+span#contact-us {
+    font-weight: 600;
+}
+
 /* Thank you page*/
 
 #thank-you-message {
@@ -708,10 +712,6 @@ div#submit-button {
 
     #name input {
         width: 47.5vw;
-    }
-
-    span#contact-us {
-        font-weight: 600;
     }
 }
 
