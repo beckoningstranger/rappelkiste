@@ -914,7 +914,7 @@ div#submit-button {
         display: block;
         visibility: hidden;
         position: absolute;
-        font-size: 200%;
+        font-size: 2rem;
         font-weight: 500;
         left: 1vw;
         top: 70%;
@@ -931,7 +931,7 @@ div#submit-button {
         top: 65%;
         margin: 0 auto;
         width: 98vw;
-        height: 220px;
+        height: 180px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 55px;
         border: 2px solid white;
@@ -1045,17 +1045,6 @@ div#submit-button {
  /* XX-Large Devices (large desktops, 1400px and up */
 
  @media screen and (min-width:1400px) {
-    #image-shelf-top {
-        padding: 12vh 0 5vh;
-    }
-
-    .team-member-description-reveal-on-hover {
-        top: 540px;
-    }
-
-    #team-member-description-box {
-        top: 560px;
-    }
 
     #contact-page-content {
         height: 77vh;
