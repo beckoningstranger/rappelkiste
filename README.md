@@ -60,7 +60,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 * As a teacher I want to showcase projects that the teaching team has done with the children so that the audience can further build confidence/trust in the team's work.
 
-* As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form so that the team can built a relation with them and their questions get answered.
+* As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form so that the team can build a relation with them and their questions get answered.
 
 [Back to top](<#contents>)
 
@@ -74,7 +74,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 * As a parent who is looking for a day care center for my child, I want to learn about who will look after my child and what background they have so that I can trust they are in good hands.
 
-* As a parent who is looking for a day care center for my child I want to learn about special activities the teachers planned for the children so that my child will have fun and constantly learn new things.
+* As a parent who is looking for a day care center for my child, I want to learn about special activities the teachers planned for the children so that my child will have fun and constantly learn new things.
 
 * As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home so that I can estimate how much effort will go into getting them there.
 
@@ -84,7 +84,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 * As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully, so that I know what my child is excited about and can take part in their life.
 
-* As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples so that there is no hurdle to get in touch.
+* As somebody who wants to get in touch with the day care center, I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples so that there is no hurdle to get in touch.
 
 * As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center so that I can plan accordingly.
 
@@ -159,8 +159,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
   All pictures are centered on both axes, except for the hero image where I wanted to avoid the gable of the house being cut off.
 
-  - For each pictures, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is most located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
-  To ensure that the text is easily to read, the overlay text box is semi-transparent, giving enough contrast against the background picture.
+  - For each picture, there is an overlaid text box, that provides additional information for users. This way, users get a good idea of the facilities and values that underpin the day to day life of the day care center. The text box is mostly located at the bottom center, expect when that would block an element of the photo that I wanted to be in clear view. In these cases, the text box was moved to the top center. These text boxes are also fully responsive and adapt to the viewport width and whether the device is in portrait or landscape mode. A lot of testing went into this, more on this in the [Testing Section](TESTING.md).
+  To ensure that the text is easy to read, the overlay text box is semi-transparent, giving enough contrast against the background picture.
 
   - A side bar with 5 dots, one for each section, gives the user an idea of the amount of sections he can see as well as a means to navigate to each section easily. Using this bar also has the advantage that each picture will be nicely aligned with the viewport edges. This sidebar is positioned at center left and will show a slight hover effect for users using pointing devices.
 
@@ -179,7 +179,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Team Page__
 
-  - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo pre-selected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
+  - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo pre-selected and the text box at the bottom filled. Unfortunately, there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
   - The Team page will give users an idea of who will look after their children and what background they have, the aim is to build trust.
 
   ![Team page - 1 column layout](/assets/documentation-images/team-page-1-column.jpg)
@@ -199,7 +199,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Get in Touch Page__
 
-  - The Get in Touch page is displayed with a one column layout for view for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. 
+  - The Get in Touch page is displayed with a one column layout for viewports below 1200px of width and a background page with an overlaid box on the left hand side for wider viewports. Here, users have another easy way to get in touch with the day care center. 
   - When users hover over the elements of the form, they get visual feedback as the elements are highlighted in orange.
   - Upon submitting the form, users are taken to a simple Thank You page.
 
@@ -219,9 +219,8 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 ## Future Implementations
 
 ### Teachers Section
-  -  An teacher section that allows teachers to
-    - publish more articles on the Stories page.
-    - post announcements for all current parents. Polls are another idea.
+
+  *  A teachers section that allows teachers to publish more articles on the Stories page and post announcements for all current parents. Polls are another idea.
 
 ### Members Section
   - A members section where parents can read the announcements that teachers have previously posted (cf. idea above)
@@ -237,7 +236,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ## Accessibility
 
-I have tried to keep with website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc. To further ensure that the site is accessible I ran tests with the Web Accessibility Evaluation Tool (WAVE) and also used a Chrome browser extension called Web Disability Simulator. More on this in [Testing](#testing).
+I have tried to keep the website as accessible as possible by using semantic HTML elements, providing adequate contrast for my fonts, which are sometimes displayed over images, especially on the Home and Get in Touch page, using the alt attribute for images, the title attribute for links, etc. To further ensure that the site is accessible I ran tests with the Web Accessibility Evaluation Tool (WAVE) and also used a Chrome browser extension called Web Disability Simulator. More on this in [Testing](#testing).
 
 [Back to top](<#contents>)
 
@@ -259,7 +258,7 @@ HTML5 & CSS3
 
 * [Font Awesome](https://fontawesome.com/) - To build the full page scrolling navbar and additional iconography
 
-* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values. Also to test the website using the Lighthouse Test.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To work out bugs, troubleshoot and test features and play around with property values. Also, to test the website using the Lighthouse Test.
 
 * [Compressor.io](https://compressor.io) - To compress images
 
@@ -329,7 +328,7 @@ All of the content on the Home Page was written by myself, except for the headin
 
 The Team Page and Stories page content was also written by the Rappelkiste's team and then translated by Google Translate. All of the content used is used with express permission from the team.
 
-All of the other content is original and written by the me.
+All of the other content is original and written by me.
 
 [Back to top](<#contents>)
 
@@ -353,7 +352,7 @@ I would like to thank the following people
 
 * Chris Williams, for his peer code review when I asked for it on Slack.
 
-* Kristy Maulerova, for moral support and feedback during development and when I asked for peer code review on Slack.
+* Kristy Maulerova, for moral support and feedback during development and when I asked for a peer code review on Slack.
 
 * Ewan Colquhoun, whose [first project's README](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md) served as a model for this one.
 
