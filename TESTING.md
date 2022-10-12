@@ -74,6 +74,13 @@ Lighthouse Test for mobile devices - Thank You
 
 ## WAVE Web Accessibility Evaluation Tool
 
+WAVE does not report any errors or contrast errors.
+
+![WAVE Testing - Home](/assets/documentation-images/WAVE-home.png)
+![WAVE Testing - Team](/assets/documentation-images/WAVE-team.png)
+![WAVE Testing - Stories](/assets/documentation-images/WAVE-stories.png)
+![WAVE Testing - Contact](/assets/documentation-images/WAVE-contact.png)
+
 [Back to top](<#contents>)
 
 # Responsiveness Test
@@ -109,16 +116,42 @@ The website was tested in Google Chrome, Mozilla Firefox and Microsoft Edge. Eve
 
 # Testing User Stories
 
-**As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.**
+**As a parent who is looking for a day care center for my child, I want to build trust with a day care center where my child will potentially spend most of their day so that I can send them there without having second thoughts.**
+
+  * This is the main aim of the whole site, so every single element of it should contribute towards this goal, be it looking at the inviting pictures, reading about the teachers, reading about the activities that were done or establishing first contact by getting in touch.
+
+**As a parent who is looking for a day care center for my child, I want to learn what sets the Rappelkiste apart so that I know my child can grow in a safe and stimulating place.**
+
+  * This information is presented in the text boxes of the Home page, but more can be learned on all of the sites. Users will learn more the more they explore.
+
+**As a parent who is looking for a day care center for my child, I want to learn what the facilities look like and get a vibe of the atmosphere so that I can be sure they are taken care of and will be happy there.**
+
+  * This is accomplished by the inviting pictures on the Home page that users will find immediately after finding the site. This is why the pictures are so prominent and the text boxes were positioned so that the pictures would remain in full view. Neither are the text boxes to distract from the pictures nor the other way around.
+
+**As a parent who is looking for a day care center for my child, I want to learn about who will look after my child and what background they have so that I can trust they are in good hands.**
+
+  * Users who are especially concerned about the team's background will quickly find the Team page through the top menu. On there, the information is presented in a clear and concise way. Also, reading the articles on the Stories page is like listening to the teachers directly.
+
+**As a parent who is looking for a day care center for my child I want to learn about special activities the teachers planned for the children so that my child will have fun and constantly learn new things.**
+
+  * This is the reason why the Stories page is included. It showcases the amazing work the team is doing. Just by reading the limited number the Stories page offers, they will learn that the children do experiments, learn about first aid or how to conduct themselves in traffic.
+
+**As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home so that I can estimate how much effort will go into getting them there.**
+
+  * Users will find the location icon in the footer which will take them to Google Maps.
+
+**As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples so that there is no hurdle to get in touch.**
 
   * Users will find 'Get in Touch' prominently in the top menu. On the Get in Touch page, they are made aware of the footer if they have not noticed it already. Clicking either of the links allows them to get in touch, in addition to the form. Of course, they may also find the footer while exploring the other pages.
 
+
+**As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully, so that I know what my child is excited about and can take part in their life.**
+
+  * Users will find the Stories page prominently in the top menu. Articles on this page are ordered chronologically so that the newest item is at the top. This ensures that they will easily find recent events.
+
 **As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center.**
 
-  * 
-
-
-
+  * In the footer there's as link that will show them where the day care center is located, in Google Maps. From there, they can easily start navigating.
 
 [Back to top](<#contents>)
 

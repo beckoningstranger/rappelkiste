@@ -42,7 +42,7 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 * [Deployment](#deployment)
   * [How to Deploy the Project on GitHub Pages](#how-to-deploy-the-project-on-github-pages)
   * [How to Fork the Repository on GitHub](#how-to-fork-the-repository-on-github)
-  * [How to Clone the Repository on GitHub](#how-to-clone-the-respository-on-github)
+  * [How to Clone the Repository on GitHub](#how-to-clone-the-repository-on-github)
 * [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
@@ -54,39 +54,39 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 ### Client Goals
 
-* As the manager of the Rappelkiste I want a way to attract new parents that may visit the site on a wide range of differently sized devices.
+* As the manager of the Rappelkiste I want a way to attract new parents that may visit the site on a wide range of differently sized devices so that I will have a steady flow of applications.
 
-* As the manager of the Rappelkiste I want the site to act as a calling card that gives my audience a good impression of the day care center and its team, to build confidence and trust with them.
+* As the manager of the Rappelkiste I want the site to act as a calling card that gives my audience a good impression of the day care center and its team, so that they build confidence and trust with the day care center and its team.
 
-* As a teacher I want to showcase projects that the teaching team has done with the children to further build confidence/trust in the team's work.
+* As a teacher I want to showcase projects that the teaching team has done with the children so that the audience can further build confidence/trust in the team's work.
 
-* As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form.
+* As the manager I want to give people an easy way to get in touch, be it via telephone, email or a contact form so that the team can built a relation with them and their questions get answered.
 
 [Back to top](<#contents>)
 
 ### First Time Visitor Goals
 
-* As a parent who is looking for a day care center for my child, I want to build trust with a day care center where my child will potentially spend most of their day.
+* As a parent who is looking for a day care center for my child, I want to build trust with a day care center where my child will potentially spend most of their day so that I can send them there without having second thoughts.
 
-* As a parent who is looking for a day care center for my child, I want to learn what sets the Rappelkiste apart.
+* As a parent who is looking for a day care center for my child, I want to learn what sets the Rappelkiste apart so that I know my child can grow in a safe and stimulating place.
 
-* As a parent who is looking for a day care center for my child, I want to learn what the facilities look like and get a vibe of the atmosphere.
+* As a parent who is looking for a day care center for my child, I want to learn what the facilities look like and get a vibe of the atmosphere so that I can be sure they are taken care of and will be happy there.
 
-* As a parent who is looking for a day care center for my child, I want to learn about who will look after my child and what background they have.
+* As a parent who is looking for a day care center for my child, I want to learn about who will look after my child and what background they have so that I can trust they are in good hands.
 
-* As a parent who is looking for a day care center for my child I want to learn about special activities the teachers planned for the children.
+* As a parent who is looking for a day care center for my child I want to learn about special activities the teachers planned for the children so that my child will have fun and constantly learn new things.
 
-* As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home.
+* As a parent who is looking for a day care center for my child, I want a quick way of figuring out how far the day care center is from my home so that I can estimate how much effort will go into getting them there.
 
 [Back to top](<#contents>)
 
 ### Returning Visitor Goals
 
-* As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully.
+* As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully, so that I know what my child is excited about and can take part in their life.
 
-* As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.
+* As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples so that there is no hurdle to get in touch.
 
-* As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center.
+* As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center so that I can plan accordingly.
 
 [Back to top](<#contents>)
 
@@ -139,10 +139,10 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Navigation Menu__
 
-    - The navigation menu lets users access the four main pages of the website. It is responsive and displayed in two rows for viewport widths lower than 768px. In wider viewports, all of the content is fit into one row. 
-    - Users on devices with attached pointing devices will see a hovering effect that underlines the menu items they hover over.
-    - The page the users are on is displayed as underlined.
-    - The logo is also clickable, but will show the Home page if clicked.
+  - The navigation menu lets users access the four main pages of the website. It is responsive and displayed in two rows for viewport widths lower than 768px. In wider viewports, all of the content is fit into one row. 
+  - Users on devices with attached pointing devices will see a hovering effect that underlines the menu items they hover over, except on the logo.
+  - The page the users are on is displayed as underlined.
+  - The logo is also clickable and will show the Home page if clicked.
 
   ![Layout for viewport widths below 786px](assets/documentation-images/topmenu-one-row.png)
   ![Layout for viewport widths 786px and up](assets/documentation-images/topmenu-two-rows.png)
@@ -306,14 +306,14 @@ Please go [here](TESTING.md) for information about the testing that went into th
 
 [Back to top](<#contents>)
 
-## How to Clone the Respository on GitHub
+## How to Clone the Repository on GitHub
 
 1. In your browser, navigate to the [GitHub page of this project.](https://github.com/beckoningstranger/rappelkiste)
 2. Click the 'Code' button, make sure you have HTTPS selected and then click the button to copy the link to your clipboard as demonstrated in this GIF:
 
   ![How to Clone](assets/documentation-images/how-to-clone.gif)
 
-3. Open your IDE and either use the functionality it provides to paste your link and have your clone created or go to the terminal and type: 'git clone \[insert your link here\]'
+3. Open your IDE and either use the functionality it provides (many IDE offer buttons that help you clone repositories) and paste your link there to have your clone created or go to the terminal and type: 'git clone \[insert your link here\]'
 4. Hit ENTER and wait for you local clone to be created.
 
 [Back to top](<#contents>)
