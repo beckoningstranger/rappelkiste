@@ -120,7 +120,7 @@ Google Fonts was used for the following fonts:
 
 ## Wireframes
 
-At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contat page which was redesigned at a late stage of development.
+At the outset of this project, the design of the website was desktop first, which is why the emphasis was on creating wireframes for this size format. This later changed, but all designs found their way into the final website except for the Contact page which was redesigned at a late stage of development.
 
 ![Home Wireframe](/assets/documentation-images/home-wireframe.jpg)
 ![Team Wireframe](/assets/documentation-images/team-wireframe.jpg)
@@ -151,7 +151,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Home page: Picture Gallery with text boxes and full page scrolling__
 
-  - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distrations. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
+  - On the Home page, the background pictures cover 80% or 90% of the viewport height per section, depending of device orientation, resulting in a view where the navigation menu covers the top 10-20% and the background picture the rest of the screen. This puts the pictures front and center, with no distractions. Naturally, the pictures look better the larger the viewport is, but I have created 3 picture sizes that are applied depending on the viewport width:
 
     - For phones, a 1024x1024px sized picture, so that users can also use their phone in landscape mode without the picture being cut off.
     - For tables and small laptops, a 1368x1368px sized picture. This specific size was chosen because of the Surface Pro 7 that has this exact width in landscape mode. The iPad Pro has a width of 1366px, which is very similar.
@@ -179,7 +179,7 @@ The initial Team page design was realized for mid-sized screens, i.e. larger pho
 
 ### __Team Page__
 
-  - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo preselected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
+  - The Team page is fully responsive and will display in three different layouts, depending on viewport size. For viewports below 540px width, there's a one column view, for viewports below 1200px a two column view and for viewports of 1200px and above a third layout, where all of the team members are display side by side and users have to click them to read their descriptions. Even though I like this design, it's probably the poorest UX of all the ones present here, because users will find the page with an empty text box before they tap/hover a picture. I intend to change this once I learn about JavaScript, so that the user will find the page with a photo pre-selected and the text box at the bottom filled. Unfortunately there does not seem to be a way to do this with pure HTML/CSS, I did quite a bit of research and also eventually consulted the tutor team, with no results.
   - The Team page will give users an idea of who will look after their children and what background they have, the aim is to build trust.
 
   ![Team page - 1 column layout](/assets/documentation-images/team-page-1-column.jpg)
