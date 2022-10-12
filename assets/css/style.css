@@ -953,8 +953,8 @@ span#contact-us {
         display: block;
         text-align: center;
         left: 767px;
-        padding-top: 93px;
-        font-size: 2vw;
+        padding-top: 9vh;
+        font-size: 2rem;
         animation-name: fade-away;
         animation-duration: 5s;
         animation-fill-mode: forwards;
