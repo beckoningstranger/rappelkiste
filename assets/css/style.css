@@ -63,7 +63,7 @@ ul#menu {
     margin-right: 5px
 }
 
-/* Home page content */
+/* Home Page Content */
 
 section.background-image {
     height: 100vh
@@ -393,7 +393,7 @@ span.contact-us {
     font-weight: 600;
 }
 
-/* Thank you page*/
+/* Thank you Page*/
 
 #thank-you-message {
     display: flex;
@@ -413,7 +413,19 @@ span.contact-us {
 
 /* Media Queries */
 
+/* The following section ensures that users can also use very small phones in landscape mode. 
+While the images will not have the same effect, the fonts will remain readable. */
+
 @media screen and (orientation: landscape) {
+
+    /* Home Page Content */
+
+    .auto-scroll-button {
+        top: 20vh
+    }
+
+    /* Get in Touch Page */
+
     div#form p {
         font-size: 0.2rem;
     }
@@ -426,9 +438,7 @@ span.contact-us {
         height: 149vh;
     }
 
-    .auto-scroll-button {
-        top: 20vh
-    }
+    /* Thank you page*/
 
     #thank-you-message > p {
         font-size: 1.5rem;
@@ -439,13 +449,7 @@ span.contact-us {
 
 @media screen and (min-width:540px) {
 
-    /* Header, Navigation & Logo */
-
-    #menu a:hover {
-        border-bottom: 1px solid #fff
-    }
-
-    /* Home page content */
+    /* Home Page Content */
 
     .overlay {
         width: 90%;
@@ -503,7 +507,7 @@ span.contact-us {
         font-size: 3.5vw
     }
 
-    /* Stories page */
+    /* Stories Page */
 
     .blog-heading {
         font-size: 30px
@@ -517,7 +521,7 @@ span.contact-us {
         font-size: 3.5vw
     }
 
-    /* Get in Touch page*/
+    /* Get in Touch Page*/
 
     #contact-page-container * {
         font-size: 1.2rem;
@@ -546,7 +550,12 @@ span.contact-us {
     }
 }
 
+/* Small Devices (portrait phones, 540px and up, in landscape mode */
+
 @media screen and (min-width:540px) and (orientation: landscape) {
+
+    /* Header, Navigation & Logo */
+
     #logo h1 {
         font-size: 2.4rem;    
     }
@@ -561,6 +570,8 @@ span.contact-us {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    /* Home Page Content*/
 
     .overlay > h2 {
         font-size: 1.6rem
@@ -578,6 +589,8 @@ span.contact-us {
     .auto-scroll-button {
         top: 33%
     }
+
+    /* Get in Touch Page */
 
     #form label {
         font-size: 1rem
@@ -597,6 +610,8 @@ span.contact-us {
         padding: 5px 5px;
     }
 
+    /* Thank You Page */ 
+
     #thank-you-message > p {
         font-size: 2rem;
     }
@@ -605,6 +620,8 @@ span.contact-us {
 /* Medium Devices (tablets, 768px and up */
 
 @media screen and (min-width:768px) {
+
+    /* Header, Navigation & Logo */
 
     #header {
         display: flex;
@@ -621,6 +638,8 @@ span.contact-us {
     #menu * {
         font-size: 1.5rem;
     }
+
+    /* Home Page Content */
 
     .overlay {
         position: relative;
@@ -683,7 +702,7 @@ span.contact-us {
         font-size: 150%;
     }
 
-    /* Stories page*/
+    /* Stories Page*/
 
     .blog-entry {
         display: flex;
@@ -704,7 +723,7 @@ span.contact-us {
         font-size: 2.5rem
     }
 
-    /* Get in Touch page*/
+    /* Get in Touch Page*/
 
     #contact-page-container {
         background: url('../images/contact-landscape-1920.webp') no-repeat top center;
@@ -740,6 +759,8 @@ span.contact-us {
     }
 }
 
+/* Medium Devices (tablets, 768px and up, in landscape mode */
+
 @media screen and (min-width:768px) and (orientation: landscape) {
     
     .overlay {
@@ -771,7 +792,12 @@ span.contact-us {
     }
 }
 
+/* Devices >1024px width */
+
 @media screen and (min-width:1024px) {
+
+    /* Header, Navigation & Logo */
+
     #logo h1 {
         font-size: 4rem
     }
@@ -779,6 +805,8 @@ span.contact-us {
     #menu * {
         font-size: 2rem
     }
+
+    /* Home Page Content */
 
     .overlay {
         height: 24vh;
@@ -793,8 +821,11 @@ span.contact-us {
     }
 }   
 
+/* Devices >1024px width in landscape mode*/
 
 @media screen and (min-width:1024px) and (orientation: landscape) {
+
+    /* Home Page Content */
 
     .overlay {
         height: 26vh
@@ -807,6 +838,8 @@ span.contact-us {
     .overlay > p {
         font-size: 1.5rem;
     }
+
+    /* Get in Touch Page */
 
     #contact-page-container {
         height: 93vh
@@ -829,21 +862,17 @@ span.contact-us {
 
 @media screen and (min-width:1200px) {
 
+    /* Header, Navigation & Logo */
+
     #header {
         height: 10vh
-    }
-
-    .active {
-        border-bottom: 2px solid #fff
-    }
-
-    #menu a:hover {
-        border-bottom: 2px solid #fff
     }
 
     #menu li {
         margin-right: 20px;
     }
+
+    /* Home Page Content */
 
     .background-image {
         position: relative
@@ -901,6 +930,8 @@ span.contact-us {
         font-size: 150%;
         padding: 0 2vw
     }
+
+    /* Footer */
 
     #footer {
         font-size: 3vh;
@@ -989,6 +1020,8 @@ span.contact-us {
         animation-fill-mode: forwards;
     }
 
+    /* This animation lets the user instructions for the >=1200px width layout of the Team Page disappear*/
+
     @keyframes fade-away {
         from {color: white;}
         to {color:rgba(0, 0, 0, 0)}
@@ -1074,6 +1107,8 @@ span.contact-us {
  /* XX-Large Devices (large desktops, 1400px and up */
 
  @media screen and (min-width:1400px) {
+
+    /* Get in Touch Page */
 
     #contact-page-content {
         height: 77vh;
