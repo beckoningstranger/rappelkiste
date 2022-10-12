@@ -4,8 +4,14 @@
   * [HTML and CSS](#html-and-css)
   * [Lighthouse Test](#lighthouse-test)
   * [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+* [Responsiveness Test](#responsiveness-test)
+  * [Chrome Dev Tools](#chrome-dev-tools)
+  * [Firefox Dev Tools](#firefox-dev-tools)
+* [Testing User Stories]()
 * [Solved Bugs](#solved-bugs)
 * [Known Bugs](#known-bugs)
+
+[Back to README.md](README.md)
 
 # Validator Testing
 
@@ -70,6 +76,52 @@ Lighthouse Test for mobile devices - Thank You
 
 [Back to top](<#contents>)
 
+# Responsiveness Test
+
+Extensive test were conducted to ensure that the website looks great both on devices as small as the Galaxy Fold, which has only 280px of horizontal space when in portrait mode up to viewports with 1920px in viewport width such as desktop computers. Mobile devices were tested with both Google Chrome and Firefox Dev Tools and both in portrait as well as landscape mode.
+
+All tests were carried out in the developer tools of the browsers.
+
+## Chrome Dev Tools
+
+|| Moto G4 | iPhone SE | iPhone XR | iPhone 12 Pro | Pixel 5 | Samsung Galaxy S8+ | Samsung Galaxy S20 Ultra | iPad Air | iPad Mini | iPad Pro (12.9 inch) | Surface Pro 7 | Surface Duo | Galaxy Fold | Nest Hub | Nest Hub Max | Pixel 2 XL | Laptops (1366x768) | Desktops (1920x1080px) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Render | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Images | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Links | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+
+## Firefox Dev Tools
+
+|| iPad Air | iPad Mini | iPad Pro (12.9 inch) | iPhone 12/13 + Pro iOS 14.6 | iPhone 5/SE iOS 10.3.1 | iPhone 2nd gen iOS 14.6 | iPhone XR/11 iOS 12 | Microsoft Lumia 550 | Microsoft Lumia 950 | Laptops (1366x768) | Desktops (1920x1080px)
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| User Agent | Safari | Safari | Safari | Safari | Safari | Safari | Safari | Edge | Edge | Firefox | Firefox |
+| Render | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Images | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| Links | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+
+[Back to top](<#contents>)
+
+# Browser compatibility
+
+The website was tested in Google Chrome, Mozilla Firefox and Microsoft Edge. Everything worked as intended in realistic use cases. The layout is breakable, e.g. when you narrow the viewport height below 400px on desktop computers that maintain a wide viewport, but I do not expect users to run into scenarios like this.
+
+[Back to top](<#contents>)
+
+# Testing User Stories
+
+**As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.**
+
+  * Users will find 'Get in Touch' prominently in the top menu. On the Get in Touch page, they are made aware of the footer if they have not noticed it already. Clicking either of the links allows them to get in touch, in addition to the form. Of course, they may also find the footer while exploring the other pages.
+
+**As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center.**
+
+  * 
+
+
+
+
+[Back to top](<#contents>)
+
 # Solved Bugs
 
 1. One problem that came up during Lighthouse testing was 'Tap target are not sized appropriately'. This was because the links in the top menu were two close together on small displays like on the Motorola G4. I first applied 'display: flex' and 'justify-content: space-between' to the menu to arrange for more horizontal space, then increased the overall size of the header for more vertical space. This solved the problem and got me to a perfect score in the SEO category if the Lighthouse test.
@@ -106,17 +158,4 @@ Lighthouse Test for mobile devices - Thank You
 
 [Back to top](<#contents>)
 
-# Responsiveness Test
-
-Thorough test were conducted to ensure that the website looks great both on devices as small as the Galaxy Fold, which has only 280px of horizontal space when in portrait mode up to viewports with 1920px in viewport width such as desktop computers. Mobile devices were tested both on Google Chrome and Firefox and both in portrait as well as landscape mode.
-
-All tests were carried out in the developer tools of the browsers.
-
-## Chrome
-
-|| Moto G4 | iPhone SE | iPhone XR | iPhone 12 Pro | Pixel 5 | Samsung Galaxy S8+ | Samsung Galaxy S20 Ultra | iPad Air | iPad Mini | iPad Pro | Surface Pro 7 | Surface Duo | Galaxy Fold | Nest Hub | Nest Hub Max | Pixel 2 XL | Laptops (1366x768) | Desktops (1920x1080px)
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Render | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-| Images | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-| Links | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-
+[Back to README.md](README.md)

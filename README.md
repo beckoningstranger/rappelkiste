@@ -84,9 +84,9 @@ Take a look at the deployed website: <a href="https://beckoningstranger.github.i
 
 * As a parent whose kids already attend the day care center, I want to read and learn more about activities that my child talked about after coming home, but couldn't explain fully.
 
-* As somebody who wants to get in touch with the day care center, be it for  I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.
+* As somebody who wants to get in touch with the day care center I want an easy way of calling, writing an email or otherwise contacting somebody, be it to plan a personal visit as an interested parent, to phone in to coordinate with the teachers for parents whose child already attends, or as somebody looking for an internship, just as a few examples.
 
-* As a parent who has made an appointment for a personal visit, I want an easy way tp navigate to the day care center.
+* As a parent who has made an appointment for a personal visit, I want an easy way to navigate to the day care center.
 
 [Back to top](<#contents>)
 

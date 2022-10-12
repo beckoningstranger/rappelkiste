@@ -709,6 +709,10 @@ div#submit-button {
     #name input {
         width: 47.5vw;
     }
+
+    span#contact-us {
+        font-weight: 600;
+    }
 }
 
 @media screen and (min-width:768px) and (orientation: landscape) {
